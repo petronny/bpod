@@ -1,1200 +1,743 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Bing Image Archive</title>
-<meta name="description" content="Collection of the latest homepage background images from Bing.com">
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
-<link href="style/css.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.blockUI.js"></script>
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.08122.js"></script>
-<script type="text/javascript" src="js/bingimages.js"></script>
-<link href="http://feeds.feedburner.com/bingimages" type="application/rss+xml" rel="alternate" title="Bing Image Archive RSS Feed" />
-</head>
-<body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-182613-10', 'istartedsomething.com');
-  ga('send', 'pageview');
-
-</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=168868916648885";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- precache black background --><img src="style/images/black-95.png" style="display:none;" />
-<div class="sharebar">
-<div class="wrapper">
-<div class="fb-like" data-href="http://www.istartedsomething.com/bingimages/" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.istartedsomething.com/bingimages/" data-text="Bing Image Archive - latest homepage images from Bing">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
-</div>
-<div class="header">
-  <div class="wrapper">
-    <h1><a href="http://www.istartedsomething.com/bingimages/">Bing Image Archive</a></h1>
-    <h2>Showcasing the backgrounds from the frontpage of Bing</h2>
-  </div>
-</div>
-<div class="content">
-  <div class="wrapper">
-    <ul class="countries">
-            <li>
-        <input type="checkbox" checked="checked" name="countryfilter[]" value="us" id="us"/>
-        <label for="us"> <img src="flags/us.gif" alt="United States" title="United States" /> <span>United States</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="gb" id="gb"/>
-        <label for="gb"> <img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" /> <span>United Kingdom</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="au" id="au"/>
-        <label for="au"> <img src="flags/au.gif" alt="Australia" title="Australia" /> <span>Australia</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="jp" id="jp"/>
-        <label for="jp"> <img src="flags/jp.gif" alt="Japan" title="Japan" /> <span>Japan</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="cn" id="cn"/>
-        <label for="cn"> <img src="flags/cn.gif" alt="China" title="China" /> <span>China</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="nz" id="nz"/>
-        <label for="nz"> <img src="flags/nz.gif" alt="New Zealand" title="New Zealand" /> <span>New Zealand</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="de" id="de"/>
-        <label for="de"> <img src="flags/de.gif" alt="Germany" title="Germany" /> <span>Germany</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="ca" id="ca"/>
-        <label for="ca"> <img src="flags/ca.gif" alt="Canada" title="Canada" /> <span>Canada</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="fr" id="fr"/>
-        <label for="fr"> <img src="flags/fr.gif" alt="France" title="France" /> <span>France</span> </label>
-      </li>
-          </ul>
-    <div class="clear"></div>
-
-<div class="ad_small">
-<script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x15, created 6/26/09 */
-google_ad_slot = "2476437438";
-google_ad_width = 728;
-google_ad_height = 15;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-
-<div class="clear"></div>
-    <ul class="month">
-            <li class="month_prev">
-        <p><a href="?m=2&y=2010">Previous month</a></p>
-      </li>
-      <li class="month_current">
-        <h3>March 2010</h3>
-      </li>
-      <li class="month_next">
-        <p><a href="?m=4&y=2010">Next month</a></p>
-      </li>
-    </ul>
-    <div class="clear"></div>
-    <table class='calendar'>
-	<thead>
-				<th>Sunday</th>
-				<th>Monday</th>
-				<th>Tuesday</th>
-				<th>Wednesday</th>
-				<th>Thursday</th>
-				<th>Friday</th>
-				<th>Saturday</th>
-			</thead>
-	<tr><td></td><td class='dated'><span class='day'>1</span>
 		<a href="#20100301-au" class="au" title="Eastern gray kangaroo mother carrying joey in pouch, in Australia -- Frans Lanting/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Kangaroo_EN-AU1491523545.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eastern gray kangaroo mother carrying joey in pouch, in Australia -- Frans Lanting/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100301-ca" class="ca" title="Sidney Crosby of Canada scores the winning goal in overtime during the Men’s Ice Hockey gold medal game between USA and Canada at the Vancouver 2010 Winter Olympics on February 28, 2010 --  Harry How/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HockeyGold_EN-CA927623285.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sidney Crosby of Canada scores the winning goal in overtime during the Men’s Ice Hockey gold medal game between USA and Canada at the Vancouver 2010 Winter Olympics on February 28, 2010 --  Harry How/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100301-cn" class="cn" title="北京时间2月28日上午结束的有舵雪橇男子四人赛，拉脱维亚一队向观众挥手致意 -- Richard Heathcote/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ManBobsleigh_ZH-CN3920511306.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北京时间2月28日上午结束的有舵雪橇男子四人赛，拉脱维亚一队向观众挥手致意 -- Richard Heathcote/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100301-de" class="de" title="Der Columbia River auf dem Weg durch die Oneonta-Klamm, Oregon, USA – age fotostock/SuperStock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oneonta1_DE-DE1879030948.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Der Columbia River auf dem Weg durch die Oneonta-Klamm, Oregon, USA – age fotostock/SuperStock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100301-jp" class="jp" title="｢ハロン湾｣ベトナム -- Design Pics Inc/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HalongBay_JA-JP588500402.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ハロン湾｣ベトナム -- Design Pics Inc/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100301-nz" class="nz" title="Groundhog – Greg Scott/Masterfile &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Groundhog_ROW923715777.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Groundhog – Greg Scott/Masterfile &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100301-uk" class="uk" title="Sweden's Andre Myhrer skis under heavy snowfall during the Men's Slalom race at the Vancouver 2010 Winter Olympics on February 27, 2010 – Olivier Morin/AFP/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensSlalom_EN-US1559318973.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sweden's Andre Myhrer skis under heavy snowfall during the Men's Slalom race at the Vancouver 2010 Winter Olympics on February 27, 2010 – Olivier Morin/AFP/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100301-us" class="us" title="Sweden's Andre Myhrer skis under heavy snowfall during the Men's Slalom race at the Vancouver 2010 Winter Olympics on February 27, 2010 – Olivier Morin/AFP/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensSlalom_EN-US1559318973.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sweden's Andre Myhrer skis under heavy snowfall during the Men's Slalom race at the Vancouver 2010 Winter Olympics on February 27, 2010 – Olivier Morin/AFP/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>2</span>
+--
 		<a href="#20100302-au" class="au" title="Wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WoodenBridge_EN-AU1299625419.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100302-ca" class="ca" title="Eastern gray kangaroo mother carrying joey in pouch, in Australia -- Frans Lanting/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Kangaroo_EN-CA1491523545.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eastern gray kangaroo mother carrying joey in pouch, in Australia -- Frans Lanting/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100302-cn" class="cn" title="在撒哈拉沙漠中长途跋涉的骆驼 -- SUETONE Emilio/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mauritania_ZH-CN652401334.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="在撒哈拉沙漠中长途跋涉的骆驼 -- SUETONE Emilio/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100302-de" class="de" title="Die hölzerne Kintai-Brücke über den Fluss Nishiki in Iwakuni, Japan – Robert Essel/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WoodenBridge_DE-DE1299625419.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die hölzerne Kintai-Brücke über den Fluss Nishiki in Iwakuni, Japan – Robert Essel/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100302-jp" class="jp" title="｢錦帯橋｣山口県, 岩国市 -- Robert Essel/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WoodenBridge_JA-JP1299625419.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢錦帯橋｣山口県, 岩国市 -- Robert Essel/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100302-nz" class="nz" title="Eastern gray kangaroo mother carrying joey in pouch, in Australia -- Frans Lanting/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Kangaroo_ROW1491523545.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eastern gray kangaroo mother carrying joey in pouch, in Australia -- Frans Lanting/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100302-uk" class="uk" title="Croatia's silver medalist Ivica Kostelic celebrates with his national flag after the flower ceremony of the Men's Slalom race at the Vancouver 2010 Winter Olympics on February 27, 2010 --  Olivier Morin/AFP/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CroatianFlag_EN-US1809811013.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Croatia's silver medalist Ivica Kostelic celebrates with his national flag after the flower ceremony of the Men's Slalom race at the Vancouver 2010 Winter Olympics on February 27, 2010 --  Olivier Morin/AFP/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100302-us" class="us" title="Croatia's silver medalist Ivica Kostelic celebrates with his national flag after the flower ceremony of the Men's Slalom race at the Vancouver 2010 Winter Olympics on February 27, 2010 --  Olivier Morin/AFP/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CroatianFlag_EN-US1809811013.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Croatia's silver medalist Ivica Kostelic celebrates with his national flag after the flower ceremony of the Men's Slalom race at the Vancouver 2010 Winter Olympics on February 27, 2010 --  Olivier Morin/AFP/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>3</span>
+--
 		<a href="#20100303-au" class="au" title="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BoraBoraGreen_EN-AU1090442596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100303-ca" class="ca" title="Wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WoodenBridge_EN-CA1299625419.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100303-cn" class="cn" title="南太平洋的波拉波拉岛 -- Corbis/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BoraBoraGreen_ZH-CN1090442596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="南太平洋的波拉波拉岛 -- Corbis/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100303-de" class="de" title="Die Insel Bora Bora samt Atoll aus der Luft fotografiert – Corbis/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BoraBoraGreen_DE-DE1090442596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Insel Bora Bora samt Atoll aus der Luft fotografiert – Corbis/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100303-jp" class="jp" title="｢ボラボラ島｣フランス領ポリネシア, タヒチ -- Corbis/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BoraBoraGreen_JA-JP1090442596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ボラボラ島｣フランス領ポリネシア, タヒチ -- Corbis/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100303-nz" class="nz" title="Wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WoodenBridge_ROW1299625419.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100303-uk" class="uk" title="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Narwhal_EN-GB1188241177.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100303-us" class="us" title="Kintai wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WoodenBridge_EN-US79976824.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kintai wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>4</span>
+--
 		<a href="#20100304-au" class="au" title="Stained rocks and trees, Rocks National Lakeshore, Munising, Michigan -- Claudia Adams/Danita Delimont &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Lakeshore_EN-AU514518438.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stained rocks and trees, Rocks National Lakeshore, Munising, Michigan -- Claudia Adams/Danita Delimont &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100304-ca" class="ca" title="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BoraBoraGreen_EN-CA1090442596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100304-cn" class="cn" title="西班牙风格的哥伦比亚卡塔赫纳街景  -- PhotoLatino/eStock Photo &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cartagena_ZH-CN877226259.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="西班牙风格的哥伦比亚卡塔赫纳街景  -- PhotoLatino/eStock Photo &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100304-de" class="de" title="Der Buttermere-See in der englischen Grafschaft Cumbria –  SIME/eStock Photo &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cumbria_DE-DE2447314.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Der Buttermere-See in der englischen Grafschaft Cumbria –  SIME/eStock Photo &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100304-jp" class="jp" title="｢マイアミビーチのアール･デコ地区｣アメリカ, フロリダ州  -- Mitchell Funk/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MiamiLights_JA-JP1356107223.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢マイアミビーチのアール･デコ地区｣アメリカ, フロリダ州  -- Mitchell Funk/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100304-nz" class="nz" title="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BoraBoraGreen_ROW1090442596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100304-uk" class="uk" title="Wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WoodenBridge_EN-GB1299625419.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wooden foot bridge in Iwakuni, Japan -- Robert Essel/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100304-us" class="us" title="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BoraBoraGreen_EN-US2065023123.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>5</span>
+--
 		<a href="#20100305-au" class="au" title="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cartagena_EN-AU877226259.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100305-ca" class="ca" title="Buttermere, Cumbria in the Lake District of England, UK --  SIME/eStock Photo &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cumbria_EN-CA2447314.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Buttermere, Cumbria in the Lake District of England, UK --  SIME/eStock Photo &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100305-cn" class="cn" title="以清新幽静闻名的英格兰坎布里亚郡湖区 -- SIME/eStock Photo &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cumbria_ZH-CN2447314.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="以清新幽静闻名的英格兰坎布里亚郡湖区 -- SIME/eStock Photo &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100305-de" class="de" title="Typisch spanische Kolonialarchitektur in der kolumbianischen Stadt Cartagena – PhotoLatino/eStock Photo Cartagena &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cartagena_DE-DE877226259.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Typisch spanische Kolonialarchitektur in der kolumbianischen Stadt Cartagena – PhotoLatino/eStock Photo Cartagena &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100305-jp" class="jp" title="｢カルタヘナのスペイン建築｣コロンビア, カタルへナ -- PhotoLatino/eStock Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cartagena_JA-JP877226259.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢カルタヘナのスペイン建築｣コロンビア, カタルへナ -- PhotoLatino/eStock Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100305-nz" class="nz" title="Halong bay in Vietnam -- Design Pics Inc/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HalongBay_ROW588500402.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Halong bay in Vietnam -- Design Pics Inc/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100305-uk" class="uk" title="Sunset over town and harbour, Cornwall - Mike Kipling/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StPiransDay_EN-GB2030909263.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sunset over town and harbour, Cornwall - Mike Kipling/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100305-us" class="us" title="Lofoten archipelago in the Arctic Circle, Norway – Bildagentur/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Lofoten_EN-US92274532.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lofoten archipelago in the Arctic Circle, Norway – Bildagentur/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>6</span>
+--
 		<a href="#20100306-au" class="au" title="Horseshoe Falls surrounded by rainforest/in the Mount Field National Park -- Jochen Schlenker/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CleanupAUS_EN-AU1765422201.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Horseshoe Falls surrounded by rainforest/in the Mount Field National Park -- Jochen Schlenker/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100306-ca" class="ca" title="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cartagena_EN-CA877226259.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100306-cn" class="cn" title="加拿大努纳武特地区的一角鲸鱼群 -- Minden Pictures/Masterfile &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Narwhal_ZH-CN1188241177.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="加拿大努纳武特地区的一角鲸鱼群 -- Minden Pictures/Masterfile &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100306-de" class="de" title="Steilabfallende Felsen in der Nähe von Munising am Oberen See, Michigan – Claudia Adams/Danita Delimont &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Lakeshore_DE-DE514518438.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Steilabfallende Felsen in der Nähe von Munising am Oberen See, Michigan – Claudia Adams/Danita Delimont &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100306-jp" class="jp" title="｢オオカンガルーの親子｣オーストラリア -- Frans Lanting/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Kangaroo_JA-JP1491523545.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢オオカンガルーの親子｣オーストラリア -- Frans Lanting/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100306-nz" class="nz" title="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cartagena_ROW877226259.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100306-uk" class="uk" title="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cartagena_EN-GB877226259.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100306-us" class="us" title="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cartagena_EN-US1141797583.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Typical Spanish Colonial architecture in Cartagena, Columbia  -- PhotoLatino/eStock Photo &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>7</span>
+--
 		<a href="#20100307-au" class="au" title="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Narwhal_EN-AU1188241177.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100307-ca" class="ca" title="Stained rocks and trees, Rocks National Lakeshore, Munising, Michigan -- Claudia Adams/Danita Delimont &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Lakeshore_EN-CA514518438.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stained rocks and trees, Rocks National Lakeshore, Munising, Michigan -- Claudia Adams/Danita Delimont &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100307-cn" class="cn" title="三月八日国际劳动妇女节：祝天下女人节日快乐 -- HG, Rossi/Cusp/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensDay_ZH-CN817322201.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="三月八日国际劳动妇女节：祝天下女人节日快乐 -- HG, Rossi/Cusp/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100307-de" class="de" title="Eine Gruppe Narwale zwischen zwei großen Eisschollen in Nunavut, Kanada – Minden Pictures/Masterfile &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Narwhal_DE-DE1188241177.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eine Gruppe Narwale zwischen zwei großen Eisschollen in Nunavut, Kanada – Minden Pictures/Masterfile &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100307-jp" class="jp" title="｢新府桃源郷｣山梨県, 韮崎 -- JTB Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Keichitsu_JA-JP1799795896.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢新府桃源郷｣山梨県, 韮崎 -- JTB Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100307-nz" class="nz" title="Stained rocks and trees, Rocks National Lakeshore, Munising, Michigan -- Claudia Adams/Danita Delimont &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Lakeshore_ROW514518438.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stained rocks and trees, Rocks National Lakeshore, Munising, Michigan -- Claudia Adams/Danita Delimont &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100307-uk" class="uk" title="The hand and shoe prints of Jack Lemmon and Shirley MacLaine decorate the cement courtyard of Grauman's Chinese Theater on Hollywood Boulevard -- Robert Landau/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GraumansChineseTheatre_EN-GB18110282.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The hand and shoe prints of Jack Lemmon and Shirley MacLaine decorate the cement courtyard of Grauman's Chinese Theater on Hollywood Boulevard -- Robert Landau/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100307-us" class="us" title="The hand and shoe prints of Jack Lemmon and Shirley MacLaine decorate the cement courtyard of Grauman's Chinese Theater on Hollywood Boulevard -- Robert Landau/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GraumansChineseTheatre_EN-US18110282.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The hand and shoe prints of Jack Lemmon and Shirley MacLaine decorate the cement courtyard of Grauman's Chinese Theater on Hollywood Boulevard -- Robert Landau/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>8</span>
+--
 		<a href="#20100308-au" class="au" title="Fishermen using butterfly nets in Lake Patzcuaro, Michoacan, Mexico -- Macduff Everton/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MexicanFisherman_EN-AU1471766167.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fishermen using butterfly nets in Lake Patzcuaro, Michoacan, Mexico -- Macduff Everton/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100308-ca" class="ca" title="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Narwhal_EN-CA1188241177.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100308-cn" class="cn" title="墨西哥米却肯州正在捕鱼的渔民 -- Macduff Everton/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MexicanFisherman_ZH-CN1471766167.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="墨西哥米却肯州正在捕鱼的渔民 -- Macduff Everton/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100308-de" class="de" title="Schmetterlingsfischer auf dem Patzcuaro-See in Michoacan, Mexiko – Macduff Everton/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MexicanFisherman_DE-DE1471766167.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Schmetterlingsfischer auf dem Patzcuaro-See in Michoacan, Mexiko – Macduff Everton/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100308-jp" class="jp" title="｢ハニッツィオ島の漁師｣メキシコ, ミチョアカン州, パツクアロ湖 -- Macduff Everton/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MexicanFisherman_JA-JP1471766167.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ハニッツィオ島の漁師｣メキシコ, ミチョアカン州, パツクアロ湖 -- Macduff Everton/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100308-nz" class="nz" title="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Narwhal_ROW1188241177.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100308-uk" class="uk" title="Buttermere, Cumbria in the Lake District of England, UK - SIME/eStock Photo &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cumbria_EN-GB2447314.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Buttermere, Cumbria in the Lake District of England, UK - SIME/eStock Photo &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100308-us" class="us" title="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Narwhal_EN-US1122881300.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Narwhal whales group in an ice break near Baffin Island, Nunavut, Canada -- Minden Pictures/Masterfile &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>9</span>
+--
 		<a href="#20100309-au" class="au" title="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FurSeal_EN-AU1834190668.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100309-ca" class="ca" title="Fishermen using butterfly nets in Lake Patzcuaro, Michoacan, Mexico -- Macduff Everton/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MexicanFisherman_EN-CA1471766167.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fishermen using butterfly nets in Lake Patzcuaro, Michoacan, Mexico -- Macduff Everton/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100309-cn" class="cn" title="法国巴黎圣母院屋顶上的夜行神龙雕像 -- David Barnes/age fotostock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gargoyles_ZH-CN2088944091.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="法国巴黎圣母院屋顶上的夜行神龙雕像 -- David Barnes/age fotostock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100309-de" class="de" title="Europäisches Eichhörnchen sucht im Schnee nach seinen Vorräten – Robert Harding Picture Library / SuperStock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=squirrel_DE-DE14709701.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Europäisches Eichhörnchen sucht im Schnee nach seinen Vorräten – Robert Harding Picture Library / SuperStock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100309-jp" class="jp" title="｢ミナミオットセイ｣南極 -- Colin Monteath/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FurSeal_JA-JP1834190668.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ミナミオットセイ｣南極 -- Colin Monteath/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100309-nz" class="nz" title="Fishermen using butterfly nets in Lake Patzcuaro, Michoacan, Mexico -- Macduff Everton/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MexicanFisherman_ROW1471766167.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fishermen using butterfly nets in Lake Patzcuaro, Michoacan, Mexico -- Macduff Everton/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100309-uk" class="uk" title="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FurSeal_EN-GB1834190668.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100309-us" class="us" title="Fishermen using butterfly nets in Lake Patzcuaro, Michoacan, Mexico -- Macduff Everton/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MexicanFisherman_EN-US750078454.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fishermen using butterfly nets in Lake Patzcuaro, Michoacan, Mexico -- Macduff Everton/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>10</span>
+--
 		<a href="#20100310-au" class="au" title="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Orsay_EN-AU1305448079.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100310-ca" class="ca" title="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FurSeal_EN-CA1834190668.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100310-cn" class="cn" title="黄昏中寂静的美国犹他州盐湖城 -- Great Salt Lake Landscapes & More/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaltLake_ZH-CN1257526951.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="黄昏中寂静的美国犹他州盐湖城 -- Great Salt Lake Landscapes & More/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100310-de" class="de" title="Das Orsay-Museum im ehemaligen Bahnhof Orsay, Paris, Frankreich – DEA/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Orsay_DE-DE1305448079.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Das Orsay-Museum im ehemaligen Bahnhof Orsay, Paris, Frankreich – DEA/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100310-jp" class="jp" title="｢オルセー美術館｣フランス, パリ -- DEA/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Orsay_JA-JP1305448079.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢オルセー美術館｣フランス, パリ -- DEA/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100310-nz" class="nz" title="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FurSeal_ROW1834190668.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100310-uk" class="uk" title="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BoraBoraGreen_EN-GB1090442596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aerial view of Bora Bora -- Corbis/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100310-us" class="us" title="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FurSeal_EN-US1834190668.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Antarctic fur seal -- Colin Monteath/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>11</span>
+--
 		<a href="#20100311-au" class="au" title="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NettleJellyfish_EN-AU2200204943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100311-ca" class="ca" title="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Orsay_EN-CA1305448079.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100311-cn" class="cn" title="奥地利瓦腾斯的施华洛世奇水晶世界博物馆“绿意正浓” -- Riccardo Spila/Grand/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TreePlantingDay_ZH-CN2854494540.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="奥地利瓦腾斯的施华洛世奇水晶世界博物馆“绿意正浓” -- Riccardo Spila/Grand/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100311-de" class="de" title="Feuerqualle im Monterey Bay Aquarium, Kalifornien – Ben Vincent/Tassography.com &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NettleJellyfish_DE-DE2200204943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Feuerqualle im Monterey Bay Aquarium, Kalifornien – Ben Vincent/Tassography.com &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100311-jp" class="jp" title="｢東大寺二月堂修二会｣奈良, 東大寺 -- Japan Travel Bureau &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Todai-ji_JA-JP1423749160.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢東大寺二月堂修二会｣奈良, 東大寺 -- Japan Travel Bureau &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100311-nz" class="nz" title="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Orsay_ROW1305448079.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100311-uk" class="uk" title="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Orsay_EN-GB1305448079.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100311-us" class="us" title="Lakes in a wetland south of Anchorage, Alaska -- Blaine Harrington III/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wetland_EN-US1504619547.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lakes in a wetland south of Anchorage, Alaska -- Blaine Harrington III/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>12</span>
+--
 		<a href="#20100312-au" class="au" title="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oia_EN-AU1894346477.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100312-ca" class="ca" title="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NettleJellyfish_EN-CA2200204943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100312-cn" class="cn" title="巴西圣保罗的奥利维尔大桥 -- Andre Sieber &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaoPaulo_ZH-CN1710408292.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="巴西圣保罗的奥利维尔大桥 -- Andre Sieber &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100312-de" class="de" title="Das Dorf Oia auf der griechischen Insel Santorin bei Sonnenuntergang – Miles Ertman/Masterfile &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oia_DE-DE1894346477.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Das Dorf Oia auf der griechischen Insel Santorin bei Sonnenuntergang – Miles Ertman/Masterfile &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100312-jp" class="jp" title="｢イア村｣ギリシャ, サントリーニ島  -- Miles Ertman/Masterfile &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oia_JA-JP1894346477.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢イア村｣ギリシャ, サントリーニ島  -- Miles Ertman/Masterfile &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100312-nz" class="nz" title="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NettleJellyfish_ROW2200204943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100312-uk" class="uk" title="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NettleJellyfish_EN-GB2200204943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100312-us" class="us" title="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NettleJellyfish_EN-US2200204943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Nettle jelly fish at the Monterey Bay Aquarium, California -- Ben Vincent &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>13</span>
+--
 		<a href="#20100313-au" class="au" title="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakePowell_EN-AU1947874512.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100313-ca" class="ca" title="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oia_EN-CA1894346477.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100313-cn" class="cn" title="可爱的小海豹陪你一起过白色情人节 -- Colin Monteath/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FurSeal_ZH-CN1834190668.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="可爱的小海豹陪你一起过白色情人节 -- Colin Monteath/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100313-de" class="de" title="Luftaufnahme des Powell-Stausees in Arizona –  Guido Alberto Rossi/TIPS Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakePowell_DE-DE1947874512.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Luftaufnahme des Powell-Stausees in Arizona –  Guido Alberto Rossi/TIPS Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100313-jp" class="jp" title="｢パウエル湖｣アメリカ, グランドキャニオン --  Guido Alberto Rossi/TIPS Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakePowell_JA-JP1947874512.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢パウエル湖｣アメリカ, グランドキャニオン --  Guido Alberto Rossi/TIPS Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100313-nz" class="nz" title="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oia_ROW1894346477.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100313-uk" class="uk" title="Stone Elephant, Ko Racha Yai, Phuket, Thailand - Tim Rock/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NationalElephantDay_EN-GB2363743236.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stone Elephant, Ko Racha Yai, Phuket, Thailand - Tim Rock/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100313-us" class="us" title="Felucca sailing boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Feluccas_EN-US1823310571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Felucca sailing boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>14</span>
+--
 		<a href="#20100314-au" class="au" title="Felucca sail boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Feluccas_EN-AU1823310571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Felucca sail boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100314-ca" class="ca" title="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakePowell_EN-CA1947874512.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100314-cn" class="cn" title="孟加拉国街头的农贸集市 -- Abir Abdullah/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ConsumerRightDay_ZH-CN773517577.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="孟加拉国街头的农贸集市 -- Abir Abdullah/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100314-de" class="de" title="Kleine Segelschiffe auf dem Nil bei Assuan, Ägypten – SIME/eStock Photo &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Feluccas_DE-DE1823310571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kleine Segelschiffe auf dem Nil bei Assuan, Ägypten – SIME/eStock Photo &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100314-jp" class="jp" title="｢ナイル川のファルーカ｣エジプト, アスワン -- SIME/eStock Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Feluccas_JA-JP1823310571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ナイル川のファルーカ｣エジプト, アスワン -- SIME/eStock Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100314-nz" class="nz" title="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakePowell_ROW1947874512.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100314-uk" class="uk" title="Swan and cygnet, Abbotsbury Swannery, Weymouth , England – Matt Cardy/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MotheringSunday_EN-GB323172585.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Swan and cygnet, Abbotsbury Swannery, Weymouth , England – Matt Cardy/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100314-us" class="us" title="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakePowell_EN-US1947874512.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>15</span>
+--
 		<a href="#20100315-au" class="au" title="Spiral galaxy in Crab Nebula  --  NASA/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrabNebula_EN-AU2787088754.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Spiral galaxy in Crab Nebula  --  NASA/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100315-ca" class="ca" title="Felucca sail boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Feluccas_EN-CA1823310571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Felucca sail boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100315-cn" class="cn" title="芝加哥费尔德博物馆展出的霸王龙 -- Craig Lovell/age fotostock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FieldMuseum_ZH-CN1288815665.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="芝加哥费尔德博物馆展出的霸王龙 -- Craig Lovell/age fotostock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100315-de" class="de" title="Die Porta Nigra angestrahlt im nächtlichen Trier – Walter Bibikow/Danita Delimont &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrabNebula_DE-DE1023204755.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Porta Nigra angestrahlt im nächtlichen Trier – Walter Bibikow/Danita Delimont &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100315-jp" class="jp" title="｢来島海峡大橋｣愛媛, 今治市 -- Masao Ishihara/ Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KurushimaKaikyoBridge_JA-JP1768614893.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢来島海峡大橋｣愛媛, 今治市 -- Masao Ishihara/ Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100315-nz" class="nz" title="Felucca sail boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Feluccas_ROW1823310571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Felucca sail boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100315-uk" class="uk" title="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakePowell_EN-GB1947874512.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lake Powell, Arizona --  Guido Alberto Rossi/TIPS Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100315-us" class="us" title="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oia_EN-US1894346477.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>16</span>
+--
 		<a href="#20100316-au" class="au" title="Dunmore Head, County Kerry, Ireland -- The Irish Image Collection/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StPatricksDay_EN-AU3531339357.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dunmore Head, County Kerry, Ireland -- The Irish Image Collection/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100316-ca" class="ca" title="Spiral galaxy in Crab Nebula  --  NASA/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrabNebula_EN-CA2787088754.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Spiral galaxy in Crab Nebula  --  NASA/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100316-cn" class="cn" title="俄罗斯莫斯科街头举办热闹的圣帕特里克节游行 -- Sergei Karpukhin/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IrishDancers_ZH-CN2624633817.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="俄罗斯莫斯科街头举办热闹的圣帕特里克节游行 -- Sergei Karpukhin/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100316-de" class="de" title="Parade zum St. Patrick’s Day in Moskau, Russland – Sergei Karpukhin/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IrishDancers_DE-DE2624633817.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Parade zum St. Patrick’s Day in Moskau, Russland – Sergei Karpukhin/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100316-jp" class="jp" title="｢聖パトリックの祝日｣ロシア, モスクワ -- Sergei Karpukhin/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IrishDancers_JA-JP2624633817.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢聖パトリックの祝日｣ロシア, モスクワ -- Sergei Karpukhin/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100316-nz" class="nz" title="Spiral galaxy in Crab Nebula  --  NASA/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrabNebula_ROW2787088754.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Spiral galaxy in Crab Nebula  --  NASA/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100316-uk" class="uk" title="Cherry blossom, Hirano Shrine, Kyoto, Japan - JTB Photo/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CherryBlossom_EN-GB203386016.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Cherry blossom, Hirano Shrine, Kyoto, Japan - JTB Photo/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100316-us" class="us" title="Crab Nebula -- NASA/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrabNebula_EN-US2787088754.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Crab Nebula -- NASA/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>17</span>
+--
 		<a href="#20100317-au" class="au" title="Sandhill Crane pair and chick in Florida -- Arthur Morris/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SandhillCranes_EN-AU261998099.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sandhill Crane pair and chick in Florida -- Arthur Morris/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100317-ca" class="ca" title="Dancers perform during a St. Patrick's Day parade in central Moscow, Russia -- Sergei Karpukhin/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IrishDancers_EN-CA2624633817.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dancers perform during a St. Patrick's Day parade in central Moscow, Russia -- Sergei Karpukhin/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100317-cn" class="cn" title="鸟瞰美国纽约曼哈顿的摩天大楼 -- David Jay Zimmerman/Corbis Edge/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Manhattan_ZH-CN2141518839.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="鸟瞰美国纽约曼哈顿的摩天大楼 -- David Jay Zimmerman/Corbis Edge/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100317-de" class="de" title="Kleine Seen in einem Feuchtgebiet südlich von Anchorage, Alaska – Blaine Harrington III/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wetland_DE-DE1504619547.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kleine Seen in einem Feuchtgebiet südlich von Anchorage, Alaska – Blaine Harrington III/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100317-jp" class="jp" title="｢カナダヅルの親子｣アメリカ, フロリダ州 -- Arthur Morris/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SandhillCranes_JA-JP261998099.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢カナダヅルの親子｣アメリカ, フロリダ州 -- Arthur Morris/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100317-nz" class="nz" title="Dunmore Head, County Kerry, Ireland -- The Irish Image Collection/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CountryKerry_ROW3531339357.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dunmore Head, County Kerry, Ireland -- The Irish Image Collection/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100317-uk" class="uk" title="Dancers perform during a St. Patrick's Day parade in central Moscow, Russia -- Sergei Karpukhin/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IrishDancers_EN-GB2624633817.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dancers perform during a St. Patrick's Day parade in central Moscow, Russia -- Sergei Karpukhin/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100317-us" class="us" title="Dancers perform during a St. Patrick's Day parade in central Moscow, Russia -- Sergei Karpukhin/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IrishDancers_EN-US2624633817.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dancers perform during a St. Patrick's Day parade in central Moscow, Russia -- Sergei Karpukhin/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>18</span>
+--
 		<a href="#20100318-au" class="au" title="Remains of the colossal lion sculpture that flanked the stairway leading to the Sigiriya fortress in Sri Lanka -- Jose Fuste Raga/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Sigiriya_EN-AU1087897647.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Remains of the colossal lion sculpture that flanked the stairway leading to the Sigiriya fortress in Sri Lanka -- Jose Fuste Raga/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100318-ca" class="ca" title="Sandhill Crane pair and chick in Florida -- Arthur Morris/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SandhillCranes_EN-CA261998099.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sandhill Crane pair and chick in Florida -- Arthur Morris/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100318-cn" class="cn" title="克罗地亚杜布洛尼古城 -- SIME/eStock Photo &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dubrovnik_ZH-CN323144174.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="克罗地亚杜布洛尼古城 -- SIME/eStock Photo &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100318-de" class="de" title=": Bunte Blumenfelder in der Nähe von Amsterdam, Niederlande – Adam Jones/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FlowerFields_DE-DE3515677491.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt=": Bunte Blumenfelder in der Nähe von Amsterdam, Niederlande – Adam Jones/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100318-jp" class="jp" title="｢オランダの花畑｣オランダ, アムステルダム -- Adam Jones/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FlowerFields_JA-JP3515677491.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢オランダの花畑｣オランダ, アムステルダム -- Adam Jones/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100318-nz" class="nz" title="Sandhill Crane pair and chick in Florida -- Arthur Morris/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SandhillCranes_ROW261998099.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sandhill Crane pair and chick in Florida -- Arthur Morris/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100318-uk" class="uk" title="Spiral galaxy in Crab Nebula  --  NASA/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrabNebula_EN-GB2787088754.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Spiral galaxy in Crab Nebula  --  NASA/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100318-us" class="us" title="Sandhill Crane pair and chick in Florida -- Arthur Morris/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SandhillCranes_EN-US261998099.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sandhill Crane pair and chick in Florida -- Arthur Morris/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>19</span>
+--
 		<a href="#20100319-au" class="au" title="Bridge of 33 Arches, Esfahan, Iran -- Rob Howard/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EsfahanBridge_EN-AU1522743640.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bridge of 33 Arches, Esfahan, Iran -- Rob Howard/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100319-ca" class="ca" title="Flower field patterns near Amsterdam, Netherlands -- Adam Jones/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FlowerFields_EN-CA3515677491.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Flower field patterns near Amsterdam, Netherlands -- Adam Jones/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100319-cn" class="cn" title="哈勃望远镜拍摄到的M82星系 -- NASA/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=M82Galaxy_ZH-CN993171192.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="哈勃望远镜拍摄到的M82星系 -- NASA/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100319-de" class="de" title="Die sogenannte 33-Bögen-Brücke in der iranischen Stadt Isfahan – Rob Howard/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EsfahanBridge_DE-DE1522743640.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die sogenannte 33-Bögen-Brücke in der iranischen Stadt Isfahan – Rob Howard/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100319-jp" class="jp" title="｢スィー・オ・セ橋｣イラン, エスファハーン  -- Rob Howard/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EshahanBridge_JA-JP1522743640.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢スィー・オ・セ橋｣イラン, エスファハーン  -- Rob Howard/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100319-nz" class="nz" title="Flower field patterns near Amsterdam, Netherlands -- Adam Jones/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FlowerFields_ROW3515677491.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Flower field patterns near Amsterdam, Netherlands -- Adam Jones/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100319-uk" class="uk" title="Felucca sail boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Feluccas_EN-GB1823310571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Felucca sail boats on the Nile river at Aswan, Egypt -- SIME/eStock Photo &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100319-us" class="us" title="Flower field patterns near Amsterdam, Netherlands -- Adam Jones/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FlowerFields_EN-US3515677491.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Flower field patterns near Amsterdam, Netherlands -- Adam Jones/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>20</span>
+--
 		<a href="#20100320-au" class="au" title="Lakes in a wetland south of Anchorage, Alaska -- Blaine Harrington III/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wetland_EN-AU1504619547.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lakes in a wetland south of Anchorage, Alaska -- Blaine Harrington III/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100320-ca" class="ca" title="Bridge of 33 Arches, Esfahan, Iran -- Rob Howard/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EsfahanBridge_EN-CA1522743640.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bridge of 33 Arches, Esfahan, Iran -- Rob Howard/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100320-cn" class="cn" title="广西龙脊梯田上晒辣椒 -- age fotostock/Superstock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ChilliPeppers_ZH-CN2661508204.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="广西龙脊梯田上晒辣椒 -- age fotostock/Superstock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100320-de" class="de" title=": Zwei Kanadakraniche zeigen ihrem Jungen die Everglades in Florida – Arthur Morris/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SandhillCranes_DE-DE261998099.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt=": Zwei Kanadakraniche zeigen ihrem Jungen die Everglades in Florida – Arthur Morris/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100320-jp" class="jp" title="｢アンカレッジの湿地帯｣アメリカ, アラスカ州 -- Blaine Harrington III/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wetland_JA-JP1504619547.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アンカレッジの湿地帯｣アメリカ, アラスカ州 -- Blaine Harrington III/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100320-nz" class="nz" title="Bridge of 33 Arches, Eshahan, Iran -- Rob Howard/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EshahanBridge_ROW1522743640.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bridge of 33 Arches, Eshahan, Iran -- Rob Howard/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100320-uk" class="uk" title="Bridge of 33 Arches, Eshahan, Iran -- Rob Howard/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EshahanBridge_EN-GB1522743640.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bridge of 33 Arches, Eshahan, Iran -- Rob Howard/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100320-us" class="us" title="Bridge of 33 Arches, Esfahan, Iran -- Rob Howard/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EsfahanBridge_EN-US1522743640.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bridge of 33 Arches, Esfahan, Iran -- Rob Howard/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>21</span>
+--
 		<a href="#20100321-au" class="au" title="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GossesBluff_EN-AU1943836115.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100321-ca" class="ca" title="Lakes in a wetland south of Anchorage, Alaska -- Blaine Harrington III/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wetland_EN-CA1504619547.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lakes in a wetland south of Anchorage, Alaska -- Blaine Harrington III/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100321-cn" class="cn" title="美属处女群岛沙滩上的船 -- Reed Kaestner/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=VirginIslands_ZH-CN186053674.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="美属处女群岛沙滩上的船 -- Reed Kaestner/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100321-de" class="de" title="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GossesBluff_DE-DE1943836115.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100321-jp" class="jp" title="｢吉野山｣奈良 -- JTB Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Yoshino_JA-JP697092885.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢吉野山｣奈良 -- JTB Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100321-nz" class="nz" title="Lakes in a wetland south of Anchorage, Alaska -- Blaine Harrington III/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wetland_ROW1504619547.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lakes in a wetland south of Anchorage, Alaska -- Blaine Harrington III/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100321-uk" class="uk" title="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oia_EN-GB1894346477.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The village of Oia on the island of Santorini, Greece at sunset -- Miles Ertman/Masterfile &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100321-us" class="us" title="Stained rocks and trees, Pictured Rocks National Lakeshore, Munising, Michigan -- Claudia Adams/Danita Delimont &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Lakeshore_EN-US539201928.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stained rocks and trees, Pictured Rocks National Lakeshore, Munising, Michigan -- Claudia Adams/Danita Delimont &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>22</span>
+--
 		<a href="#20100322-au" class="au" title="Garden at Changdeokgung Palace, Korea, a World heritage site -- Yoshio Tomii Photo Studio/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Changdeokgung_EN-AU292073251.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Garden at Changdeokgung Palace, Korea, a World heritage site -- Yoshio Tomii Photo Studio/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100322-ca" class="ca" title="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GossesBluff_EN-CA1943836115.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100322-cn" class="cn" title="生长在澳大利亚大堡礁附近海域的脑珊瑚 -- Stuart Westmorland/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrainCoral_ZH-CN2259676779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="生长在澳大利亚大堡礁附近海域的脑珊瑚 -- Stuart Westmorland/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100322-de" class="de" title="Ein Ausflugsschiff besucht den Donaudurchbruch bei Weltenburg  – Bildagentur Waldhaeusl/waldhaeusl com/Age Fotostock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Donaudurchbruch_DE-DE581861447.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein Ausflugsschiff besucht den Donaudurchbruch bei Weltenburg  – Bildagentur Waldhaeusl/waldhaeusl com/Age Fotostock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100322-jp" class="jp" title="｢モントレー水族館のクラゲ｣アメリカ, カリフォルニア州 -- Ben Vincent/Tassography.com &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NettleJellyfish_JA-JP2200204943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢モントレー水族館のクラゲ｣アメリカ, カリフォルニア州 -- Ben Vincent/Tassography.com &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100322-nz" class="nz" title="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GossesBluff_ROW1943836115.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100322-uk" class="uk" title="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MiamiBeach_EN-GB1356107223.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100322-us" class="us" title="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GossesBluff_EN-US1943836115.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>23</span>
+--
 		<a href="#20100323-au" class="au" title="Val d’Orcia,Tuscany, Italy --  Fabio Muzzi/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TuscanSunrise_EN-AU3732198752.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Val d’Orcia,Tuscany, Italy --  Fabio Muzzi/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100323-ca" class="ca" title="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MiamiBeach_EN-CA1356107223.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100323-cn" class="cn" title="意大利托斯卡纳的山谷 -- Fabio Muzzi/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TuscanSunrise_ZH-CN3732198752.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="意大利托斯卡纳的山谷 -- Fabio Muzzi/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100323-de" class="de" title="Die sanften Hügel des Orcia-Tals südlich von Siena, Toskana, Italien – Fabio Muzzi/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TuscanSunrise_DE-DE3732198752.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die sanften Hügel des Orcia-Tals südlich von Siena, Toskana, Italien – Fabio Muzzi/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100323-jp" class="jp" title="｢トスカーナ地方、オルチャ渓谷｣イタリア --  Fabio Muzzi/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TuscanSunrise_JA-JP3732198752.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢トスカーナ地方、オルチャ渓谷｣イタリア --  Fabio Muzzi/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100323-nz" class="nz" title="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MiamiBeach_ROW1356107223.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100323-uk" class="uk" title="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GossesBluff_EN-GB1943836115.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gosse's Bluff meteorite impact crater in Tnorala Conservation Reserve, Northern Territory, Australia --  Frans Lanting/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100323-us" class="us" title="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Orsay_EN-US1305448079.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Orsay Museum in the former Orsay Railway Station, Paris, France -- DEA/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>24</span>
+--
 		<a href="#20100324-au" class="au" title="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jacaranda_EN-AU230486805.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100324-ca" class="ca" title="Val d’Orcia,Tuscany, Italy --  Fabio Muzzi/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TuscanSunrise_EN-CA3732198752.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Val d’Orcia,Tuscany, Italy --  Fabio Muzzi/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100324-cn" class="cn" title="环保没有局外人：保护濒危物种 -- Renee Lynn/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BengalTiger_ZH-CN1856762196.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="环保没有局外人：保护濒危物种 -- Renee Lynn/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100324-de" class="de" title="Gestreifte Kreiselschnecke, auch Turbanschnecke genannt – Steven Trainoff Ph.D./Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Snail_DE-DE1056285053.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gestreifte Kreiselschnecke, auch Turbanschnecke genannt – Steven Trainoff Ph.D./Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100324-jp" class="jp" title="｢サンクトペテルブルク｣ロシア,レニングラード州 -- SIME/eStock Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StPetersburg_JA-JP863169877.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢サンクトペテルブルク｣ロシア,レニングラード州 -- SIME/eStock Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100324-nz" class="nz" title="Val d’Orcia,Tuscany, Italy --  Fabio Muzzi/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TuscanSunrise_ROW3732198752.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Val d’Orcia,Tuscany, Italy --  Fabio Muzzi/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100324-uk" class="uk" title="Musicians at a dance performance at the Thangbi Mani Festival in Bhutan - Keren Su/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BhutanMusicians_EN-GB566753161.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Musicians at a dance performance at the Thangbi Mani Festival in Bhutan - Keren Su/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100324-us" class="us" title="Val d’Orcia,Tuscany, Italy --  Fabio Muzzi/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TuscanSunrise_EN-US3377835367.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Val d’Orcia,Tuscany, Italy --  Fabio Muzzi/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>25</span>
+--
 		<a href="#20100325-au" class="au" title="Sydney Swans Intra-Club Match -- Matt King/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AFL_EN-AU1361608835.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sydney Swans Intra-Club Match -- Matt King/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100325-ca" class="ca" title="Blue-ring topsnail --  Steven Trainoff Ph.D./Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Snail_EN-CA1158268420.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue-ring topsnail --  Steven Trainoff Ph.D./Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100325-cn" class="cn" title="环保没有局外人：利用可再生能源走持续发展道路 -- © Joho Joho/Cultura RM/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Photovoltaic_ZH-CN2266965439.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="环保没有局外人：利用可再生能源走持续发展道路 -- © Joho Joho/Cultura RM/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100325-de" class="de" title="Eine Frau spaziert vorbei an Palisanderholzbäumen in Malawi, Afrika – Ian Cumming/age fotostock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jacaranda_DE-DE230486805.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eine Frau spaziert vorbei an Palisanderholzbäumen in Malawi, Afrika – Ian Cumming/age fotostock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100325-jp" class="jp" title="｢平野神社の夜桜｣京都,  北区 -- JTB / Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HiranoSrhine_JA-JP1041680929.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢平野神社の夜桜｣京都,  北区 -- JTB / Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100325-nz" class="nz" title="Blue-ring topsnail --  Steven Trainoff Ph.D./Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Snail_ROW1056285053.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue-ring topsnail --  Steven Trainoff Ph.D./Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100325-uk" class="uk" title="Blue-ring topsnail --  Steven Trainoff Ph.D./Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Snail_EN-GB1056285053.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue-ring topsnail --  Steven Trainoff Ph.D./Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100325-us" class="us" title="Blue-ring topsnail --  Steven Trainoff Ph.D./Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Snail_EN-US1158268420.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue-ring topsnail --  Steven Trainoff Ph.D./Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>26</span>
+--
 		<a href="#20100326-au" class="au" title="Satellite image of the Earth, centered on Asia -- Science Photo library/NASA/NOAA/SPL &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHour1_EN-AU2818204106.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellite image of the Earth, centered on Asia -- Science Photo library/NASA/NOAA/SPL &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100326-ca" class="ca" title="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jacaranda_EN-CA230486805.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100326-cn" class="cn" title="环保没有局外人：期待今晚8：30—9：30，我们为地球关灯一小时 -- Science Photo library/NASA/NOAA/SPL &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthDay_ZH-CN2818204106.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="环保没有局外人：期待今晚8：30—9：30，我们为地球关灯一小时 -- Science Photo library/NASA/NOAA/SPL &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100326-de" class="de" title="Satellitenbild der Erde, ausgerichtet auf Asien – Science Photo library/NASA/NOAA/SPL &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHour1_DE-DE2818204106.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellitenbild der Erde, ausgerichtet auf Asien – Science Photo library/NASA/NOAA/SPL &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100326-jp" class="jp" title="｢アース・アワー｣-- Science Photo library/NASA/NOAA/SPL &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHourDay_JA-JP2818204106.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アース・アワー｣-- Science Photo library/NASA/NOAA/SPL &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100326-nz" class="nz" title="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jacaranda_ROW230486805.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100326-uk" class="uk" title="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jacaranda_EN-GB1488287097.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100326-us" class="us" title="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jacaranda_EN-US1488287097.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Woman walking down road past Jacaranda trees in Malawi, Africa -- Ian Cumming/age fotostock &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>27</span>
+--
 		<a href="#20100327-au" class="au" title="Satellite image of the Earth, centered on Asia, with lights out -- Stocktrek Images/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHour2_EN-AU279654728.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellite image of the Earth, centered on Asia, with lights out -- Stocktrek Images/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100327-ca" class="ca" title="Satellite image of the Earth, centered on Asia -- Science Photo library/NASA/NOAA/SPL &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHourOn_EN-CA2818204106.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellite image of the Earth, centered on Asia -- Science Photo library/NASA/NOAA/SPL &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100327-cn" class="cn" title="环保没有局外人：期待今晚8：30—9：30，我们为地球关灯一小时 -- Science Photo library/NASA/NOAA/SPL &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthNight_ZH-CN279654728.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="环保没有局外人：期待今晚8：30—9：30，我们为地球关灯一小时 -- Science Photo library/NASA/NOAA/SPL &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100327-de" class="de" title="Satellitenbild der Erde, ausgerichtet auf Asien, Lichter ausgeschaltet – Stocktrek Images/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHour2_DE-DE279654728.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellitenbild der Erde, ausgerichtet auf Asien, Lichter ausgeschaltet – Stocktrek Images/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100327-jp" class="jp" title="｢アース・アワー｣ -- Stocktrek Images/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHourDark_JA-JP279654728.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アース・アワー｣ -- Stocktrek Images/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100327-nz" class="nz" title="Kurushima-Kaikyo Bridge over Kijima Strait, Ehime, Japan -- Masao Ishihara/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KurushimaKaikyoBridge_ROW1768614893.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kurushima-Kaikyo Bridge over Kijima Strait, Ehime, Japan -- Masao Ishihara/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100327-uk" class="uk" title="Satellite image of the Earth, centered on Asia -- Science Photo library/NASA/NOAA/SPL &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHourBefore_EN-GB2818204106.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellite image of the Earth, centered on Asia -- Science Photo library/NASA/NOAA/SPL &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100327-us" class="us" title="Satellite image of the Earth, centered on Asia -- Science Photo library/NASA/NOAA/SPL &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHourDay_EN-US2538046253.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellite image of the Earth, centered on Asia -- Science Photo library/NASA/NOAA/SPL &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>28</span>
+--
 		<a href="#20100328-au" class="au" title="Bengal Tiger hiding behind leaves -- Renee Lynn/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BengalTiger_EN-AU1856762196.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bengal Tiger hiding behind leaves -- Renee Lynn/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100328-ca" class="ca" title="Satellite image of the Earth, centered on Asia, with lights out -- Stocktrek Images/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHourOff_EN-CA279654728.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellite image of the Earth, centered on Asia, with lights out -- Stocktrek Images/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100328-cn" class="cn" title="环保没有局外人：全球气候变暖 --  Tony Ernst &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GoldHarbor_ZH-CN1363272626.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="环保没有局外人：全球气候变暖 --  Tony Ernst &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100328-de" class="de" title="Die Kirchwarft auf der Hallig Hooge – MWerner Mwerner/F1 Online/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cottage_DE-DE2224164185.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Kirchwarft auf der Hallig Hooge – MWerner Mwerner/F1 Online/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100328-jp" class="jp" title="｢木の葉に隠れるベンガルトラ｣インド -- Renee Lynn/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BengalTiger_JA-JP1856762196.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢木の葉に隠れるベンガルトラ｣インド -- Renee Lynn/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100328-nz" class="nz" title="Boat in the Donaudurchbruch gorge on the Danube River near Kelheim, Germany -- Bildagentur Waldhaeusl/Age Fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Danube_ROW581861447.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Boat in the Donaudurchbruch gorge on the Danube River near Kelheim, Germany -- Bildagentur Waldhaeusl/Age Fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100328-uk" class="uk" title="Temples of Bagan in Myanmar -- Keren Su/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Bagan_EN-GB2442801756.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Temples of Bagan in Myanmar -- Keren Su/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100328-us" class="us" title="Satellite image of the Earth, centered on Asia, with lights out -- Stocktrek Images/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EarthHourDark_EN-US279654728.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellite image of the Earth, centered on Asia, with lights out -- Stocktrek Images/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>29</span>
+--
 		<a href="#20100329-au" class="au" title="Temples of Bagan in Myanmar -- Keren Su/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Bagan_EN-AU2442801756.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Temples of Bagan in Myanmar -- Keren Su/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100329-ca" class="ca" title="Bengal Tiger hiding behind leaves -- Renee Lynn/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BengalTiger_EN-CA1856762196.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bengal Tiger hiding behind leaves -- Renee Lynn/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100329-cn" class="cn" title="环保没有局外人：支持本地环保、吃本地生长的农作物，是改善碳排放最有效的举措，享受环保的低碳生活 -- Sylvain Grandadam/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RiceWorker_ZH-CN2377920663.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="环保没有局外人：支持本地环保、吃本地生长的农作物，是改善碳排放最有效的举措，享受环保的低碳生活 -- Sylvain Grandadam/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100329-de" class="de" title="Die Tempel von Bagan in Myanmar – Keren Su/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Bagan_DE-DE2442801756.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Tempel von Bagan in Myanmar – Keren Su/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100329-jp" class="jp" title="｢バガンの寺｣ミャンマー -- Keren Su/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Bagan_JA-JP2442801756.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢バガンの寺｣ミャンマー -- Keren Su/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100329-nz" class="nz" title="Bengal Tiger hiding behind leaves -- Renee Lynn/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BengalTiger_ROW1856762196.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bengal Tiger hiding behind leaves -- Renee Lynn/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100329-uk" class="uk" title="Saint Petersburg, Russia -- SIME/eStock Photo &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StPetersburg_EN-GB2605205445.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Saint Petersburg, Russia -- SIME/eStock Photo &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100329-us" class="us" title="Bengal Tiger hiding behind leaves -- Renee Lynn/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BengalTiger_EN-US877040132.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bengal Tiger hiding behind leaves -- Renee Lynn/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>30</span>
+--
 		<a href="#20100330-au" class="au" title="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KansasStorm_EN-AU2425218422.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100330-ca" class="ca" title="Temples of Bagan in Myanmar -- Keren Su/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Bagan_EN-CA2442801756.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Temples of Bagan in Myanmar -- Keren Su/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100330-cn" class="cn" title="漂亮的圆锥形蓝环海螺 -- Steven Trainoff Ph.D./Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Snail_ZH-CN1056285053.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="漂亮的圆锥形蓝环海螺 -- Steven Trainoff Ph.D./Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100330-de" class="de" title="Superzellengewitter über Kansas – Jim Reed/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KansasStorm_DE-DE2425218422.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Superzellengewitter über Kansas – Jim Reed/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100330-jp" class="jp" title="｢スーパーセル｣アメリカ, カンザス州 -- Jim Reed/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KansasStorm_JA-JP2425218422.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢スーパーセル｣アメリカ, カンザス州 -- Jim Reed/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100330-nz" class="nz" title="Wave Rock, Hyden, Western Australia -- Gerhard Zwerger-Schoner/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WaveRock_ROW3101979931.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wave Rock, Hyden, Western Australia -- Gerhard Zwerger-Schoner/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100330-uk" class="uk" title="Khajuraho, India - MIXA Co. Ltd./Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Khajuraho_EN-GB685433558.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Khajuraho, India - MIXA Co. Ltd./Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100330-us" class="us" title="Temples of Bagan in Myanmar -- Keren Su/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Bagan_EN-US2442801756.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Temples of Bagan in Myanmar -- Keren Su/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>31</span>
+--
 		<a href="#20100331-au" class="au" title="Ornamental cows graze a lawn in Quechee, Vermont -- Carl D. Walsh/Aurora Photos &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LivelyCows_EN-AU3578723968.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ornamental cows graze a lawn in Quechee, Vermont -- Carl D. Walsh/Aurora Photos &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100331-ca" class="ca" title="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KansasStorm_EN-CA2425218422.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100331-cn" class="cn" title="草坪上的不是真的奶牛，而是观赏奶牛，愚人节快乐 -- Carl D. Walsh/Aurora Photos &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LivelyCows_ZH-CN3578723968.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="草坪上的不是真的奶牛，而是观赏奶牛，愚人节快乐 -- Carl D. Walsh/Aurora Photos &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100331-de" class="de" title="Plüschkühe grasen auf einer Wiese in Quechee, Vermont – Carl D. Walsh/Aurora Photos &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LivelyCows_DE-DE3578723968.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Plüschkühe grasen auf einer Wiese in Quechee, Vermont – Carl D. Walsh/Aurora Photos &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100331-jp" class="jp" title="｢ぬいぐるみの牛の放牧｣アメリカ, バーモント州 --  Carl D. Walsh/Aurora Photos &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LivelyCows_JA-JP3578723968.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ぬいぐるみの牛の放牧｣アメリカ, バーモント州 --  Carl D. Walsh/Aurora Photos &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100331-nz" class="nz" title="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KansasStorm_ROW2425218422.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100331-uk" class="uk" title="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KansasStorm_EN-GB2425218422.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100331-us" class="us" title="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KansasStorm_EN-US2425218422.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An isolated supercell thunderstorm over south-central Kansas -- Jim Reed/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td></td><td></td><td></td></tr>
-</table>
-    <div class="ad">
-      <script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x90, created 8/4/09 */
-google_ad_slot = "6880081602";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-      <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
-<div class="clear"></div>
-<div class="footer">
-  <div class="wrapper">
-    <p>Brought to you by Long Zheng at <a href="http://www.istartedsomething.com">www.istartedsomething.com</a></p>
-    <p>Images are copyright to their respective owners. <a href="http://www.bing.com">Bing</a> is a (funny) trademark of Microsoft Corporation. Some icons are by The Noun Project (Creative Commons).</p>
-  </div>
-</div>
-<div id="imageview">
-  <div class="loading"><img src="style/images/ajax-loader.gif" /> </div>
-  <div class="viewer">
-    <p class="image"><img src="" /></p>
-    <div class="video">
-    </div>
-    <p class="desc"></p>
-    <div class="facts">
-      <ul>
-      </ul>
-      <div class="clear"></div>
-    </div>
-    <div class="buttons">
-        <div class="viewerad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2619236561011065";
-			/* Viewer ad */
-			google_ad_slot = "3707022863";
-			google_ad_width = 728;
-			google_ad_height = 15;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
-        </div>
-        <div class="videobuttons">
-            <a href="#" class="showvideo">Switch to video version</a>
-            <a href="#" class="hidevideo">Switch to image version</a>
-        </div>
-        <a href="#" class="close">Close</a>
-    </div>
-  </div>
-</div>
-<!-- Start of StatCounter Code -->
-<script type="text/javascript">
-var sc_project=4814143; 
-var sc_invisible=1; 
-var sc_partition=54; 
-var sc_click_stat=1; 
-var sc_security="9418942d"; 
-</script>
-<script type="text/javascript"
-src="http://www.statcounter.com/counter/counter.js"></script>
-<noscript>
-<div class="statcounter"><a title="free hit counters" href="http://www.statcounter.com/" target="_blank">
-<img class="statcounter" src="http://c.statcounter.com/4814143/0/9418942d/1/" alt="free hit counters" ></a></div>
-</noscript>
-<!-- End of StatCounter Code -->
-</body>
-</html>

@@ -1,1316 +1,830 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Bing Image Archive</title>
-<meta name="description" content="Collection of the latest homepage background images from Bing.com">
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
-<link href="style/css.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.blockUI.js"></script>
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.08122.js"></script>
-<script type="text/javascript" src="js/bingimages.js"></script>
-<link href="http://feeds.feedburner.com/bingimages" type="application/rss+xml" rel="alternate" title="Bing Image Archive RSS Feed" />
-</head>
-<body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-182613-10', 'istartedsomething.com');
-  ga('send', 'pageview');
-
-</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=168868916648885";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- precache black background --><img src="style/images/black-95.png" style="display:none;" />
-<div class="sharebar">
-<div class="wrapper">
-<div class="fb-like" data-href="http://www.istartedsomething.com/bingimages/" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.istartedsomething.com/bingimages/" data-text="Bing Image Archive - latest homepage images from Bing">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
-</div>
-<div class="header">
-  <div class="wrapper">
-    <h1><a href="http://www.istartedsomething.com/bingimages/">Bing Image Archive</a></h1>
-    <h2>Showcasing the backgrounds from the frontpage of Bing</h2>
-  </div>
-</div>
-<div class="content">
-  <div class="wrapper">
-    <ul class="countries">
-            <li>
-        <input type="checkbox" checked="checked" name="countryfilter[]" value="us" id="us"/>
-        <label for="us"> <img src="flags/us.gif" alt="United States" title="United States" /> <span>United States</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="gb" id="gb"/>
-        <label for="gb"> <img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" /> <span>United Kingdom</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="au" id="au"/>
-        <label for="au"> <img src="flags/au.gif" alt="Australia" title="Australia" /> <span>Australia</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="jp" id="jp"/>
-        <label for="jp"> <img src="flags/jp.gif" alt="Japan" title="Japan" /> <span>Japan</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="cn" id="cn"/>
-        <label for="cn"> <img src="flags/cn.gif" alt="China" title="China" /> <span>China</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="nz" id="nz"/>
-        <label for="nz"> <img src="flags/nz.gif" alt="New Zealand" title="New Zealand" /> <span>New Zealand</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="de" id="de"/>
-        <label for="de"> <img src="flags/de.gif" alt="Germany" title="Germany" /> <span>Germany</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="ca" id="ca"/>
-        <label for="ca"> <img src="flags/ca.gif" alt="Canada" title="Canada" /> <span>Canada</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="fr" id="fr"/>
-        <label for="fr"> <img src="flags/fr.gif" alt="France" title="France" /> <span>France</span> </label>
-      </li>
-          </ul>
-    <div class="clear"></div>
-
-<div class="ad_small">
-<script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x15, created 6/26/09 */
-google_ad_slot = "2476437438";
-google_ad_width = 728;
-google_ad_height = 15;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-
-<div class="clear"></div>
-    <ul class="month">
-            <li class="month_prev">
-        <p><a href="?m=2&y=2016">Previous month</a></p>
-      </li>
-      <li class="month_current">
-        <h3>March 2016</h3>
-      </li>
-      <li class="month_next">
-        <p><a href="?m=4&y=2016">Next month</a></p>
-      </li>
-    </ul>
-    <div class="clear"></div>
-    <table class='calendar'>
-	<thead>
-				<th>Sunday</th>
-				<th>Monday</th>
-				<th>Tuesday</th>
-				<th>Wednesday</th>
-				<th>Thursday</th>
-				<th>Friday</th>
-				<th>Saturday</th>
-			</thead>
-	<tr><td></td><td></td><td class='dated'><span class='day'>1</span>
 		<a href="#20160301-au" class="au" title="Wild boar and piglet in the Forest of Dean, Gloucestershire, England (© NPL/Minden Pictures) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WildBoarPiglet_EN-AU11197033880_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wild boar and piglet in the Forest of Dean, Gloucestershire, England (© NPL/Minden Pictures) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160301-ca" class="ca" title="The Bernese Alps from Jungfraujoch railway station in Switzerland (© Markus Eichenberger Photo/Nimia) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BerneseAlps_EN-CA9347506837_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Bernese Alps from Jungfraujoch railway station in Switzerland (© Markus Eichenberger Photo/Nimia) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160301-cn" class="cn" title="瑞士，伯尔尼兹阿尔卑斯山脉的少女峰山坳车站 (© Markus Eichenberger Photo/Nimia) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BerneseAlps_ZH-CN9347506837_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="瑞士，伯尔尼兹阿尔卑斯山脉的少女峰山坳车站 (© Markus Eichenberger Photo/Nimia) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160301-de" class="de" title="Blick auf die Berner Alpen, Jungfraujoch-Bahnstation, Schweiz (© Markus Eichenberger Photo/Nimia) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BerneseAlps_DE-DE9347506837_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blick auf die Berner Alpen, Jungfraujoch-Bahnstation, Schweiz (© Markus Eichenberger Photo/Nimia) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160301-fr" class="fr" title="Alpes bernoises depuis la station de train du Jungfraujoch, Suisse (© Markus Eichenberger Photo/Nimia) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BerneseAlps_FR-FR9347506837_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Alpes bernoises depuis la station de train du Jungfraujoch, Suisse (© Markus Eichenberger Photo/Nimia) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160301-gb" class="gb" title="The Bernese Alps from Jungfraujoch railway station in Switzerland (© Markus Eichenberger Photo/Nimia) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BerneseAlps_EN-GB9347506837_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Bernese Alps from Jungfraujoch railway station in Switzerland (© Markus Eichenberger Photo/Nimia) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160301-jp" class="jp" title="｢ベルニーズアルプス｣スイス (© Markus Eichenberger Photo/Nimia) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BerneseAlps_JA-JP9347506837_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ベルニーズアルプス｣スイス (© Markus Eichenberger Photo/Nimia) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160301-nz" class="nz" title="One-year polar ice from icebreaker, Ellesmere Island, Nunavut, Canada (© Steve Bloom Images/Alamy Stock Photo) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EllesmereIsland_ROW11715913366_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="One-year polar ice from icebreaker, Ellesmere Island, Nunavut, Canada (© Steve Bloom Images/Alamy Stock Photo) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160301-us" class="us" title="Wild boar and piglet in the Forest of Dean, Gloucestershire, England (© NPL/Minden Pictures) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WildBoarPiglet_EN-US11197033880_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wild boar and piglet in the Forest of Dean, Gloucestershire, England (© NPL/Minden Pictures) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>2</span>
+--
 		<a href="#20160302-au" class="au" title="Banksia flower on Fraser Island in Queensland, Australia (© Peter Essick/Aurora Photos) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BanksiaFlower_EN-AU12430721831_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Banksia flower on Fraser Island in Queensland, Australia (© Peter Essick/Aurora Photos) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160302-ca" class="ca" title="Icicles hanging from frozen Panther Falls, Banff National Park, Alberta (© Darwin Wiggett/All Canada Photos/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrozenPantherFalls_EN-CA8434006505_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Icicles hanging from frozen Panther Falls, Banff National Park, Alberta (© Darwin Wiggett/All Canada Photos/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160302-cn" class="cn" title="比利时，生长在Meerdaal的杏黄小菇 (© Danny Lap/Minden Pictures) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaffrondropBonnet_ZH-CN11415710429_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="比利时，生长在Meerdaal的杏黄小菇 (© Danny Lap/Minden Pictures) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160302-de" class="de" title="Sternenhimmel und Meeresleuchten, Cape Sebastian State Scenic Corridor, Oregon, USA (© David Pasillas/500px) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CapeSebastian_DE-DE9778833789_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sternenhimmel und Meeresleuchten, Cape Sebastian State Scenic Corridor, Oregon, USA (© David Pasillas/500px) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160302-fr" class="fr" title="Mycena crocata ou mycènes safranées, bois de Meerdaal, Belgique (© Danny Lap/Minden Pictures) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaffrondropBonnet_FR-FR11411545731_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mycena crocata ou mycènes safranées, bois de Meerdaal, Belgique (© Danny Lap/Minden Pictures) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160302-gb" class="gb" title="Saffrondrop bonnet mushrooms in Meerdaal, Belgium (© Danny Lap/Minden Pictures) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaffrondropBonnet_EN-GB11411545731_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Saffrondrop bonnet mushrooms in Meerdaal, Belgium (© Danny Lap/Minden Pictures) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160302-jp" class="jp" title="｢桃の花｣ (© pasmal/a.collectionRF/amanaimages/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PeachBlossoms_JA-JP6033914136_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢桃の花｣ (© pasmal/a.collectionRF/amanaimages/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160302-nz" class="nz" title="The Bernese Alps from Jungfraujoch railway station in Switzerland (© Markus Eichenberger Photo/Nimia) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BerneseAlps_ROW9611586143_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Bernese Alps from Jungfraujoch railway station in Switzerland (© Markus Eichenberger Photo/Nimia) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160302-us" class="us" title="The Bernese Alps from Jungfraujoch railway station in Switzerland (© Markus Eichenberger Photo/Nimia) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BerneseAlps_EN-US9347506837_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Bernese Alps from Jungfraujoch railway station in Switzerland (© Markus Eichenberger Photo/Nimia) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>3</span>
+--
 		<a href="#20160303-au" class="au" title="Hot air balloon inflating for the Winthrop Balloon Festival in Washington State (© Muralee Raghavan) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WinthropBalloon_EN-AU14106178046_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot air balloon inflating for the Winthrop Balloon Festival in Washington State (© Muralee Raghavan) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160303-ca" class="ca" title="Hot air balloon inflating for the Winthrop Balloon Festival in Washington State (© Muralee Raghavan) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WinthropBalloon_EN-CA14106178046_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot air balloon inflating for the Winthrop Balloon Festival in Washington State (© Muralee Raghavan) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160303-cn" class="cn" title="华盛顿州，温思罗普气球节上正在充气的热气球 (© Muraleedharan Raghavan) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WinthropBalloon_ZH-CN12962779974_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="华盛顿州，温思罗普气球节上正在充气的热气球 (© Muraleedharan Raghavan) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160303-de" class="de" title="Wildschwein und Frischling, Forest of Dean, Gloucestershire, England (© NPL/Minden Pictures) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WildBoarPiglet_DE-DE11197033880_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wildschwein und Frischling, Forest of Dean, Gloucestershire, England (© NPL/Minden Pictures) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160303-fr" class="fr" title="Vache salers dans le Cantal, Auvergne (© Sabin/iStock/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SalersCowCantal_FR-FR9795966250_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vache salers dans le Cantal, Auvergne (© Sabin/iStock/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160303-gb" class="gb" title="A crater in Þingvellir National Park, Iceland (© Ragnar Th Sigurdsson/Alamy) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ThingvellirCrater_EN-GB9009025397_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A crater in Þingvellir National Park, Iceland (© Ragnar Th Sigurdsson/Alamy) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160303-jp" class="jp" title="｢ウィンスロップ熱気球フェスティバル｣アメリカ, ワシントン州 (© Muraleedharan Raghavan) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WinthropBalloon_JA-JP14106178046_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ウィンスロップ熱気球フェスティバル｣アメリカ, ワシントン州 (© Muraleedharan Raghavan) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160303-nz" class="nz" title="Saffrondrop bonnet mushrooms in Meerdaal, Belgium (© Danny Lap/Minden Pictures) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaffrondropBonnet_ROW12997204562_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Saffrondrop bonnet mushrooms in Meerdaal, Belgium (© Danny Lap/Minden Pictures) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160303-us" class="us" title="Saffrondrop bonnet mushrooms in Meerdaal, Belgium (© Danny Lap/Minden Pictures) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaffrondropBonnet_EN-US11411545731_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Saffrondrop bonnet mushrooms in Meerdaal, Belgium (© Danny Lap/Minden Pictures) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>4</span>
+--
 		<a href="#20160304-au" class="au" title="Laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LaurelMoss_EN-AU9551903343_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160304-ca" class="ca" title="The laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LaurelMoss_EN-CA9551903343_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160304-cn" class="cn" title="葡萄牙，马德拉月桂树公园的月桂树 (© Frank Krahmer/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LaurelMoss_ZH-CN9578543974_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="葡萄牙，马德拉月桂树公园的月桂树 (© Frank Krahmer/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160304-de" class="de" title="Lorbeerwald Laurisilva, Madeira, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LaurelMoss_DE-DE9551903343_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lorbeerwald Laurisilva, Madeira, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160304-fr" class="fr" title="Lauriers dans le parc naturel de Madère, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LaurelMoss_FR-FR9551903343_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lauriers dans le parc naturel de Madère, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160304-gb" class="gb" title="The laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LaurelMoss_EN-GB9551903343_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160304-jp" class="jp" title="｢マデイラ島の照葉樹林｣ポルトガル (© Frank Krahmer/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LaurelMoss_JA-JP9551903343_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢マデイラ島の照葉樹林｣ポルトガル (© Frank Krahmer/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160304-nz" class="nz" title="Hot air balloon inflating for the Winthrop Balloon Festival in Washington State (© Muralee Raghavan) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WinthropBalloon_ROW14879724257_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot air balloon inflating for the Winthrop Balloon Festival in Washington State (© Muralee Raghavan) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160304-us" class="us" title="Hot air balloon inflating for the Winthrop Balloon Festival in Washington State (© Muralee Raghavan) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WinthropBalloon_EN-US14106178046_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot air balloon inflating for the Winthrop Balloon Festival in Washington State (© Muralee Raghavan) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>5</span>
+--
 		<a href="#20160305-au" class="au" title="Building exterior on First Avenue in Manhattan, New York City (© Johnér/Offset) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FireEscapes_EN-AU10169437459_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Building exterior on First Avenue in Manhattan, New York City (© Johnér/Offset) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160305-ca" class="ca" title="Building exterior on First Avenue in Manhattan, New York City (© Johnér/Offset) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FireEscapes_EN-CA10169437459_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Building exterior on First Avenue in Manhattan, New York City (© Johnér/Offset) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160305-cn" class="cn" title="纽约，曼哈顿，第一大道上的建筑外墙 (© Johnér/Offset) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FireEscapes_ZH-CN9251582421_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="纽约，曼哈顿，第一大道上的建筑外墙 (© Johnér/Offset) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160305-de" class="de" title="Gelborangemilchende Helmlinge, Meerdaal, Belgien (© Danny Lap/Minden Pictures) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaffrondropBonnet_DE-DE11411545731_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gelborangemilchende Helmlinge, Meerdaal, Belgien (© Danny Lap/Minden Pictures) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160305-fr" class="fr" title="Terres rouges de Dongchuan, Yunnan, Chine (© Praphat Rattanayanon/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dongchuan_FR-FR9761527245_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Terres rouges de Dongchuan, Yunnan, Chine (© Praphat Rattanayanon/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160305-gb" class="gb" title="A fallow deer (doe) with fawn at Helmingham Hall, Suffolk (© Paul Sawer/FLPA/Minden Pictures) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FallowDeer_EN-GB9774007910_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A fallow deer (doe) with fawn at Helmingham Hall, Suffolk (© Paul Sawer/FLPA/Minden Pictures) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160305-jp" class="jp" title="｢マンハッタン1番街｣アメリカ, ニューヨーク市 (© Johnér/Offset) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FireEscapes_JA-JP10169437459_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢マンハッタン1番街｣アメリカ, ニューヨーク市 (© Johnér/Offset) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160305-nz" class="nz" title="The laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LaurelMoss_ROW10692506410_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160305-us" class="us" title="The laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LaurelMoss_EN-US9551903343_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The laurel trees of Madeira Natural Park, Portugal (© Frank Krahmer/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>6</span>
+--
 		<a href="#20160306-au" class="au" title="Man canoes in Marramarra Creek, New South Wales, Australia (© Bill Hatcher/National Geographic Creative/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CanoeCreek_EN-AU11609323328_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Man canoes in Marramarra Creek, New South Wales, Australia (© Bill Hatcher/National Geographic Creative/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160306-ca" class="ca" title="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CapeSebastian_EN-CA9778833789_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160306-cn" class="cn" title="俄勒冈，塞巴斯蒂安州立公园的景观走道，满天繁星，海水闪烁 (© David Pasillas/500px) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CapeSebastian_ZH-CN9469145123_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="俄勒冈，塞巴斯蒂安州立公园的景观走道，满天繁星，海水闪烁 (© David Pasillas/500px) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160306-de" class="de" title="„Alter Flecken“, Stadtkern von Freudenberg, Siegerland, Nordrhein-Westfalen, Deutschland (© Urbanmyth/Alamy) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FreudenbergWinter_DE-DE12486967996_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="„Alter Flecken“, Stadtkern von Freudenberg, Siegerland, Nordrhein-Westfalen, Deutschland (© Urbanmyth/Alamy) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160306-fr" class="fr" title="Nuit étoilée dans le parc d’État Cape Sebastian State Scenic Corridor, Oregon, États-Unis (© David Pasillas/500px) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CapeSebastian_FR-FR9778833789_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Nuit étoilée dans le parc d’État Cape Sebastian State Scenic Corridor, Oregon, États-Unis (© David Pasillas/500px) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160306-gb" class="gb" title="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CapeSebastian_EN-GB9778833789_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160306-jp" class="jp" title="｢銀河と夜光虫｣アメリカ, オレゴン州 (© David Pasillas/500px) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CapeSebastian_JA-JP9778833789_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢銀河と夜光虫｣アメリカ, オレゴン州 (© David Pasillas/500px) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160306-nz" class="nz" title="Building exterior on First Avenue in Manhattan, New York City (© Johnér/Offset) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FireEscapes_ROW10703515397_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Building exterior on First Avenue in Manhattan, New York City (© Johnér/Offset) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160306-us" class="us" title="Building exterior on First Avenue in Manhattan, New York City (© Johnér/Offset) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FireEscapes_EN-US10169437459_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Building exterior on First Avenue in Manhattan, New York City (© Johnér/Offset) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>7</span>
+--
 		<a href="#20160307-au" class="au" title="A memorial wall to women in Konak, Izmir, Turkey (© Cem Oksuz/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IzmirFaceWall_EN-AU8661261728_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A memorial wall to women in Konak, Izmir, Turkey (© Cem Oksuz/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160307-ca" class="ca" title="A memorial wall to women in Konak, Izmir, Turkey (© Cem Oksuz/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IzmirFaceWall_EN-CA8661261728_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A memorial wall to women in Konak, Izmir, Turkey (© Cem Oksuz/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160307-cn" class="cn" title="土耳其，伊兹密尔，Konak的女子侧脸轮廓纪念墙 (© Cem Oksuz/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IzmirFaceWall_ZH-CN8661261728_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="土耳其，伊兹密尔，Konak的女子侧脸轮廓纪念墙 (© Cem Oksuz/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160307-de" class="de" title="Gedächtnis-Mauer für Frauen in Konak, Izmir, Türkei (© Cem Oksuz/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IzmirFaceWall_DE-DE8661261728_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gedächtnis-Mauer für Frauen in Konak, Izmir, Türkei (© Cem Oksuz/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160307-fr" class="fr" title="Monument en l’honneur des femmes à Konak, Izmir, Turquie (© Cem Oksuz/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IzmirFaceWall_FR-FR8661261728_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Monument en l’honneur des femmes à Konak, Izmir, Turquie (© Cem Oksuz/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160307-gb" class="gb" title="A memorial wall to women in Konak, Izmir, Turkey (© Cem Oksuz/Getty Images) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IzmirFaceWall_EN-GB8661261728_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A memorial wall to women in Konak, Izmir, Turkey (© Cem Oksuz/Getty Images) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160307-jp" class="jp" title="｢国際女性デーの壁｣トルコ, イズミル (© Cem Oksuz/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IzmirFaceWall_JA-JP8661261728_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢国際女性デーの壁｣トルコ, イズミル (© Cem Oksuz/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160307-nz" class="nz" title="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CapeSebastian_ROW11394627149_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160307-us" class="us" title="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CapeSebastian_EN-US9778833789_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>8</span>
+--
 		<a href="#20160308-au" class="au" title="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MangroveRoots_EN-AU10720576635_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160308-ca" class="ca" title="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MangroveRoots_EN-CA10720576635_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160308-cn" class="cn" title="帕劳附近的红树林 (© WaterFrame/Alamy) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MangroveRoots_ZH-CN10720576635_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="帕劳附近的红树林 (© WaterFrame/Alamy) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160308-de" class="de" title="Mangrovenwald, Palau (© WaterFrame/Alamy) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MangroveRoots_DE-DE10720576635_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mangrovenwald, Palau (© WaterFrame/Alamy) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160308-fr" class="fr" title="Mangrove dans une réserve naturelle près de Palaos (© WaterFrame/Alamy) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MangroveRoots_FR-FR10720576635_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mangrove dans une réserve naturelle près de Palaos (© WaterFrame/Alamy) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160308-gb" class="gb" title="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MangroveRoots_EN-GB10720576635_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160308-jp" class="jp" title="｢マングローブの森｣パラオ (© WaterFrame/Alamy) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MangroveRoots_JA-JP10720576635_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢マングローブの森｣パラオ (© WaterFrame/Alamy) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160308-nz" class="nz" title="Drying saris on banks of the Ganga River, India (© Subir Basak/Moment/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IntlWomensDay_ROW7390245059_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Drying saris on banks of the Ganga River, India (© Subir Basak/Moment/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160308-us" class="us" title="A memorial wall to women in Konak, Izmir, Turkey (© Cem Oksuz/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IzmirFaceWall_EN-US8661261728_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A memorial wall to women in Konak, Izmir, Turkey (© Cem Oksuz/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>9</span>
+--
 		<a href="#20160309-au" class="au" title="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CapeSebastian_EN-AU9778833789_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars above, sea sparkle below in Oregon’s Cape Sebastian State Scenic Corridor (© David Pasillas/500px) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160309-ca" class="ca" title="Rolling hills and red earth in Dongchuan, China (© Praphat Rattanayanon/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dongchuan_EN-CA9761527245_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Rolling hills and red earth in Dongchuan, China (© Praphat Rattanayanon/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160309-cn" class="cn" title="上海，豫园，龙灯 (© Carols Barria/Reuters) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DragonHeadsRaising_ZH-CN9424180768_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="上海，豫园，龙灯 (© Carols Barria/Reuters) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160309-de" class="de" title="Geschwungene Hügel und rote Erde, Dongchuan, Volksrepublik China (© Praphat Rattanayanon/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dongchuan_DE-DE9761527245_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Geschwungene Hügel und rote Erde, Dongchuan, Volksrepublik China (© Praphat Rattanayanon/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160309-fr" class="fr" title="Brume matinale dans le Causse de Gramat, Lot, Massif central (© Jean-Daniel Sudres/hemis.fr/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaussedeGramat_FR-FR13623909911_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Brume matinale dans le Causse de Gramat, Lot, Massif central (© Jean-Daniel Sudres/hemis.fr/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160309-gb" class="gb" title="Rolling hills and red earth in Dongchuan, China (© Praphat Rattanayanon/Getty Images) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dongchuan_EN-GB9761527245_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Rolling hills and red earth in Dongchuan, China (© Praphat Rattanayanon/Getty Images) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160309-jp" class="jp" title="｢東川紅土地郷｣中国, 雲南省 (© Praphat Rattanayanon/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dongchuan_JA-JP9761527245_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢東川紅土地郷｣中国, 雲南省 (© Praphat Rattanayanon/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160309-nz" class="nz" title="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MangroveRoots_ROW13128411888_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160309-us" class="us" title="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MangroveRoots_EN-US10720576635_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A mangrove forest near Palau (© WaterFrame/Alamy) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>10</span>
+--
 		<a href="#20160310-au" class="au" title="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PineWarbler_EN-AU9476015369_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160310-ca" class="ca" title="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PineWarbler_EN-CA9476015369_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160310-cn" class="cn" title="在冰枝上休憩的雄松莺 (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PineWarbler_ZH-CN8925328026_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="在冰枝上休憩的雄松莺 (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160310-de" class="de" title="Kiefer-Waldsänger-Männchen auf einem vereisten Zweig (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PineWarbler_DE-DE9476015369_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kiefer-Waldsänger-Männchen auf einem vereisten Zweig (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160310-fr" class="fr" title="Paruline des pins mâle sur une branche gelée (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PineWarbler_FR-FR9476015369_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Paruline des pins mâle sur une branche gelée (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160310-gb" class="gb" title="A strontium optical clock (© Andrew Brookes, National Physical Laboratory/Science Photo Library) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StrontiumClock_EN-GB9086294028_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A strontium optical clock (© Andrew Brookes, National Physical Laboratory/Science Photo Library) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160310-jp" class="jp" title="｢3月11日からのヒカリ｣宮城県, 気仙沼 (© The Asahi Shimbun/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BlueTributeLights_JA-JP10456764012_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢3月11日からのヒカリ｣宮城県, 気仙沼 (© The Asahi Shimbun/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160310-nz" class="nz" title="Rolling hills and red earth in Dongchuan, China (© Praphat Rattanayanon/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dongchuan_ROW9869113881_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Rolling hills and red earth in Dongchuan, China (© Praphat Rattanayanon/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160310-us" class="us" title="Rolling hills and red earth in Dongchuan, China (© Praphat Rattanayanon/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dongchuan_EN-US9761527245_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Rolling hills and red earth in Dongchuan, China (© Praphat Rattanayanon/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>11</span>
+--
 		<a href="#20160311-au" class="au" title="Beech forest near Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TokamichiBeechForest_EN-AU10544658418_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Beech forest near Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160311-ca" class="ca" title="Beech forest near Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TokamichiBeechForest_EN-CA10544658418_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Beech forest near Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160311-cn" class="cn" title="日本，十日町，山毛榉森林 (© JTB Photo/age fotostock) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TokamichiBeechForest_ZH-CN9795569723_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="日本，十日町，山毛榉森林 (© JTB Photo/age fotostock) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160311-de" class="de" title="Buchen in der Nähe von Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TokamichiBeechForest_DE-DE10544658418_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Buchen in der Nähe von Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160311-fr" class="fr" title="Forêt de hêtres près de Tōkamachi, Japon (© JTB Photo/age fotostock) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TokamichiBeechForest_FR-FR10544658418_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Forêt de hêtres près de Tōkamachi, Japon (© JTB Photo/age fotostock) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160311-gb" class="gb" title="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PineWarbler_EN-GB9476015369_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160311-jp" class="jp" title="｢カルデイラォン｣ポルトガル, コルボ島 (© Samuel Domingues/500px) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzoresPortugal_JA-JP12392527859_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢カルデイラォン｣ポルトガル, コルボ島 (© Samuel Domingues/500px) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160311-nz" class="nz" title="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PineWarbler_ROW10055776444_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160311-us" class="us" title="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PineWarbler_EN-US9476015369_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A male pine warbler perched on an icy branch (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>12</span>
+--
 		<a href="#20160312-au" class="au" title="A grizzly in the Great Bear Rainforest, British Columbia, Canada (© Jack Chapman/Minden Pictures) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GreatBearRainforest_EN-AU8811138871_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A grizzly in the Great Bear Rainforest, British Columbia, Canada (© Jack Chapman/Minden Pictures) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160312-ca" class="ca" title="The Swiss 'lucky charm' clock is displayed in the technical occupation school in Porrentury, Switzerland (© EPA/Georgios Kefalas/Alamy) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LuckyCharmClock_EN-CA8877368415_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Swiss 'lucky charm' clock is displayed in the technical occupation school in Porrentury, Switzerland (© EPA/Georgios Kefalas/Alamy) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160312-cn" class="cn" title="加拿大，不列颠哥伦比亚省，大熊雨林的灰熊 (© Jack Chapman/Minden Pictures) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GreatBearRainforest_ZH-CN9137026528_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="加拿大，不列颠哥伦比亚省，大熊雨林的灰熊 (© Jack Chapman/Minden Pictures) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160312-de" class="de" title="Grizzlybär im Great-Bear-Regenwald, British Columbia, Kanada (© Jack Chapman/Minden Pictures) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GreatBearRainforest_DE-DE8811138871_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Grizzlybär im Great-Bear-Regenwald, British Columbia, Kanada (© Jack Chapman/Minden Pictures) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160312-fr" class="fr" title="Grizzli dans la forêt du Grand Ours, Colombie-Britannique, Canada (© Jack Chapman/Minden Pictures) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GreatBearRainforest_FR-FR8811138871_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Grizzli dans la forêt du Grand Ours, Colombie-Britannique, Canada (© Jack Chapman/Minden Pictures) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160312-gb" class="gb" title="A grizzly in the Great Bear Rainforest, British Columbia, Canada (© Jack Chapman/Minden Pictures) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GreatBearRainforest_EN-GB8811138871_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A grizzly in the Great Bear Rainforest, British Columbia, Canada (© Jack Chapman/Minden Pictures) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160312-jp" class="jp" title="｢ホー・レイン・フォレスト｣アメリカ, ワシントン州 (© ARCO/P Frischknecht/age fotostock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HohRainForest_JA-JP11228959387_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ホー・レイン・フォレスト｣アメリカ, ワシントン州 (© ARCO/P Frischknecht/age fotostock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160312-nz" class="nz" title="Beech forest near Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TokamichiBeechForest_ROW11573023658_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Beech forest near Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160312-us" class="us" title="Beech forest near Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TokamichiBeechForest_EN-US10544658418_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Beech forest near Tokamachi, Japan (© JTB Photo/age fotostock) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>13</span>
+--
 		<a href="#20160313-au" class="au" title="‘The Globe’ by Joe Smith, Knockan Crag National Nature Reserve, Scotland (© Mar Photographics/Alamy) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GlobeSculpture_EN-AU14987283809_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="‘The Globe’ by Joe Smith, Knockan Crag National Nature Reserve, Scotland (© Mar Photographics/Alamy) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160313-ca" class="ca" title="‘The Globe’ sculpture by Joe Smith, Knockan Crag National Nature Reserve, Scotland (© Mar Photographics/Alamy) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GlobeSculpture_EN-CA14987283809_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="‘The Globe’ sculpture by Joe Smith, Knockan Crag National Nature Reserve, Scotland (© Mar Photographics/Alamy) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160313-cn" class="cn" title="苏格兰，科诺堪岩崖，乔·史密斯的“全球”雕塑 (© Mar Photographics/Alamy) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GlobeSculpture_ZH-CN14987283809_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="苏格兰，科诺堪岩崖，乔·史密斯的“全球”雕塑 (© Mar Photographics/Alamy) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160313-de" class="de" title="Eurasische Luchse, Nationalpark Bayerischer Wald (© tbkmedia.de/Alamy) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EuropeanLynx_DE-DE11795254206_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eurasische Luchse, Nationalpark Bayerischer Wald (© tbkmedia.de/Alamy) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160313-fr" class="fr" title="“The Globe” sculpture de Joe Smith, Knockan Crag National Nature Reserve, Écosse (© Mar Photographics/Alamy) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GlobeSculpture_FR-FR14987283809_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="“The Globe” sculpture de Joe Smith, Knockan Crag National Nature Reserve, Écosse (© Mar Photographics/Alamy) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160313-gb" class="gb" title="‘The Globe’ sculpture by Joe Smith, Knockan Crag National Nature Reserve, Scotland (© Mar Photographics/Alamy) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GlobeSculpture_EN-GB14987283809_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="‘The Globe’ sculpture by Joe Smith, Knockan Crag National Nature Reserve, Scotland (© Mar Photographics/Alamy) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160313-jp" class="jp" title="｢ノッカン・ クラッグの彫刻｣イギリス, スコットランド (© Mar Photographics/Alamy) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GlobeSculpture_JA-JP14987283809_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ノッカン・ クラッグの彫刻｣イギリス, スコットランド (© Mar Photographics/Alamy) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>14</span>
+--
 		<a href="#20160314-au" class="au" title="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzoresPortugal_EN-AU12392527859_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160314-ca" class="ca" title="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzoresPortugal_EN-CA12392527859_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160314-cn" class="cn" title="葡萄牙，坐落在科尔沃岛上的Caldeirão火山口 (© Samuel Domingues/500px) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzoresPortugal_ZH-CN12684313303_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="葡萄牙，坐落在科尔沃岛上的Caldeirão火山口 (© Samuel Domingues/500px) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160314-de" class="de" title="Lagoa do Caldeirão, Insel Corvo, Portugal (© Samuel Domingues/500px) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzoresPortugal_DE-DE12392527859_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lagoa do Caldeirão, Insel Corvo, Portugal (© Samuel Domingues/500px) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160314-fr" class="fr" title="Parcs à poissons au large des îles Sanguinaires, Corse du Sud (© Stéphane Lemaire/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FishParkCorsica_FR-FR11459377420_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Parcs à poissons au large des îles Sanguinaires, Corse du Sud (© Stéphane Lemaire/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160314-gb" class="gb" title="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzoresPortugal_EN-GB12392527859_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160314-jp" class="jp" title="｢マツアメリカムシクイ｣ (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PineWarbler_JA-JP9476015369_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢マツアメリカムシクイ｣ (© Rolf Nussbaumer Photography/Alamy) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160314-nz" class="nz" title="Pic du Midi d'Ossau, a mountain in the Pyrenees, France (© Arnaud Bertrande/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MountainOssau_ROW10428404549_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Pic du Midi d'Ossau, a mountain in the Pyrenees, France (© Arnaud Bertrande/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160314-us" class="us" title="‘The Globe’ sculpture by Joe Smith, Knockan Crag National Nature Reserve, Scotland (© Mar Photographics/Alamy) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GlobeSculpture_EN-US14987283809_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="‘The Globe’ sculpture by Joe Smith, Knockan Crag National Nature Reserve, Scotland (© Mar Photographics/Alamy) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>15</span>
+--
 		<a href="#20160315-au" class="au" title="The Azure Window natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzureWindow_EN-AU8843630428_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Azure Window natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160315-ca" class="ca" title="The Azure Window natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzureWindow_EN-CA8843630428_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Azure Window natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160315-cn" class="cn" title="马耳他，戈佐岛，靠近埃杜海滩的蔚蓝之窗自然石拱门 (© SIME/eStock Photo) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzureWindow_ZH-CN8863680074_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="马耳他，戈佐岛，靠近埃杜海滩的蔚蓝之窗自然石拱门 (© SIME/eStock Photo) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160315-de" class="de" title="Felsentor ‚Azure Window‘ auf der Insel Gozo, Malta (© SIME/eStock Photo) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzureWindow_DE-DE8843630428_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Felsentor ‚Azure Window‘ auf der Insel Gozo, Malta (© SIME/eStock Photo) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160315-fr" class="fr" title="Fenêtre d’Azur sur l’île de Gozo, Malte (© SIME/eStock Photo) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzureWindow_FR-FR8843630428_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fenêtre d’Azur sur l’île de Gozo, Malte (© SIME/eStock Photo) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160315-gb" class="gb" title="A cricket stadium made from sand in Puri, Odisha, India (© Dinodia/age fotostock) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SandStadium_EN-GB11126501630_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A cricket stadium made from sand in Puri, Odisha, India (© Dinodia/age fotostock) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160315-jp" class="jp" title="｢アズール・ウインドウ｣マルタ, ゴゾ島 (© SIME/eStock Photo) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzureWindow_JA-JP8843630428_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アズール・ウインドウ｣マルタ, ゴゾ島 (© SIME/eStock Photo) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160315-nz" class="nz" title="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzoresPortugal_ROW13648393065_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160315-us" class="us" title="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzoresPortugal_EN-US12392527859_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Caldeirão on Corvo Island, Portugal (© Samuel Domingues/500px) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>16</span>
+--
 		<a href="#20160316-au" class="au" title="The dome of the Reading Room of the National Library of Ireland in Dublin (© Cahir Davitt/plainpicture) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NLIReadingRoom_EN-AU13259592233_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The dome of the Reading Room of the National Library of Ireland in Dublin (© Cahir Davitt/plainpicture) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160316-ca" class="ca" title="The dome of the Reading Room of the National Library of Ireland in Dublin (© Cahir Davitt/plainpicture) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NLIReadingRoom_EN-CA13259592233_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The dome of the Reading Room of the National Library of Ireland in Dublin (© Cahir Davitt/plainpicture) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160316-cn" class="cn" title="爱尔兰，都柏林，爱尔兰国家图书馆阅览室的圆顶 (© Cahir Davitt/plainpicture) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NLIReadingRoom_ZH-CN13259592233_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="爱尔兰，都柏林，爱尔兰国家图书馆阅览室的圆顶 (© Cahir Davitt/plainpicture) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160316-de" class="de" title="Kuppel des Lesesaals der Irischen Nationalbibliothek in Dublin, Irland (© Cahir Davitt/plainpicture) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NLIReadingRoom_DE-DE13259592233_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kuppel des Lesesaals der Irischen Nationalbibliothek in Dublin, Irland (© Cahir Davitt/plainpicture) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160316-fr" class="fr" title="Dôme de la salle de lecture de la Bibliothèque nationale d’Irlande, Dublin (© Cahir Davitt/plainpicture) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NLIReadingRoom_FR-FR13259592233_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dôme de la salle de lecture de la Bibliothèque nationale d’Irlande, Dublin (© Cahir Davitt/plainpicture) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160316-gb" class="gb" title="The dome of the Reading Room of the National Library of Ireland in Dublin (© Cahir Davitt/plainpicture) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NLIReadingRoom_EN-GB13259592233_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The dome of the Reading Room of the National Library of Ireland in Dublin (© Cahir Davitt/plainpicture) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160316-jp" class="jp" title="｢アイルランド国立図書館｣ (© Cahir Davitt/plainpicture) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NLIReadingRoom_JA-JP13259592233_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アイルランド国立図書館｣ (© Cahir Davitt/plainpicture) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160316-nz" class="nz" title="The Azure Window, a natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzureWindow_ROW9383137398_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Azure Window, a natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160316-us" class="us" title="The Azure Window, a natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzureWindow_EN-US8843630428_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Azure Window, a natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>17</span>
+--
 		<a href="#20160317-au" class="au" title="An adolescent frog in a drop of water (© Adhi Prayoga/REX Shutterstock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrogTadpole_EN-AU10492168393_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An adolescent frog in a drop of water (© Adhi Prayoga/REX Shutterstock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160317-ca" class="ca" title="An adolescent frog in a drop of water (© Adhi Prayoga/REX Shutterstock) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrogTadpole_EN-CA10492168393_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An adolescent frog in a drop of water (© Adhi Prayoga/REX Shutterstock) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160317-cn" class="cn" title="水中的幼年青蛙 (© Adhi Prayoga/REX Shutterstock) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrogTadpole_ZH-CN10186824604_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="水中的幼年青蛙 (© Adhi Prayoga/REX Shutterstock) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160317-de" class="de" title="Ein heranwachsender Frosch in einem Wassertropfen (© Adhi Prayoga/REX Shutterstock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrogTadpole_DE-DE10492168393_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein heranwachsender Frosch in einem Wassertropfen (© Adhi Prayoga/REX Shutterstock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160317-fr" class="fr" title="Têtard de grenouille dans une flaque d’eau (© Adhi Prayoga/REX Shutterstock) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrogTadpole_FR-FR10492168393_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Têtard de grenouille dans une flaque d’eau (© Adhi Prayoga/REX Shutterstock) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160317-gb" class="gb" title="An adolescent frog in a drop of water (© Adhi Prayoga/REX Shutterstock) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrogTadpole_EN-GB10492168393_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An adolescent frog in a drop of water (© Adhi Prayoga/REX Shutterstock) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160317-jp" class="jp" title="｢グレート・ベア・レインフォレスト｣カナダ, ブリティッシュコロンビア州 (© Jack Chapman/Minden Pictures) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GreatBearRainforest_JA-JP8811138871_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢グレート・ベア・レインフォレスト｣カナダ, ブリティッシュコロンビア州 (© Jack Chapman/Minden Pictures) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160317-nz" class="nz" title="Slea Head, County Kerry, Ireland (© Cultura RM/Masterfile) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SleaHead_ROW9269290928_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Slea Head, County Kerry, Ireland (© Cultura RM/Masterfile) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160317-us" class="us" title="The dome of the Reading Room of the National Library of Ireland in Dublin (© Cahir Davitt/plainpicture) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NLIReadingRoom_EN-US13259592233_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The dome of the Reading Room of the National Library of Ireland in Dublin (© Cahir Davitt/plainpicture) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>18</span>
+--
 		<a href="#20160318-au" class="au" title="Wind farm near Port Lincoln in South Australia (© Michael Bolenski/500px) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RocksWindFarm_EN-AU13053818995_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wind farm near Port Lincoln in South Australia (© Michael Bolenski/500px) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160318-ca" class="ca" title="Aurora borealis dances over the Klondike Valley in Tombstone Territorial Park, Yukon (© Robert Postma/First Light/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AuroraBorealisYukon_EN-CA9046563491_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aurora borealis dances over the Klondike Valley in Tombstone Territorial Park, Yukon (© Robert Postma/First Light/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160318-cn" class="cn" title="法国， 南科西嘉，靠近 Sanguinary群岛的鱼塘 (© Stephane Lemaire/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FishParkCorsica_ZH-CN11289010888_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="法国， 南科西嘉，靠近 Sanguinary群岛的鱼塘 (© Stephane Lemaire/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160318-de" class="de" title="Aquakultur nahe der Inselgruppe L’archipel des Sanguinaires, Ajaccio, Korsika, Frankreich (© Stephane Lemaire/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FishParkCorsica_DE-DE11459377420_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aquakultur nahe der Inselgruppe L’archipel des Sanguinaires, Ajaccio, Korsika, Frankreich (© Stephane Lemaire/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160318-fr" class="fr" title="Caldeirão dans l’île de Corvo, Açores, Portugal (© Samuel Domingues/500px) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzoresPortugal_FR-FR12392527859_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Caldeirão dans l’île de Corvo, Açores, Portugal (© Samuel Domingues/500px) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160318-gb" class="gb" title="The Azure Window natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AzureWindow_EN-GB8843630428_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Azure Window natural stone arch near Dwejra Beach, Gozo, Malta (© SIME/eStock Photo) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160318-jp" class="jp" title="｢地中海の養殖場｣フランス, コルス＝デュ＝シュド県 (© Stephane Lemaire/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FishParkCorsica_JA-JP11459377420_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢地中海の養殖場｣フランス, コルス＝デュ＝シュド県 (© Stephane Lemaire/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160318-nz" class="nz" title="An adolescent frog in a drop of water (© Adhi Prayoga/REX Shutterstock) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrogTadpole_ROW11144609480_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An adolescent frog in a drop of water (© Adhi Prayoga/REX Shutterstock) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160318-us" class="us" title="Adolescent frog in a pool of water on a giant lily pad (© Adhi Prayoga/REX Shutterstock) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrogTadpole_EN-US10492168393_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Adolescent frog in a pool of water on a giant lily pad (© Adhi Prayoga/REX Shutterstock) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>19</span>
+--
 		<a href="#20160319-au" class="au" title="Jardin du Luxembourg, Paris, France (© Jean-Pierre Lescourret/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cyclops_EN-AU11232381265_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Jardin du Luxembourg, Paris, France (© Jean-Pierre Lescourret/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160319-ca" class="ca" title="Early blooming crocus (© suterscher/iStock/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrocusTL_EN-CA8515008680_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Early blooming crocus (© suterscher/iStock/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160319-cn" class="cn" title="初放的番红花 (© suterscher/iStock/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrocusTL_ZH-CN8515008680_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="初放的番红花 (© suterscher/iStock/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160319-de" class="de" title="Krokusblüte in der Schweiz (© suterscher/iStock/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrocusTL_DE-DE8515008680_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Krokusblüte in der Schweiz (© suterscher/iStock/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160319-fr" class="fr" title="Crocus à la floraison précoce (© suterscher/iStock/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrocusTL_FR-FR8515008680_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Crocus à la floraison précoce (© suterscher/iStock/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160319-gb" class="gb" title="Early blooming crocus (© suterscher/iStock/Getty Images) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrocusTL_EN-GB8515008680_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Early blooming crocus (© suterscher/iStock/Getty Images) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160319-jp" class="jp" title="｢早咲きのクロッカス｣ (© suterscher/iStock/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrocusTL_JA-JP8515008680_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢早咲きのクロッカス｣ (© suterscher/iStock/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160319-nz" class="nz" title="Rail trail over the Wenatchee River in Washington State (© Inge Johnsson/Alamy) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RustyFootbridge_ROW11038226887_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Rail trail over the Wenatchee River in Washington State (© Inge Johnsson/Alamy) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160319-us" class="us" title="Tumwater Canyon Pipeline Trail over the Wenatchee River in Washington State (© Inge Johnsson/Alamy) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RustyFootbridge_EN-US9641329899_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Tumwater Canyon Pipeline Trail over the Wenatchee River in Washington State (© Inge Johnsson/Alamy) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>20</span>
+--
 		<a href="#20160320-au" class="au" title="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BorneoRainforest_EN-AU9662723436_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160320-ca" class="ca" title="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BorneoRainforest_EN-CA9662723436_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160320-cn" class="cn" title="【今日春分】兰花 (© View Stock/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=VernalEquinoxOrchid_ZH-CN10226406786_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="【今日春分】兰花 (© View Stock/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160320-de" class="de" title="Schutzgebiet Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BorneoRainforest_DE-DE9662723436_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Schutzgebiet Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160320-fr" class="fr" title="Vallée de Danum, Bornéo, Malaisie (© Steve Bloom Images/Alamy) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BorneoRainforest_FR-FR9662723436_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vallée de Danum, Bornéo, Malaisie (© Steve Bloom Images/Alamy) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160320-gb" class="gb" title="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BorneoRainforest_EN-GB9662723436_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160320-jp" class="jp" title="｢ダヌムバレー保護地域｣マレーシア, サバ州 (© Steve Bloom Images/Alamy) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BorneoRainforest_JA-JP9662723436_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ダヌムバレー保護地域｣マレーシア, サバ州 (© Steve Bloom Images/Alamy) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160320-nz" class="nz" title="Early blooming crocus (© suterscher/iStock/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrocusTL_ROW10309684486_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Early blooming crocus (© suterscher/iStock/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160320-us" class="us" title="Early blooming crocus (© suterscher/iStock/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrocusTL_EN-US9175103735_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Early blooming crocus (© suterscher/iStock/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>21</span>
+--
 		<a href="#20160321-au" class="au" title="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DyjandiFalls_EN-AU11486414068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160321-ca" class="ca" title="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DyjandiFalls_EN-CA11486414068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160321-cn" class="cn" title="冰岛，Dynjandi 瀑布 (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DyjandiFalls_ZH-CN11254212344_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="冰岛，Dynjandi 瀑布 (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160321-de" class="de" title="Dynjandi-Wasserfall, Island (© Garret Suhrie/Tandem Motion + Stills) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DyjandiFalls_DE-DE11486414068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dynjandi-Wasserfall, Island (© Garret Suhrie/Tandem Motion + Stills) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160321-fr" class="fr" title="Pic du Midi d’Ossau se reflétant dans l’eau, Pyrénées-Atlantiques (© Arnaud Bertrande/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MountainOssau_FR-FR9879105726_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Pic du Midi d’Ossau se reflétant dans l’eau, Pyrénées-Atlantiques (© Arnaud Bertrande/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160321-gb" class="gb" title="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DyjandiFalls_EN-GB11486414068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160321-jp" class="jp" title="｢ディンヤンディ｣アイスランド (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DyjandiFalls_JA-JP11486414068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ディンヤンディ｣アイスランド (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160321-nz" class="nz" title="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BorneoRainforest_ROW10198412592_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160321-us" class="us" title="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BorneoRainforest_EN-US9662723436_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Danum Valley Conservation Area, Sabah, Malaysia (© Steve Bloom Images/Alamy) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>22</span>
+--
 		<a href="#20160322-au" class="au" title="A Holi festival in Washington DC, United States (© Devesh Tripathi/500px) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GermanyHoli_EN-AU10411544869_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A Holi festival in Washington DC, United States (© Devesh Tripathi/500px) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160322-ca" class="ca" title="People celebrating Holi festival in India (© Peter Zelei/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HoliIndia_EN-CA12833048261_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="People celebrating Holi festival in India (© Peter Zelei/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160322-cn" class="cn" title="华盛顿特区，胡里节 (© Devesh Tripathi/500px) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GermanyHoli_ZH-CN11395323110_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="华盛顿特区，胡里节 (© Devesh Tripathi/500px) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160322-de" class="de" title="Holi-Fest in Indien (© Peter Zelei/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HoliIndia_DE-DE12833048261_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Holi-Fest in Indien (© Peter Zelei/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160322-fr" class="fr" title="Personnes fêtant Holi en Inde (© Peter Zelei/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HoliIndia_FR-FR12833048261_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Personnes fêtant Holi en Inde (© Peter Zelei/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160322-gb" class="gb" title="People celebrating Holi festival in India (© Peter Zelei/Getty Images) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HoliIndia_EN-GB12833048261_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="People celebrating Holi festival in India (© Peter Zelei/Getty Images) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160322-jp" class="jp" title="｢ホーリー祭｣アメリカ, ワシントンD.C. (© Devesh Tripathi/500px) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GermanyHoli_JA-JP10411544869_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ホーリー祭｣アメリカ, ワシントンD.C. (© Devesh Tripathi/500px) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160322-nz" class="nz" title="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DyjandiFalls_ROW12809062901_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160322-us" class="us" title="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DyjandiFalls_EN-US11486414068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dynjandi Falls, Iceland (© Garret Suhrie/Tandem Stills + Motion) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>23</span>
+--
 		<a href="#20160323-au" class="au" title="Eurasian red squirrels in action (© Vadim Trunov/Solent News/REX Shutterstock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SquirrelBowl_EN-AU7428888781_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eurasian red squirrels in action (© Vadim Trunov/Solent News/REX Shutterstock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160323-ca" class="ca" title="Dawn over the Fox River at De Pere, Wisconsin (© James G Brey/Shutterstock) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FoxRiverWisc_EN-CA7674188307_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dawn over the Fox River at De Pere, Wisconsin (© James G Brey/Shutterstock) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160323-cn" class="cn" title="美国，威斯康星洲，德比尔，福克斯河上的黎明 (© James G Brey/Shutterstock) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FoxRiverWisc_ZH-CN7674188307_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="美国，威斯康星洲，德比尔，福克斯河上的黎明 (© James G Brey/Shutterstock) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160323-de" class="de" title="Dämmerung über dem Fox River, De Pere, Wisconsin, USA (© James G Brey/Shutterstock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FoxRiverWisc_DE-DE7674188307_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dämmerung über dem Fox River, De Pere, Wisconsin, USA (© James G Brey/Shutterstock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160323-fr" class="fr" title="Rivière Fox à l’aube à De Pere, Wisconsin, États-Unis (© James G Brey/Shutterstock) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FoxRiverWisc_FR-FR7674188307_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Rivière Fox à l’aube à De Pere, Wisconsin, États-Unis (© James G Brey/Shutterstock) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160323-gb" class="gb" title="Dawn over the Fox River at De Pere, Wisconsin (© James G Brey/Shutterstock) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FoxRiverWisc_EN-GB7674188307_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dawn over the Fox River at De Pere, Wisconsin (© James G Brey/Shutterstock) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160323-jp" class="jp" title="｢フォックス川｣アメリカ, ウィスコンシン州 (© James G Brey/Shutterstock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FoxRiverWisc_JA-JP7674188307_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢フォックス川｣アメリカ, ウィスコンシン州 (© James G Brey/Shutterstock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160323-nz" class="nz" title="Fish farm near the Sanguinary Islands, Corse du Sud, France (© Stephane Lemaire/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FishParkCorsica_ROW12248516218_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fish farm near the Sanguinary Islands, Corse du Sud, France (© Stephane Lemaire/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160323-us" class="us" title="Epupa Falls between Angola and Namibia (© Frank Tusch/plainpicture) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EpupaFalls_EN-US11540529493_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Epupa Falls between Angola and Namibia (© Frank Tusch/plainpicture) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>24</span>
+--
 		<a href="#20160324-au" class="au" title="Sunflowers at Windy Station farm in Quirindi, New South Wales, Australia (© Anthony Ginman/Moment/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WindyStation_EN-AU6346022625_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sunflowers at Windy Station farm in Quirindi, New South Wales, Australia (© Anthony Ginman/Moment/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160324-ca" class="ca" title="Morse nageant dans l'océan Arctique (© Fabrice Simon/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnderwaterWalrus_EN-CA9965183541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Morse nageant dans l'océan Arctique (© Fabrice Simon/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160324-cn" class="cn" title="北冰洋中游泳的海象 (© Fabrice Simon/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnderwaterWalrus_ZH-CN9352535771_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北冰洋中游泳的海象 (© Fabrice Simon/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160324-de" class="de" title="Walross im Arktischen Ozean (© Fabrice Simon/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnderwaterWalrus_DE-DE9965183541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Walross im Arktischen Ozean (© Fabrice Simon/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160324-fr" class="fr" title="Morse dans les eaux de l’océan Arctique (© Fabrice Simon/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnderwaterWalrus_FR-FR9965183541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Morse dans les eaux de l’océan Arctique (© Fabrice Simon/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160324-gb" class="gb" title="Walrus swimming in the Arctic Ocean (© Fabrice Simon/Corbis) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnderwaterWalrus_EN-GB9965183541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Walrus swimming in the Arctic Ocean (© Fabrice Simon/Corbis) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160324-jp" class="jp" title="｢泳ぐセイウチ｣北極海 (© Fabrice Simon/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnderwaterWalrus_JA-JP9965183541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢泳ぐセイウチ｣北極海 (© Fabrice Simon/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160324-nz" class="nz" title="Dawn over the Fox River at De Pere, Wisconsin (© James G Brey/Shutterstock) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FoxRiverWisc_ROW9367238919_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dawn over the Fox River at De Pere, Wisconsin (© James G Brey/Shutterstock) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160324-us" class="us" title="Dawn over the Fox River at De Pere, Wisconsin (© James G Brey/Shutterstock) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FoxRiverWisc_EN-US8778128592_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dawn over the Fox River at De Pere, Wisconsin (© James G Brey/Shutterstock) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>25</span>
+--
 		<a href="#20160325-au" class="au" title="San Juan de Gaztelugatxe, Bermeo, Basque Country, Spain (© Mimadeo/Shutterstock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gaztelugatxe_EN-AU10827076410_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="San Juan de Gaztelugatxe, Bermeo, Basque Country, Spain (© Mimadeo/Shutterstock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160325-ca" class="ca" title="Spotted Lake, near Osoyoos, B.C., Canada (© Michael Wheatley/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OsoyoosBC_EN-CA11979895340_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Spotted Lake, near Osoyoos, B.C., Canada (© Michael Wheatley/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160325-cn" class="cn" title="西班牙，巴斯克自治区，贝尔梅奥，圣胡安Gaztelugatxe (© Mimadeo/Shutterstock) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gaztelugatxe_ZH-CN11078922437_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="西班牙，巴斯克自治区，贝尔梅奥，圣胡安Gaztelugatxe (© Mimadeo/Shutterstock) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160325-de" class="de" title="Insel Gaztelugatxe, Bermeo, Provinz Bizkaia, Baskenland, Spanien (© Mimadeo/Shutterstock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gaztelugatxe_DE-DE10827076410_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Insel Gaztelugatxe, Bermeo, Provinz Bizkaia, Baskenland, Spanien (© Mimadeo/Shutterstock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160325-fr" class="fr" title="San Juan de Gaztelugatxe, Bermeo, Pays basque, Espagne (© Mimadeo/Shutterstock) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gaztelugatxe_FR-FR10827076410_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="San Juan de Gaztelugatxe, Bermeo, Pays basque, Espagne (© Mimadeo/Shutterstock) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160325-gb" class="gb" title="San Juan de Gaztelugatxe, Bermeo, Basque Country, Spain (© Mimadeo/Shutterstock) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gaztelugatxe_EN-GB10827076410_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="San Juan de Gaztelugatxe, Bermeo, Basque Country, Spain (© Mimadeo/Shutterstock) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160325-jp" class="jp" title="｢サン・フアン・デ・ガステルガチェ教会｣スペイン, バスク地方 (© Mimadeo/Shutterstock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gaztelugatxe_JA-JP10827076410_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢サン・フアン・デ・ガステルガチェ教会｣スペイン, バスク地方 (© Mimadeo/Shutterstock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160325-nz" class="nz" title="Walrus swimming in the Arctic Ocean (© Fabrice Simon/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnderwaterWalrus_ROW11091502516_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Walrus swimming in the Arctic Ocean (© Fabrice Simon/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160325-us" class="us" title="Walrus swimming in the Arctic Ocean (© Fabrice Simon/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnderwaterWalrus_EN-US9965183541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Walrus swimming in the Arctic Ocean (© Fabrice Simon/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>26</span>
+--
 		<a href="#20160326-au" class="au" title="Baby feral domestic rabbit, Okunoshima Island, Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RabbitIsland_EN-AU10146837863_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Baby feral domestic rabbit, Okunoshima Island, Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160326-ca" class="ca" title="Baby feral domestic rabbit, Ōkunoshima Island (aka Rabbit Island), Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RabbitIsland_EN-CA10146837863_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Baby feral domestic rabbit, Ōkunoshima Island (aka Rabbit Island), Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160326-cn" class="cn" title="日本广岛大久野岛（兔子岛）的小野兔 (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RabbitIsland_ZH-CN10320047201_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="日本广岛大久野岛（兔子岛）的小野兔 (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160326-de" class="de" title="Junges Kaninchen, Insel Ōkunoshima, Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RabbitIsland_DE-DE10146837863_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Junges Kaninchen, Insel Ōkunoshima, Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160326-fr" class="fr" title="Lapereau sauvage, île d’Ōkunoshima, Japon (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RabbitIsland_FR-FR10146837863_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lapereau sauvage, île d’Ōkunoshima, Japon (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160326-gb" class="gb" title="Baby feral domestic rabbit, Ōkunoshima Island (aka Rabbit Island), Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RabbitIsland_EN-GB10146837863_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Baby feral domestic rabbit, Ōkunoshima Island (aka Rabbit Island), Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160326-jp" class="jp" title="｢赤ちゃんウサギ｣広島, 大久野島 (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RabbitIsland_JA-JP10146837863_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢赤ちゃんウサギ｣広島, 大久野島 (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160326-nz" class="nz" title="San Juan de Gaztelugatxe, Bermeo, Basque Country, Spain (© Mimadeo/Shutterstock) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gaztelugatxe_ROW11844188073_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="San Juan de Gaztelugatxe, Bermeo, Basque Country, Spain (© Mimadeo/Shutterstock) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160326-us" class="us" title="San Juan de Gaztelugatxe, Bermeo, Basque Country, Spain (© Mimadeo/Shutterstock) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gaztelugatxe_EN-US10827076410_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="San Juan de Gaztelugatxe, Bermeo, Basque Country, Spain (© Mimadeo/Shutterstock) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>27</span>
+--
 		<a href="#20160327-au" class="au" title="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DallolEthiopia_EN-AU12291713842_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160327-ca" class="ca" title="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DallolEthiopia_EN-CA12291713842_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160327-cn" class="cn" title="埃塞俄比亚，宽干谷的温泉 (© Kazuyoshi Nomachi/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DallolEthiopia_ZH-CN11253814939_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="埃塞俄比亚，宽干谷的温泉 (© Kazuyoshi Nomachi/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160327-de" class="de" title="Tulpen, Baden-Baden, Baden-Württemberg, Deutschland (© Dautel/Alamy) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TulpenBadenBaden_DE-DE11612933427_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Tulpen, Baden-Baden, Baden-Württemberg, Deutschland (© Dautel/Alamy) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160327-fr" class="fr" title="Hospices de Beaune, Côte-d’Or, Bourgogne (© Arnaud Bertrande/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BeauneRoof_FR-FR8041412786_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hospices de Beaune, Côte-d’Or, Bourgogne (© Arnaud Bertrande/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160327-gb" class="gb" title="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DallolEthiopia_EN-GB12291713842_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160327-jp" class="jp" title="｢遠山桜｣熊本, あさぎり町 (© Aflo Relax/Masterfile) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KumamotoCherry_JA-JP6731186290_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢遠山桜｣熊本, あさぎり町 (© Aflo Relax/Masterfile) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160327-nz" class="nz" title="Baby feral domestic rabbit, Ōkunoshima Island (aka Rabbit Island), Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RabbitIsland_ROW12211684675_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Baby feral domestic rabbit, Ōkunoshima Island (aka Rabbit Island), Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160327-us" class="us" title="Baby feral domestic rabbit, Ōkunoshima Island (aka Rabbit Island), Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RabbitIsland_EN-US10146837863_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Baby feral domestic rabbit, Ōkunoshima Island (aka Rabbit Island), Hiroshima, Japan (© Yukihiro Fukuda/Minden Pictures) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>28</span>
+--
 		<a href="#20160328-au" class="au" title="Detail of the Messe Basel Exhibition Hall in Basel, Switzerland (© View Pictures/REX Shutterstock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MesseHall_EN-AU8032841463_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Detail of the Messe Basel Exhibition Hall in Basel, Switzerland (© View Pictures/REX Shutterstock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160328-ca" class="ca" title="Bucket colleting sap used for the production of maple syrup. (© AK2/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MapleSyrupSap_EN-CA10593668988_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bucket colleting sap used for the production of maple syrup. (© AK2/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160328-cn" class="cn" title="瑞士，巴塞尔会展中心的建筑局部 (© View Pictures/REX Shutterstock) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MesseHall_ZH-CN8032841463_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="瑞士，巴塞尔会展中心的建筑局部 (© View Pictures/REX Shutterstock) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160328-de" class="de" title="Detail der Event Halle der Messe Basel, Basel, Schweiz (© View Pictures/REX Shutterstock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MesseHall_DE-DE8032841463_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Detail der Event Halle der Messe Basel, Basel, Schweiz (© View Pictures/REX Shutterstock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160328-fr" class="fr" title="Détail du hall d’exposition Messe Basel à Bâle, Suisse (© View Pictures/REX Shutterstock) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MesseHall_FR-FR8032841463_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Détail du hall d’exposition Messe Basel à Bâle, Suisse (© View Pictures/REX Shutterstock) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160328-gb" class="gb" title="Detail of the Messe Basel Exhibition Hall in Basel, Switzerland (© View Pictures/REX Shutterstock) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MesseHall_EN-GB8032841463_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Detail of the Messe Basel Exhibition Hall in Basel, Switzerland (© View Pictures/REX Shutterstock) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160328-jp" class="jp" title="｢メッセ・バーゼル｣スイス, バーゼル (© View Pictures/REX Shutterstock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MesseHall_JA-JP8032841463_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢メッセ・バーゼル｣スイス, バーゼル (© View Pictures/REX Shutterstock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160328-nz" class="nz" title="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DallolEthiopia_ROW12783367286_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160328-us" class="us" title="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DallolEthiopia_EN-US12291713842_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot springs in Dallol, Ethiopia (© Kazuyoshi Nomachi/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>29</span>
+--
 		<a href="#20160329-au" class="au" title="West Bow street in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WestBow_EN-AU10962883176_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="West Bow street in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160329-ca" class="ca" title="West Bow street in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WestBow_EN-CA10962883176_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="West Bow street in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160329-cn" class="cn" title="苏格兰，爱丁堡，西弓街 (© Rory McDonald/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WestBow_ZH-CN11767628474_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="苏格兰，爱丁堡，西弓街 (© Rory McDonald/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160329-de" class="de" title="West Bow-Straße in Edinburgh, Schottland (© Rory McDonald/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WestBow_DE-DE10962883176_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="West Bow-Straße in Edinburgh, Schottland (© Rory McDonald/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160329-fr" class="fr" title="West Bow Street à Édimbourg, Écosse (© Rory McDonald/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WestBow_FR-FR10962883176_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="West Bow Street à Édimbourg, Écosse (© Rory McDonald/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160329-gb" class="gb" title="West Bow in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WestBow_EN-GB10962883176_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="West Bow in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160329-jp" class="jp" title="｢ウェスト・ボウ・ストリート｣イギリス, スコットランド (© Rory McDonald/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WestBow_JA-JP10962883176_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ウェスト・ボウ・ストリート｣イギリス, スコットランド (© Rory McDonald/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160329-nz" class="nz" title="Amethyst woodstar hummingbird  (© Jose Augusto Rondon Ribeiro/500px) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AmethystWoodstar_ROW11700468676_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Amethyst woodstar hummingbird  (© Jose Augusto Rondon Ribeiro/500px) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160329-us" class="us" title="Detail of the Messe Basel Exhibition Hall in Basel, Switzerland (© View Pictures/REX Shutterstock) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MesseHall_EN-US8032841463_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Detail of the Messe Basel Exhibition Hall in Basel, Switzerland (© View Pictures/REX Shutterstock) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>30</span>
+--
 		<a href="#20160330-au" class="au" title="White Pocket in the Vermilion Cliffs National Monument, Arizona (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePocket_EN-AU11956274200_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pocket in the Vermilion Cliffs National Monument, Arizona (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160330-ca" class="ca" title="White Pocket in the Vermilion Cliffs National Monument, Arizona (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePocket_EN-CA11956274200_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pocket in the Vermilion Cliffs National Monument, Arizona (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160330-cn" class="cn" title="亚利桑那州朱红悬崖的白窠地貌 (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePocket_ZH-CN12539562230_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="亚利桑那州朱红悬崖的白窠地貌 (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160330-de" class="de" title="White Pocket im Vermilion Cliffs National Monument, Arizona, USA (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePocket_DE-DE11956274200_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pocket im Vermilion Cliffs National Monument, Arizona, USA (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160330-fr" class="fr" title="White Pocket dans le Monument national de Vermilion Cliffs, Arizona, États-Unis (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePocket_FR-FR11956274200_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pocket dans le Monument national de Vermilion Cliffs, Arizona, États-Unis (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160330-gb" class="gb" title="Sunrise over The Cobb, Lyme Regis, Dorset (© Adam Burton/robertharding/Getty Images) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LymeRegis_EN-GB11187448689_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sunrise over The Cobb, Lyme Regis, Dorset (© Adam Burton/robertharding/Getty Images) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160330-jp" class="jp" title="｢ホワイトポケット｣アメリカ, アリゾナ (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePocket_JA-JP11956274200_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ホワイトポケット｣アメリカ, アリゾナ (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160330-nz" class="nz" title="West Bow Street in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WestBow_ROW12007933071_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="West Bow Street in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160330-us" class="us" title="West Bow, a street in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WestBow_EN-US10962883176_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="West Bow, a street in Edinburgh, Scotland (© Rory McDonald/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>31</span>
+--
 		<a href="#20160331-au" class="au" title="Puffins (© Nicram Sabod/Shutterstock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PuffinRock_EN-AU10023355790_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Puffins (© Nicram Sabod/Shutterstock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160331-ca" class="ca" title="Puffins (© Nicram Sabod/Shutterstock) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PuffinRock_EN-CA10023355790_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Puffins (© Nicram Sabod/Shutterstock) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160331-cn" class="cn" title="海鹦 (© Nicram Sabod/Shutterstock) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PuffinRock_ZH-CN8849180279_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="海鹦 (© Nicram Sabod/Shutterstock) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160331-de" class="de" title="Papageitaucher (© Nicram Sabod/Shutterstock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PuffinRock_DE-DE10023355790_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Papageitaucher (© Nicram Sabod/Shutterstock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160331-fr" class="fr" title="Macareux moines (© Nicram Sabod/Shutterstock) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PuffinRock_FR-FR10023355790_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Macareux moines (© Nicram Sabod/Shutterstock) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160331-gb" class="gb" title="Puffins (© Nicram Sabod/Shutterstock) &copy; (Bing United Kingdom)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PuffinRock_EN-GB10023355790_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Puffins (© Nicram Sabod/Shutterstock) &copy; (Bing United Kingdom)" />
-			<img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160331-jp" class="jp" title="｢パフィンMix｣ (© Nicram Sabod/Shutterstock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PuffinRock_JA-JP10023355790_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢パフィンMix｣ (© Nicram Sabod/Shutterstock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160331-nz" class="nz" title="White Pocket in the Vermilion Cliffs National Monument, Arizona (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePocket_ROW13618512970_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pocket in the Vermilion Cliffs National Monument, Arizona (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20160331-us" class="us" title="White Pocket in the Vermilion Cliffs National Monument, Arizona (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePocket_EN-US11956274200_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pocket in the Vermilion Cliffs National Monument, Arizona (© Harun Mehmedinovic/Tandem Stills + Motion) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td></td><td></td></tr>
-</table>
-    <div class="ad">
-      <script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x90, created 8/4/09 */
-google_ad_slot = "6880081602";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-      <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
-<div class="clear"></div>
-<div class="footer">
-  <div class="wrapper">
-    <p>Brought to you by Long Zheng at <a href="http://www.istartedsomething.com">www.istartedsomething.com</a></p>
-    <p>Images are copyright to their respective owners. <a href="http://www.bing.com">Bing</a> is a (funny) trademark of Microsoft Corporation. Some icons are by The Noun Project (Creative Commons).</p>
-  </div>
-</div>
-<div id="imageview">
-  <div class="loading"><img src="style/images/ajax-loader.gif" /> </div>
-  <div class="viewer">
-    <p class="image"><img src="" /></p>
-    <div class="video">
-    </div>
-    <p class="desc"></p>
-    <div class="facts">
-      <ul>
-      </ul>
-      <div class="clear"></div>
-    </div>
-    <div class="buttons">
-        <div class="viewerad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2619236561011065";
-			/* Viewer ad */
-			google_ad_slot = "3707022863";
-			google_ad_width = 728;
-			google_ad_height = 15;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
-        </div>
-        <div class="videobuttons">
-            <a href="#" class="showvideo">Switch to video version</a>
-            <a href="#" class="hidevideo">Switch to image version</a>
-        </div>
-        <a href="#" class="close">Close</a>
-    </div>
-  </div>
-</div>
-<!-- Start of StatCounter Code -->
-<script type="text/javascript">
-var sc_project=4814143; 
-var sc_invisible=1; 
-var sc_partition=54; 
-var sc_click_stat=1; 
-var sc_security="9418942d"; 
-</script>
-<script type="text/javascript"
-src="http://www.statcounter.com/counter/counter.js"></script>
-<noscript>
-<div class="statcounter"><a title="free hit counters" href="http://www.statcounter.com/" target="_blank">
-<img class="statcounter" src="http://c.statcounter.com/4814143/0/9418942d/1/" alt="free hit counters" ></a></div>
-</noscript>
-<!-- End of StatCounter Code -->
-</body>
-</html>

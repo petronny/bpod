@@ -1,1216 +1,755 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Bing Image Archive</title>
-<meta name="description" content="Collection of the latest homepage background images from Bing.com">
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
-<link href="style/css.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.blockUI.js"></script>
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.08122.js"></script>
-<script type="text/javascript" src="js/bingimages.js"></script>
-<link href="http://feeds.feedburner.com/bingimages" type="application/rss+xml" rel="alternate" title="Bing Image Archive RSS Feed" />
-</head>
-<body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-182613-10', 'istartedsomething.com');
-  ga('send', 'pageview');
-
-</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=168868916648885";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- precache black background --><img src="style/images/black-95.png" style="display:none;" />
-<div class="sharebar">
-<div class="wrapper">
-<div class="fb-like" data-href="http://www.istartedsomething.com/bingimages/" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.istartedsomething.com/bingimages/" data-text="Bing Image Archive - latest homepage images from Bing">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
-</div>
-<div class="header">
-  <div class="wrapper">
-    <h1><a href="http://www.istartedsomething.com/bingimages/">Bing Image Archive</a></h1>
-    <h2>Showcasing the backgrounds from the frontpage of Bing</h2>
-  </div>
-</div>
-<div class="content">
-  <div class="wrapper">
-    <ul class="countries">
-            <li>
-        <input type="checkbox" checked="checked" name="countryfilter[]" value="us" id="us"/>
-        <label for="us"> <img src="flags/us.gif" alt="United States" title="United States" /> <span>United States</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="gb" id="gb"/>
-        <label for="gb"> <img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" /> <span>United Kingdom</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="au" id="au"/>
-        <label for="au"> <img src="flags/au.gif" alt="Australia" title="Australia" /> <span>Australia</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="jp" id="jp"/>
-        <label for="jp"> <img src="flags/jp.gif" alt="Japan" title="Japan" /> <span>Japan</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="cn" id="cn"/>
-        <label for="cn"> <img src="flags/cn.gif" alt="China" title="China" /> <span>China</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="nz" id="nz"/>
-        <label for="nz"> <img src="flags/nz.gif" alt="New Zealand" title="New Zealand" /> <span>New Zealand</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="de" id="de"/>
-        <label for="de"> <img src="flags/de.gif" alt="Germany" title="Germany" /> <span>Germany</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="ca" id="ca"/>
-        <label for="ca"> <img src="flags/ca.gif" alt="Canada" title="Canada" /> <span>Canada</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="fr" id="fr"/>
-        <label for="fr"> <img src="flags/fr.gif" alt="France" title="France" /> <span>France</span> </label>
-      </li>
-          </ul>
-    <div class="clear"></div>
-
-<div class="ad_small">
-<script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x15, created 6/26/09 */
-google_ad_slot = "2476437438";
-google_ad_width = 728;
-google_ad_height = 15;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-
-<div class="clear"></div>
-    <ul class="month">
-            <li class="month_prev">
-        <p><a href="?m=1&y=2014">Previous month</a></p>
-      </li>
-      <li class="month_current">
-        <h3>February 2014</h3>
-      </li>
-      <li class="month_next">
-        <p><a href="?m=3&y=2014">Next month</a></p>
-      </li>
-    </ul>
-    <div class="clear"></div>
-    <table class='calendar'>
-	<thead>
-				<th>Sunday</th>
-				<th>Monday</th>
-				<th>Tuesday</th>
-				<th>Wednesday</th>
-				<th>Thursday</th>
-				<th>Friday</th>
-				<th>Saturday</th>
-			</thead>
-	<tr><td></td><td></td><td></td><td></td><td></td><td></td><td class='dated'><span class='day'>1</span>
 		<a href="#20140201-au" class="au" title="Yellow-bellied marmot in Yellowstone National Park, Wyoming (© George Sanker/Minden Pictures) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YellowBelliedMarmot_EN-AU10878358761_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yellow-bellied marmot in Yellowstone National Park, Wyoming (© George Sanker/Minden Pictures) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140201-ca" class="ca" title="Yellow-bellied marmot in Yellowstone National Park, Wyoming (© George Sanker/Minden Pictures) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YellowBelliedMarmot_EN-CA10878358761_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yellow-bellied marmot in Yellowstone National Park, Wyoming (© George Sanker/Minden Pictures) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140201-cn" class="cn" title="传统剪纸“福”字 (© eastphoto/Flickr Open/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ChinesePaperCut_ZH-CN9728802425_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="传统剪纸“福”字 (© eastphoto/Flickr Open/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140201-de" class="de" title="Gelbbäuchiges Murmeltier im Yellowstone-Nationalpark, Wyoming, USA (© George Sanker/Minden Pictures) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YellowBelliedMarmot_DE-DE10878358761_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gelbbäuchiges Murmeltier im Yellowstone-Nationalpark, Wyoming, USA (© George Sanker/Minden Pictures) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140201-fr" class="fr" title="Marmotte à ventre jaune dans le parc national de Yellowstone, Wyoming, États-Unis (© George Sanker/Minden Pictures) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YellowBelliedMarmot_FR-FR10878358761_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Marmotte à ventre jaune dans le parc national de Yellowstone, Wyoming, États-Unis (© George Sanker/Minden Pictures) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140201-jp" class="jp" title="｢キバラマーモット｣アメリカ, ワイオミング州, イエローストーン国立公園 (© George Sanker/Minden Pictures) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YellowBelliedMarmot_JA-JP10878358761_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢キバラマーモット｣アメリカ, ワイオミング州, イエローストーン国立公園 (© George Sanker/Minden Pictures) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140201-nz" class="nz" title="Favites Coral polyps feeding at night and fluorescing when illuminated by ultraviolet light, Sabah, Borneo, Malaysia (© Louise Murray/Visuals Unlimited, Inc.) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FavitesCoral_ROW14176860514_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Favites Coral polyps feeding at night and fluorescing when illuminated by ultraviolet light, Sabah, Borneo, Malaysia (© Louise Murray/Visuals Unlimited, Inc.) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140201-uk" class="uk" title="Favites Coral polyps feeding at night and fluorescing when illuminated by ultraviolet light, Sabah, Borneo, Malaysia (© Louise Murray/Visuals Unlimited, Inc.) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FavitesCoral_EN-GB11926605673_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Favites Coral polyps feeding at night and fluorescing when illuminated by ultraviolet light, Sabah, Borneo, Malaysia (© Louise Murray/Visuals Unlimited, Inc.) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140201-us" class="us" title="Favites coral polyps feeding at night and fluorescing when illuminated by ultraviolet light, Sabah, Borneo, Malaysia (© Louise Murray/Visuals Unlimited, Inc.) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FavitesCoral_EN-US13859164966_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Favites coral polyps feeding at night and fluorescing when illuminated by ultraviolet light, Sabah, Borneo, Malaysia (© Louise Murray/Visuals Unlimited, Inc.) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>2</span>
+--
 		<a href="#20140202-au" class="au" title="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StralsundCityHall_EN-AU5892218375_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140202-ca" class="ca" title="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StralsundCityHall_EN-CA5892218375_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140202-cn" class="cn" title="中国吉祥装饰品，荷包 (© Cheryl Chan/Flickr Open/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ChineseLuckOrnament_ZH-CN8196463860_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="中国吉祥装饰品，荷包 (© Cheryl Chan/Flickr Open/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140202-de" class="de" title="Das Stralsunder Rathaus spiegelt sich in einer Regenpfütze, Stralsund, Mecklenburg-Vorpommern, Deutschland (© Nico Stengert/Novarc/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StralsundCityHall_DE-DE5892218375_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Das Stralsunder Rathaus spiegelt sich in einer Regenpfütze, Stralsund, Mecklenburg-Vorpommern, Deutschland (© Nico Stengert/Novarc/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140202-fr" class="fr" title="Hôtel de ville de Stralsund se reflétant dans une flaque, Mecklembourg-Poméranie-Occidentale, Allemagne (© Nico Stengert/Novarc/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StralsundCityHall_FR-FR5892218375_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hôtel de ville de Stralsund se reflétant dans une flaque, Mecklembourg-Poméranie-Occidentale, Allemagne (© Nico Stengert/Novarc/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140202-jp" class="jp" title="｢水に映る市庁舎｣ドイツ, シュトラールズント (© Nico Stengert/Novarc/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StralsundCityHall_JA-JP5892218375_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢水に映る市庁舎｣ドイツ, シュトラールズント (© Nico Stengert/Novarc/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140202-nz" class="nz" title="Yellow-bellied marmot in Yellowstone National Park, Wyoming (© George Sanker/Minden Pictures) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YellowBelliedMarmot_ROW12441059718_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yellow-bellied marmot in Yellowstone National Park, Wyoming (© George Sanker/Minden Pictures) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140202-uk" class="uk" title="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StralsundCityHall_EN-GB5892218375_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140202-us" class="us" title="Yellow-bellied marmot in Yellowstone National Park, Wyoming (© George Sanker/Minden Pictures) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YellowBelliedMarmot_EN-US11058635721_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yellow-bellied marmot in Yellowstone National Park, Wyoming (© George Sanker/Minden Pictures) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>3</span>
+--
 		<a href="#20140203-au" class="au" title="Ice flows on Hudson Bay, Churchill, Manitoba (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSky_EN-AU9023749021_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice flows on Hudson Bay, Churchill, Manitoba (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140203-ca" class="ca" title="Quebec Winter Carnival, Ice Palace of Bonhomme Carnaval, Quebec City (© RENAULT Philippe/hemis/age fotostock) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceCarnival_EN-CA8789131034_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Quebec Winter Carnival, Ice Palace of Bonhomme Carnaval, Quebec City (© RENAULT Philippe/hemis/age fotostock) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140203-cn" class="cn" title="国家体育场上空的焰火 (© Kevin Zen/Alamy) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TheNationalStadium_ZH-CN11094613140_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="国家体育场上空的焰火 (© Kevin Zen/Alamy) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140203-de" class="de" title="Treibeis in der Hudson Bay bei Churchill, Provinz Manitoba, Kanada (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSky_DE-DE9023749021_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Treibeis in der Hudson Bay bei Churchill, Provinz Manitoba, Kanada (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140203-fr" class="fr" title="Héron cendré sous la neige à Brognard, Doubs, Franche-Comté (© Dominique Delfino/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GreyHeronSnow_FR-FR7185765407_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Héron cendré sous la neige à Brognard, Doubs, Franche-Comté (© Dominique Delfino/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140203-jp" class="jp" title="｢北野天満宮｣京都, 上京区 (© Shin Terada/DanitaDelimont.com) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PlumLantan_JA-JP10420757595_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢北野天満宮｣京都, 上京区 (© Shin Terada/DanitaDelimont.com) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140203-nz" class="nz" title="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StralsundCityHall_ROW8019013446_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140203-uk" class="uk" title="Ice flows on Hudson Bay, Churchill, Manitoba (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSky_EN-GB9023749021_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice flows on Hudson Bay, Churchill, Manitoba (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140203-us" class="us" title="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StralsundCityHall_EN-US5892218375_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Reflection of City Hall, Stralsund, Germany (© Nico Stengert/Novarc/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>4</span>
+--
 		<a href="#20140204-au" class="au" title="Ice sculptures at Sapporo Winter Festival, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceAnimalsSapporo_EN-AU11335172986_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice sculptures at Sapporo Winter Festival, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140204-ca" class="ca" title="Ice sculptures at Sapporo Winter Festival, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceAnimalsSapporo_EN-CA11335172986_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice sculptures at Sapporo Winter Festival, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140204-cn" class="cn" title="云海，太阳下山时爬上3600米的牛背山拍摄贡嘎山 (© 4X-image/E+/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SeaClouds_ZH-CN10205973729_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="云海，太阳下山时爬上3600米的牛背山拍摄贡嘎山 (© 4X-image/E+/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140204-de" class="de" title="Eisskulpturen auf dem Sapporo Snow Festival, Sapporo, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceAnimalsSapporo_DE-DE11335172986_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eisskulpturen auf dem Sapporo Snow Festival, Sapporo, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140204-fr" class="fr" title="Sculptures de glace au Festival de la neige de Sapporo, Hokkaidō, Japon (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceAnimalsSapporo_FR-FR11335172986_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sculptures de glace au Festival de la neige de Sapporo, Hokkaidō, Japon (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140204-jp" class="jp" title="｢さっぽろ雪まつり｣北海道, 札幌 (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceAnimalsSapporo_JA-JP11335172986_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢さっぽろ雪まつり｣北海道, 札幌 (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140204-nz" class="nz" title="Ice flows on Hudson Bay, Churchill, Manitoba, Canada (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSky_ROW10396293089_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice flows on Hudson Bay, Churchill, Manitoba, Canada (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140204-uk" class="uk" title="Ice sculptures at Sapporo Winter Festival, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceAnimalsSapporo_EN-GB11335172986_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice sculptures at Sapporo Winter Festival, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140204-us" class="us" title="Le Morne Brabant mountain and islet, Mauritius (© Ocean/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MauritiusLagoon_EN-US9434526215_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Le Morne Brabant mountain and islet, Mauritius (© Ocean/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>5</span>
+--
 		<a href="#20140205-au" class="au" title="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wildebeests_EN-AU9571632470_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140205-ca" class="ca" title="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wildebeests_EN-CA9571632470_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140205-cn" class="cn" title="哈尔滨冰雪世界 (© Redlink/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceSnowWorldHarbin_ZH-CN8262810950_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="哈尔滨冰雪世界 (© Redlink/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140205-de" class="de" title="Innsbruck, Österreich (© Tommaso Di Girolamo/age fotostock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Innsbruck_DE-DE6557190810_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Innsbruck, Österreich (© Tommaso Di Girolamo/age fotostock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140205-fr" class="fr" title="Gnous bleus dans les plaines de Musabi, parc national du Serengeti, Tanzanie (© Adrian Bailey/Aurora) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wildebeests_FR-FR9571632470_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gnous bleus dans les plaines de Musabi, parc national du Serengeti, Tanzanie (© Adrian Bailey/Aurora) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140205-jp" class="jp" title="｢ハドソン湾の氷｣カナダ, マニトバ州 (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSky_JA-JP9023749021_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ハドソン湾の氷｣カナダ, マニトバ州 (© Mike Grandmaison/All Canada Photos/SuperStock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140205-nz" class="nz" title="The famous flowerpots, eroded limestone formations, located on the shoreline of Flowerpot Island, Georgian Bay, in Fathom Five National Marine Park, Ontario (© Ethan Meleg/All Canada Photos/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OntarioStacks_ROW9701432817_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The famous flowerpots, eroded limestone formations, located on the shoreline of Flowerpot Island, Georgian Bay, in Fathom Five National Marine Park, Ontario (© Ethan Meleg/All Canada Photos/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140205-uk" class="uk" title="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wildebeests_EN-GB9571632470_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140205-us" class="us" title="Ice sculptures at Sapporo Winter Festival, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceAnimalsSapporo_EN-US11335172986_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice sculptures at Sapporo Winter Festival, Japan (© Shayne Hill Xtreme Visuals/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>6</span>
+--
 		<a href="#20140206-au" class="au" title="Iceberg Skating Palace, Sochi, Russia (© Lebedev Artur/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSkatingPalace_EN-AU7954715312_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Iceberg Skating Palace, Sochi, Russia (© Lebedev Artur/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140206-ca" class="ca" title="Iceberg Skating Palace, Sochi, Russia (© Lebedev Artur/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSkatingPalace_EN-CA7954715312_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Iceberg Skating Palace, Sochi, Russia (© Lebedev Artur/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140206-cn" class="cn" title="俄罗斯索契，冰山滑冰宫 (© Lebedev Artur/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSkatingPalace_ZH-CN7954715312_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="俄罗斯索契，冰山滑冰宫 (© Lebedev Artur/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140206-de" class="de" title="Eisberg Eislaufpalast, Sotschi, Russland (© Lebedev Artur/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSkatingPalace_DE-DE7954715312_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eisberg Eislaufpalast, Sotschi, Russland (© Lebedev Artur/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140206-fr" class="fr" title="Centre de patinage artistique Iceberg à Sotchi, Nord-Caucase, Russie (© Lebedev Artur/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSkatingPalace_FR-FR7954715312_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Centre de patinage artistique Iceberg à Sotchi, Nord-Caucase, Russie (© Lebedev Artur/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140206-jp" class="jp" title="｢アイスバーグ・スケートパレス｣ロシア,　ソチ (© Lebedev Artur/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSkatingPalace_JA-JP7954715312_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アイスバーグ・スケートパレス｣ロシア,　ソチ (© Lebedev Artur/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140206-nz" class="nz" title="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wildebeests_ROW11014917495_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140206-uk" class="uk" title="Iceberg Skating Palace, Sochi, Russia (© Lebedev Artur/Corbis) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSkatingPalace_EN-GB7954715312_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Iceberg Skating Palace, Sochi, Russia (© Lebedev Artur/Corbis) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140206-us" class="us" title="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Wildebeests_EN-US10367297743_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue wildebeests on the Musabi Plains in the Serengeti National Park, Tanzania (© Adrian Bailey/Aurora) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>7</span>
+--
 		<a href="#20140207-au" class="au" title="Two Grey herons (Ardea cinerea) squabbling over fish, River Tame, Stockport, Greater Manchester (© Terry Whittaker/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StockportHerons_EN-AU13073412442_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Two Grey herons (Ardea cinerea) squabbling over fish, River Tame, Stockport, Greater Manchester (© Terry Whittaker/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140207-ca" class="ca" title="Two Grey herons (Ardea cinerea) squabbling over fish, River Tame, Stockport, Greater Manchester (© Terry Whittaker/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StockportHerons_EN-CA13073412442_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Two Grey herons (Ardea cinerea) squabbling over fish, River Tame, Stockport, Greater Manchester (© Terry Whittaker/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140207-cn" class="cn" title="大曼彻斯特郡斯托克波特市，泰姆河上两只为鱼相争的苍鹭 (© Terry Whittaker/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StockportHerons_ZH-CN13214220780_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="大曼彻斯特郡斯托克波特市，泰姆河上两只为鱼相争的苍鹭 (© Terry Whittaker/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140207-de" class="de" title="Hahnenschweifwida-Männchen im Brutkleid, Marievale Bird Sanctuary, Südafrika (© Richard Du Toit/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LongTailedWidow_DE-DE8923636564_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hahnenschweifwida-Männchen im Brutkleid, Marievale Bird Sanctuary, Südafrika (© Richard Du Toit/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140207-fr" class="fr" title="Golden larches et Prusik Peak se reflétant dans le Troll Sink Tarn, Alpine Lakes Wilderness, État de Washington, États-Unis (© Karen Crowe/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GoldenLarches_FR-FR9174297114_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Golden larches et Prusik Peak se reflétant dans le Troll Sink Tarn, Alpine Lakes Wilderness, État de Washington, États-Unis (© Karen Crowe/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140207-jp" class="jp" title="｢アオサギのケンカ｣イギリス, グレーター・マンチェスター (© Terry Whittaker/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StockportHerons_JA-JP13073412442_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アオサギのケンカ｣イギリス, グレーター・マンチェスター (© Terry Whittaker/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140207-nz" class="nz" title="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaucasusMountains_ROW15036540706_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140207-uk" class="uk" title="Kurobe dam, Kurobe Lake, Tateyama, Toyama, Japan (© JTB Photo Communications, Inc./age fotostock) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KurobeDam_EN-GB13641588717_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kurobe dam, Kurobe Lake, Tateyama, Toyama, Japan (© JTB Photo Communications, Inc./age fotostock) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140207-us" class="us" title="Iceberg Skating Palace, Sochi, Russia (© Lebedev Artur/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergSkatingPalace_EN-US7954715312_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Iceberg Skating Palace, Sochi, Russia (© Lebedev Artur/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>8</span>
+--
 		<a href="#20140208-au" class="au" title="The Beatles depicted on a metal gate on Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PennyLaneGate_EN-AU7605484462_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Beatles depicted on a metal gate on Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140208-ca" class="ca" title="The Beatles depicted on a metal gate on Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PennyLaneGate_EN-CA7605484462_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Beatles depicted on a metal gate on Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140208-cn" class="cn" title="英格兰利物浦，便士小巷临街铁门上所展示的披头士 (© Chris Brink/SuperStock) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PennyLaneGate_ZH-CN7605484462_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="英格兰利物浦，便士小巷临街铁门上所展示的披头士 (© Chris Brink/SuperStock) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140208-de" class="de" title="Abbild der Beatles auf einem Metalltor in der Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PennyLaneGate_DE-DE7605484462_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Abbild der Beatles auf einem Metalltor in der Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140208-fr" class="fr" title="Les Beatles sur un portail de Penny Lane, Liverpool, Royaume-Uni (© Chris Brink/SuperStock) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PennyLaneGate_FR-FR7605484462_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Les Beatles sur un portail de Penny Lane, Liverpool, Royaume-Uni (© Chris Brink/SuperStock) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140208-jp" class="jp" title="｢ペニー・レインの門｣イギリス, リバプール (© Chris Brink/SuperStock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PennyLaneGate_JA-JP7605484462_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ペニー・レインの門｣イギリス, リバプール (© Chris Brink/SuperStock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140208-nz" class="nz" title="Two Grey herons (Ardea cinerea) squabbling over fish, River Tame, Stockport, Greater Manchester (© Terry Whittaker/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StockportHerons_ROW14624942599_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Two Grey herons (Ardea cinerea) squabbling over fish, River Tame, Stockport, Greater Manchester (© Terry Whittaker/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140208-uk" class="uk" title="The Beatles depicted on a metal gate on Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PennyLaneGate_EN-GB7605484462_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Beatles depicted on a metal gate on Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140208-us" class="us" title="Tuatara on North Brother Island, New Zealand (© Frans Lanting/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tuatara_EN-US11284133680_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Tuatara on North Brother Island, New Zealand (© Frans Lanting/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>9</span>
+--
 		<a href="#20140209-au" class="au" title="The Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EngadinMarathon_EN-AU8306638775_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140209-ca" class="ca" title="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StLawrenceHarpSeal_EN-CA7609042004_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140209-cn" class="cn" title="日本飞鸟区 (© Yamaguchi/Flickr Open/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AutumnScenery_ZH-CN13757549507_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="日本飞鸟区 (© Yamaguchi/Flickr Open/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140209-de" class="de" title="Der Engadin-Skimarathon im Oberengadin, Graubünden, Schweiz (© Stephan Zirwes/Gallery Stock) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EngadinMarathon_DE-DE8306638775_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Der Engadin-Skimarathon im Oberengadin, Graubünden, Schweiz (© Stephan Zirwes/Gallery Stock) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140209-fr" class="fr" title="Engadin Skimarathon dans la région d’Engadine, Suisse (© Stephan Zirwes/Gallery Stock) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EngadinMarathon_FR-FR8306638775_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Engadin Skimarathon dans la région d’Engadine, Suisse (© Stephan Zirwes/Gallery Stock) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140209-jp" class="jp" title="｢エンガディン・スキーマラソン｣スイス, サン・モリッツ (© Stephan Zirwes/Gallery Stock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EngadinMarathon_JA-JP8306638775_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢エンガディン・スキーマラソン｣スイス, サン・モリッツ (© Stephan Zirwes/Gallery Stock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140209-nz" class="nz" title="Close-up of a red stag in the Scottish Highlands (© gmsphotography/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ScotlandStag_ROW14410693019_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Close-up of a red stag in the Scottish Highlands (© gmsphotography/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140209-uk" class="uk" title="The Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EngadinMarathon_EN-GB8306638775_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140209-us" class="us" title="The Beatles depicted on a metal gate on Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PennyLaneGate_EN-US7605484462_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Beatles depicted on a metal gate on Penny Lane, Liverpool, England (© Chris Brink/SuperStock) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>10</span>
+--
 		<a href="#20140210-au" class="au" title="Ice in Jökulsarlon, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcelandIceberg_EN-AU9478251333_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice in Jökulsarlon, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140210-ca" class="ca" title="Canada's Charles Hamelin (L) celebrates after winning the gold medal in the Men's Short Track 1500 m Final at the Iceberg Skating Palace during the Sochi Winter Olympics on February 10, 2014  (© Yuri Kadobnov/AFP/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CharlesHamelin_EN-CA8055677539_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Canada's Charles Hamelin (L) celebrates after winning the gold medal in the Men's Short Track 1500 m Final at the Iceberg Skating Palace during the Sochi Winter Olympics on February 10, 2014  (© Yuri Kadobnov/AFP/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140210-cn" class="cn" title="位于冰岛东南部的冰川泻湖 (© Matteo Colombo/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcelandIceberg_ZH-CN9478251333_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="位于冰岛东南部的冰川泻湖 (© Matteo Colombo/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140210-de" class="de" title="Maria Höfl-Riesch während der Super-Kombination auf der Piste von Rosa Chutor bei den Olympischen Winterspielen 2014 in Sotschi am 10. Februar 2014. (© Olivier Morin/AFP/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OlympiaRiesch_DE-DE12225869964_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Maria Höfl-Riesch während der Super-Kombination auf der Piste von Rosa Chutor bei den Olympischen Winterspielen 2014 in Sotschi am 10. Februar 2014. (© Olivier Morin/AFP/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140210-fr" class="fr" title="Le médaillé d’or Martin Fourcade et le médaillé de bronze Jean-Guillaume Béatrix fêtent leur victoire à l’épreuve de biathlon 12,5 km poursuite messieurs, le 10 février 2014, complexe de ski de fond et de biathlon Laura à Krasnaïa Poliana, Jeux Olympiques &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FourcadeBeatrix_FR-FR7307311083_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Le médaillé d’or Martin Fourcade et le médaillé de bronze Jean-Guillaume Béatrix fêtent leur victoire à l’épreuve de biathlon 12,5 km poursuite messieurs, le 10 février 2014, complexe de ski de fond et de biathlon Laura à Krasnaïa Poliana, Jeux Olympiques &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140210-jp" class="jp" title="｢ヨークルスアゥルロゥン｣アイスランド (© Matteo Colombo/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcelandIceberg_JA-JP9478251333_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ヨークルスアゥルロゥン｣アイスランド (© Matteo Colombo/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140210-nz" class="nz" title="Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EngadinMarathon_ROW10294573649_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140210-uk" class="uk" title="Ice in Jökulsarlon, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcelandIceberg_EN-GB9478251333_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice in Jökulsarlon, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140210-us" class="us" title="Ice in Jökulsárlón, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcelandIceberg_EN-US9478251333_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice in Jökulsárlón, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>11</span>
+--
 		<a href="#20140211-au" class="au" title="Kurobe dam, Kurobe Lake, Tateyama, Toyama, Japan (© JTB Photo Communications, Inc./age fotostock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KurobeDam_EN-AU13641588717_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kurobe dam, Kurobe Lake, Tateyama, Toyama, Japan (© JTB Photo Communications, Inc./age fotostock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140211-ca" class="ca" title="Ice in Jökulsarlon, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcelandIceberg_EN-CA9478251333_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice in Jökulsarlon, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140211-cn" class="cn" title="怀俄明州黄石国家公园中的黄腹土拨鼠 (© George Sanker/Minden Pictures) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YellowBelliedMarmot_ZH-CN12260782758_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="怀俄明州黄石国家公园中的黄腹土拨鼠 (© George Sanker/Minden Pictures) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140211-de" class="de" title="Gletschersee Jökulsárlón, südöstliches Island (© Matteo Colombo/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcelandIceberg_DE-DE9478251333_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gletschersee Jökulsárlón, südöstliches Island (© Matteo Colombo/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140211-fr" class="fr" title="Barrage de Kurobe, Japon (© JTB Photo Communications, Inc./age fotostock) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KurobeDam_FR-FR13641588717_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Barrage de Kurobe, Japon (© JTB Photo Communications, Inc./age fotostock) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140211-jp" class="jp" title="｢東京ゲートブリッジ｣東京, 東京港 (© amanaimages/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TokyoGateBridge_JA-JP11229122683_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢東京ゲートブリッジ｣東京, 東京港 (© amanaimages/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140211-nz" class="nz" title="Ice in Jökulsarlon, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcelandIceberg_ROW12052384830_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice in Jökulsarlon, a glacier lagoon in southeast Iceland (© Matteo Colombo/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140211-uk" class="uk" title="Charles Darwin statue and Spring blossom Shrewsbury, Shropshire (© mikehaywardcollection.com/Alamy) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DarwinShrewsbury_EN-GB11401516790_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Charles Darwin statue and Spring blossom Shrewsbury, Shropshire (© mikehaywardcollection.com/Alamy) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140211-us" class="us" title="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StLawrenceHarpSeal_EN-US9755130183_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>12</span>
+--
 		<a href="#20140212-au" class="au" title="Asuka, Japan (© Yamaguchi/Flickr Open/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AutumnScenery_EN-AU11702744016_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Asuka, Japan (© Yamaguchi/Flickr Open/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140212-ca" class="ca" title="Ice sculptures, Place Loto-Quebec, Winter Carnival, Quebec City, Quebec, Canada (© Barrett & MacKay/All Canada Photos/age fotostock) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CastleIce_EN-CA10598049884_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice sculptures, Place Loto-Quebec, Winter Carnival, Quebec City, Quebec, Canada (© Barrett & MacKay/All Canada Photos/age fotostock) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140212-cn" class="cn" title="元宵 (© View Stock/Alamy) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RiceDumpling_ZH-CN9562951306_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="元宵 (© View Stock/Alamy) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140212-de" class="de" title="Das deutsche Team versammelt sich vor Beginn des Frauen-Eishockey-Spiels in der Gruppe B Russland gegen Deutschland in der Shayba-Arena bei den Olympischen Winterspielen in Sotschi am 9. Februar 2014 (© JONATHAN NACKSTRAND/AFP/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcehockeyGermany_DE-DE8987181717_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Das deutsche Team versammelt sich vor Beginn des Frauen-Eishockey-Spiels in der Gruppe B Russland gegen Deutschland in der Shayba-Arena bei den Olympischen Winterspielen in Sotschi am 9. Februar 2014 (© JONATHAN NACKSTRAND/AFP/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140212-fr" class="fr" title="Gecko sur une rose de porcelaine (Etlingera Elatior) à Combani, Mayotte (© Jean-Pierre Degas/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MayotteGecko_FR-FR8245613491_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gecko sur une rose de porcelaine (Etlingera Elatior) à Combani, Mayotte (© Jean-Pierre Degas/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140212-jp" class="jp" title="｢男子ハーフパイプ決勝・平野歩夢｣ソチ冬季五輪, ロザ・フトル・エクストリーム・パーク (© JAVIER SORIANO/AFP/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AyumuHirano_JA-JP8824801235_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢男子ハーフパイプ決勝・平野歩夢｣ソチ冬季五輪, ロザ・フトル・エクストリーム・パーク (© JAVIER SORIANO/AFP/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140212-nz" class="nz" title="Ice in Toronto Harbour, Ontario, Canada (© Peter Bowers/Flickr/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FrozenToronto_ROW10776356317_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ice in Toronto Harbour, Ontario, Canada (© Peter Bowers/Flickr/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140212-uk" class="uk" title="Yellow-bellied marmot in Yellowstone National Park, Wyoming, USA (© George Sanker/Minden Pictures) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YellowBelliedMarmot_EN-GB10878358761_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yellow-bellied marmot in Yellowstone National Park, Wyoming, USA (© George Sanker/Minden Pictures) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140212-us" class="us" title="Erin Hamlin competing in luge singles in Sochi, Russia (© Julian Finney/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LugeBronze_EN-US12222607265_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Erin Hamlin competing in luge singles in Sochi, Russia (© Julian Finney/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>13</span>
+--
 		<a href="#20140213-au" class="au" title="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StarHorseshoeWorm_EN-AU10646941277_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140213-ca" class="ca" title="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StarHorseshoeWorm_EN-CA10646941277_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140213-cn" class="cn" title="所罗门群岛附近，驼峰珊瑚礁上的星空马蹄虫 (© Chris Newbert/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StarHorseshoeWorm_ZH-CN10853421500_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="所罗门群岛附近，驼峰珊瑚礁上的星空马蹄虫 (© Chris Newbert/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140213-de" class="de" title="Die Gattung ‘Pomatostegus stellatus’ aus der Familie der Kalkröhrenwürmer auf einem Korallenriff vor den Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StarHorseshoeWorm_DE-DE10646941277_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Gattung ‘Pomatostegus stellatus’ aus der Familie der Kalkröhrenwürmer auf einem Korallenriff vor den Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140213-fr" class="fr" title="Ver marin « Serpule sabot de cheval étoilé » (Pomatostegus stellatus) sur un récif corallien au large des îles Salomon (© Chris Newbert/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StarHorseshoeWorm_FR-FR10646941277_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ver marin « Serpule sabot de cheval étoilé » (Pomatostegus stellatus) sur un récif corallien au large des îles Salomon (© Chris Newbert/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140213-jp" class="jp" title="｢ノルディック複合 個人ノーマルヒル/10km ・渡部暁斗｣ソチ冬季五輪,ルスキエ・ゴルキ・ジャンピング・センター(© Yohei Osada/AFLO SPORT/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AkitoWatanabe_JA-JP7680201014_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ノルディック複合 個人ノーマルヒル/10km ・渡部暁斗｣ソチ冬季五輪,ルスキエ・ゴルキ・ジャンピング・センター(© Yohei Osada/AFLO SPORT/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140213-nz" class="nz" title="Asuka, Japan (© Yamaguchi/Flickr Open/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AutumnScenery_ROW14073577039_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Asuka, Japan (© Yamaguchi/Flickr Open/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140213-uk" class="uk" title="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StarHorseshoeWorm_EN-GB10646941277_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140213-us" class="us" title="Kaitlyn Farrington of the United States competes in the Women's Snowboard Halfpipe at the 2014 Winter Olympics on February 12, 2014, in Krasnaya Polyana, Russia (© Harry How/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KaitlynFarrington_EN-US7028193529_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kaitlyn Farrington of the United States competes in the Women's Snowboard Halfpipe at the 2014 Winter Olympics on February 12, 2014, in Krasnaya Polyana, Russia (© Harry How/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>14</span>
+--
 		<a href="#20140214-au" class="au" title="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PrismasBasalticos_EN-AU9139803298_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140214-ca" class="ca" title="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PrismasBasalticos_EN-CA9139803298_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140214-cn" class="cn" title="英国橡木树(英国栎)的橡果特写 (© Nature Picture Library/Britain On View/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WetAcorns_ZH-CN10420918829_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="英国橡木树(英国栎)的橡果特写 (© Nature Picture Library/Britain On View/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140214-de" class="de" title="Die Gesteinsformationen der Prismas Basálticos in Huasca de Ocampo, Bundesstaat Hidalgo, Mexiko (© Marcos Ferro/Aurora Photos) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PrismasBasalticos_DE-DE9139803298_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Gesteinsformationen der Prismas Basálticos in Huasca de Ocampo, Bundesstaat Hidalgo, Mexiko (© Marcos Ferro/Aurora Photos) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140214-fr" class="fr" title="Vue sur les prismes basaltiques de Santa María Regla à Huasca de Ocampo, État d’Hidalgo, Mexique (© Marcos Ferro/Aurora Photos) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PrismasBasalticos_FR-FR9139803298_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vue sur les prismes basaltiques de Santa María Regla à Huasca de Ocampo, État d’Hidalgo, Mexique (© Marcos Ferro/Aurora Photos) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140214-jp" class="jp" title="｢玄武岩のプリズム｣メキシコ, イダルゴ州 (© Marcos Ferro/Aurora Photos) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PrismasBasalticos_JA-JP9139803298_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢玄武岩のプリズム｣メキシコ, イダルゴ州 (© Marcos Ferro/Aurora Photos) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140214-nz" class="nz" title="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StarHorseshoeWorm_ROW11349330887_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140214-uk" class="uk" title="Gold medalist Lizzy Yarnold of Great Britain celebrates on the podium during the flower ceremony for the Women's Skelton on Day 7 of the Sochi 2014 Winter Olympics at Sliding Center Sanki on February 14, 2014 in Sochi, Russia (©  Julian Finney/Getty Image &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LizzyYarnold_EN-GB9731744169_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gold medalist Lizzy Yarnold of Great Britain celebrates on the podium during the flower ceremony for the Women's Skelton on Day 7 of the Sochi 2014 Winter Olympics at Sliding Center Sanki on February 14, 2014 in Sochi, Russia (©  Julian Finney/Getty Image &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140214-us" class="us" title="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StarHorseshoeWorm_EN-US11142850664_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Star horseshoe worm on a hump coral reef off the Solomon Islands (© Chris Newbert/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>15</span>
+--
 		<a href="#20140215-au" class="au" title="Architectural detail of Rinpung Dzong in Paro, Bhutan (© Ocean/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RinpungDzong_EN-AU6555163541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Architectural detail of Rinpung Dzong in Paro, Bhutan (© Ocean/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140215-ca" class="ca" title="Architectural detail of Rinpung Dzong in Paro, Bhutan (© Ocean/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RinpungDzong_EN-CA6555163541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Architectural detail of Rinpung Dzong in Paro, Bhutan (© Ocean/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140215-cn" class="cn" title="加拿大安大略省，大萨德伯里市的白腰朱顶雀 (© Don Johnston/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CommonRedpoll_ZH-CN6194112134_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="加拿大安大略省，大萨德伯里市的白腰朱顶雀 (© Don Johnston/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140215-de" class="de" title="Teil der Fassade des buddhistischen Klosters Rinpung Dzong in Paro, Bhutan (© Ocean/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RinpungDzong_DE-DE6555163541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Teil der Fassade des buddhistischen Klosters Rinpung Dzong in Paro, Bhutan (© Ocean/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140215-fr" class="fr" title="Détail architectural du dzong Rinpung à Paro, Bhoutan (© Ocean/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RinpungDzong_FR-FR6555163541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Détail architectural du dzong Rinpung à Paro, Bhoutan (© Ocean/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140215-jp" class="jp" title="｢リンプン・ゾン｣ブータン, パロ (© Ocean/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RinpungDzong_JA-JP6555163541_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢リンプン・ゾン｣ブータン, パロ (© Ocean/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140215-nz" class="nz" title="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PrismasBasalticos_ROW9777650478_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140215-uk" class="uk" title="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PrismasBasalticos_EN-GB9139803298_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140215-us" class="us" title="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PrismasBasalticos_EN-US9147124612_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="View of the Prismas Basálticos in Huasca de Ocampo, Hidalgo, Mexico (© Marcos Ferro/Aurora Photos) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>16</span>
+--
 		<a href="#20140216-au" class="au" title="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StLawrenceHarpSeal_EN-AU7609042004_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140216-ca" class="ca" title="The Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EngadinMarathon_EN-CA8306638775_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140216-cn" class="cn" title="不丹帕罗宗-日蓬堡的建筑细节 (© Ocean/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RinpungDzong_ZH-CN8197139479_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="不丹帕罗宗-日蓬堡的建筑细节 (© Ocean/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140216-de" class="de" title="Junge Sattelrobbe, Sankt-Lorenz-Golf, Kanada (© Mitsuaki Iwago/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StLawrenceHarpSeal_DE-DE7609042004_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Junge Sattelrobbe, Sankt-Lorenz-Golf, Kanada (© Mitsuaki Iwago/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140216-fr" class="fr" title="Bébé phoque du Groenland dans le golfe du Saint-Laurent, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StLawrenceHarpSeal_FR-FR7609042004_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bébé phoque du Groenland dans le golfe du Saint-Laurent, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140216-jp" class="jp" title="｢ダイヤモンドダスト｣北海道, 上富良野 (© JTB PHOTO COMMUNICATI/JTB Photo/SuperStock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Diamonddust_JA-JP7495661649_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ダイヤモンドダスト｣北海道, 上富良野 (© JTB PHOTO COMMUNICATI/JTB Photo/SuperStock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140216-nz" class="nz" title="Architectural detail of Rinpung Dzong in Paro, Bhutan (© Ocean/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RinpungDzong_ROW10072390929_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Architectural detail of Rinpung Dzong in Paro, Bhutan (© Ocean/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140216-uk" class="uk" title="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StLawrenceHarpSeal_EN-GB7609042004_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140216-us" class="us" title="Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EngadinMarathon_EN-US8449977986_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Engadin Skimarathon in Engadin, Switzerland (© Stephan Zirwes/Gallery Stock) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>17</span>
+--
 		<a href="#20140217-au" class="au" title="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakeHallstrattStars_EN-AU11063234596_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140217-ca" class="ca" title="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakeHallstrattStars_EN-CA11063234596_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140217-cn" class="cn" title="奥地利哈尔施塔特小镇上空的星拱 (© Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakeHallstrattStars_ZH-CN11063234596_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="奥地利哈尔施塔特小镇上空的星拱 (© Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140217-de" class="de" title="Sternenhimmel über dem Hallstätter See, Österreich (© Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakeHallstrattStars_DE-DE11063234596_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sternenhimmel über dem Hallstätter See, Österreich (© Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140217-fr" class="fr" title="Ciel étoilé au-dessus du lac Hallstättersee, Autriche (© Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakeHallstrattStars_FR-FR11063234596_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ciel étoilé au-dessus du lac Hallstättersee, Autriche (© Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140217-jp" class="jp" title="｢フィギュア男子シングルフリー決勝・羽生結弦｣ソチ冬季五輪, アイスバーグ・スケート・パレス (© Matthew Stockman/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YuzuruHanyu_JA-JP8408125466_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢フィギュア男子シングルフリー決勝・羽生結弦｣ソチ冬季五輪, アイスバーグ・スケート・パレス (© Matthew Stockman/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140217-nz" class="nz" title="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StLawrenceHarpSeal_ROW9956081843_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Harp seal pup at the Gulf of St. Lawrence, Canada (© Mitsuaki Iwago/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140217-uk" class="uk" title="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakeHallstrattStars_EN-GB11063234596_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140217-us" class="us" title="Profile of George Washington at Mount Rushmore National Memorial, South Dakota (© Visions of America/SuperStock) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RushmoreProfile_EN-US9375870207_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Profile of George Washington at Mount Rushmore National Memorial, South Dakota (© Visions of America/SuperStock) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>18</span>
+--
 		<a href="#20140218-au" class="au" title="Cliffs and lighthouse at Beachy Head, East Sussex, England (© Malcolm Park/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BeachyHead_EN-AU8487583236_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Cliffs and lighthouse at Beachy Head, East Sussex, England (© Malcolm Park/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140218-ca" class="ca" title="Hockey rink on Lake Louise, Banff National Park, Alberta (© Miles Ertman/All Canada Photos/age fotostock) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CanadaHockey_EN-CA8251476590_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hockey rink on Lake Louise, Banff National Park, Alberta (© Miles Ertman/All Canada Photos/age fotostock) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140218-cn" class="cn" title="覆盖着露水的沙枣果实 (© GYRO Photography/a.collection/Alamy) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OleasterFruit_ZH-CN13883902438_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="覆盖着露水的沙枣果实 (© GYRO Photography/a.collection/Alamy) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140218-de" class="de" title="Klippen und Leuchtturm an der Landspitze Beachy Head, East Sussex, England (© Malcolm Park/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BeachyHead_DE-DE8487583236_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Klippen und Leuchtturm an der Landspitze Beachy Head, East Sussex, England (© Malcolm Park/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140218-fr" class="fr" title="Pierre Vaultier, vainqueur de l’épreuve de Snowboard Cross, 18 février 2014, Jeux Olympiques de Sotchi, Russie (© Jussi Nukari/REX) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PierreVaultier_FR-FR13236962558_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Pierre Vaultier, vainqueur de l’épreuve de Snowboard Cross, 18 février 2014, Jeux Olympiques de Sotchi, Russie (© Jussi Nukari/REX) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140218-jp" class="jp" title="｢ハルシュタット湖と星空｣オーストリア, オーバーエスターライヒ州 (© Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakeHallstrattStars_JA-JP11063234596_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ハルシュタット湖と星空｣オーストリア, オーバーエスターライヒ州 (© Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140218-nz" class="nz" title="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakeHallstrattStars_ROW14855353499_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140218-uk" class="uk" title="Union Jack Guitar (© Martyn Goddard/Alamy) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnionJackGuitar_EN-GB10469546183_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Union Jack Guitar (© Martyn Goddard/Alamy) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140218-us" class="us" title="Gold medalists Meryl Davis and Charlie White of the United States celebrate during the flower ceremony for Figure Skating Ice Dance at the 2014 Winter Olympics, February 17, 2014, Sochi, Russia (© Ryan Pierse/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DavisWhiteGold_EN-US9862686324_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gold medalists Meryl Davis and Charlie White of the United States celebrate during the flower ceremony for Figure Skating Ice Dance at the 2014 Winter Olympics, February 17, 2014, Sochi, Russia (© Ryan Pierse/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>19</span>
+--
 		<a href="#20140219-au" class="au" title="American white pelican in flight, Red River, Lockport, Manitoba, Canada (© Ken Gillespie/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AmericanWhitePelican_EN-AU14121520207_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="American white pelican in flight, Red River, Lockport, Manitoba, Canada (© Ken Gillespie/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140219-ca" class="ca" title="Kaillie Humphries (R) and Heather Moyse of Canada team 1 celebrate during the flower ceremony after winning the gold medal  (© Alex Livesey/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Boblsigh_EN-CA8829775728_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kaillie Humphries (R) and Heather Moyse of Canada team 1 celebrate during the flower ceremony after winning the gold medal  (© Alex Livesey/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140219-cn" class="cn" title="俄罗斯索契冬奥会第3天2014年2月10日，男子短道速滑1500米项目竞赛中的韩天宇 (© Streeter Lecka/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TianyuHan_ZH-CN8095317153_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="俄罗斯索契冬奥会第3天2014年2月10日，男子短道速滑1500米项目竞赛中的韩天宇 (© Streeter Lecka/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140219-de" class="de" title="Nashornpelikan, Red River, Lockport, Manitoba, Kanada (© Ken Gillespie/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AmericanWhitePelican_DE-DE14121520207_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Nashornpelikan, Red River, Lockport, Manitoba, Kanada (© Ken Gillespie/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140219-fr" class="fr" title="Chutes du Carbet dans le parc national de Guadeloupe (© Andreas M. Gross/Westend61/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CarbetFallsGuadeloupe_FR-FR13411871749_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Chutes du Carbet dans le parc national de Guadeloupe (© Andreas M. Gross/Westend61/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140219-jp" class="jp" title="｢ペリカンのフィギュアスケート｣カナダ, マニトバ州 (© Ken Gillespie/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AmericanWhitePelican_JA-JP14121520207_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ペリカンのフィギュアスケート｣カナダ, マニトバ州 (© Ken Gillespie/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140219-nz" class="nz" title="Cliffs and lighthouse at Beachy Head, East Sussex, England (© Malcolm Park/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BeachyHead_ROW10512797529_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Cliffs and lighthouse at Beachy Head, East Sussex, England (© Malcolm Park/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140219-uk" class="uk" title="American white pelican in flight, Red River, Lockport, Manitoba, Canada (© Ken Gillespie/Corbis) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AmericanWhitePelican_EN-GB14121520207_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="American white pelican in flight, Red River, Lockport, Manitoba, Canada (© Ken Gillespie/Corbis) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140219-us" class="us" title="David Wise of the United States wins the Olympic gold medal during the Freestyle Skiing Men's Halfpipe on February 18, 2014, in Krasnaya Polyana, Russia (© Christophe Pallot/Agence Zoom/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WiseGold_EN-US9674043658_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="David Wise of the United States wins the Olympic gold medal during the Freestyle Skiing Men's Halfpipe on February 18, 2014, in Krasnaya Polyana, Russia (© Christophe Pallot/Agence Zoom/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>20</span>
+--
 		<a href="#20140220-au" class="au" title="Backcountry skier near Mt. Baker Ski Area, North Cascades National Park, Washington (© Jay Goodrich/Tandem Stock) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FreshTracks_EN-AU12433078517_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Backcountry skier near Mt. Baker Ski Area, North Cascades National Park, Washington (© Jay Goodrich/Tandem Stock) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140220-ca" class="ca" title="Gold medalist Natalie Spooner #24 of Canada celebrates during the medal ceremony after defeating the the United States 3-2 in overtime during the Ice Hockey Women's Gold Medal Game on day 13 of the Sochi 2014 Winter Olympics at Bolshoy Ice Dome on Februar &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hockey_EN-CA8907644397_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gold medalist Natalie Spooner #24 of Canada celebrates during the medal ceremony after defeating the the United States 3-2 in overtime during the Ice Hockey Women's Gold Medal Game on day 13 of the Sochi 2014 Winter Olympics at Bolshoy Ice Dome on Februar &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140220-cn" class="cn" title="俄罗斯索契冬奥会第6天2014年2月13日，速度滑冰女子1000米项目金牌得主张虹 (© Quinn Rooney/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HongZhang_ZH-CN8256337897_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="俄罗斯索契冬奥会第6天2014年2月13日，速度滑冰女子1000米项目金牌得主张虹 (© Quinn Rooney/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140220-de" class="de" title="St. Moritz mit St. Moritzersee, Oberengadin, Kanton Graubünden, Schweiz (© Huber/Sime/eStock Photo) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StMoritz_DE-DE7890115965_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="St. Moritz mit St. Moritzersee, Oberengadin, Kanton Graubünden, Schweiz (© Huber/Sime/eStock Photo) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140220-fr" class="fr" title="J.-F. Chapuis, Arnaud Bovolenta, Jonathan Midol et Brady Leman (Canada) lors de la finale du Ski Cross au Rosa Khutor Extreme Park, 20 février 2014, Jeux Olympiques de Sotchi, Russie (© Julian Finney/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SkicrossFinal_FR-FR8380449891_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="J.-F. Chapuis, Arnaud Bovolenta, Jonathan Midol et Brady Leman (Canada) lors de la finale du Ski Cross au Rosa Khutor Extreme Park, 20 février 2014, Jeux Olympiques de Sotchi, Russie (© Julian Finney/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140220-jp" class="jp" title="｢バックカントリー・スキーヤー｣アメリカ, ワシントン州 (© Jay Goodrich/Tandem Stock) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FreshTracks_JA-JP12433078517_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢バックカントリー・スキーヤー｣アメリカ, ワシントン州 (© Jay Goodrich/Tandem Stock) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140220-nz" class="nz" title="American white pelican in flight, Red River, Lockport, Manitoba, Canada (© Ken Gillespie/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AmericanWhitePelican_ROW15370400903_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="American white pelican in flight, Red River, Lockport, Manitoba, Canada (© Ken Gillespie/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140220-uk" class="uk" title="Eve Muirhead of Great Britain looks on during the Bronze medal match between Switzerland and Great Britain on day 13 of the Sochi 2014 Winter Olympics at Ice Cube Curling Center on February 20, 2014 in Sochi, Russia (© Clive Mason/Getty Images) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EveMuirhead_EN-GB14075433776_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eve Muirhead of Great Britain looks on during the Bronze medal match between Switzerland and Great Britain on day 13 of the Sochi 2014 Winter Olympics at Ice Cube Curling Center on February 20, 2014 in Sochi, Russia (© Clive Mason/Getty Images) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140220-us" class="us" title="Ted Ligety of the United States reacts during the Alpine Skiing Men's Giant Slalom at the Sochi 2014 Winter Olympics on February 19, 2014, in Krasnaya Polyana, Russia. (© Doug Pensinger/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LigetyGold_EN-US12556766167_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ted Ligety of the United States reacts during the Alpine Skiing Men's Giant Slalom at the Sochi 2014 Winter Olympics on February 19, 2014, in Krasnaya Polyana, Russia. (© Doug Pensinger/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>21</span>
+--
 		<a href="#20140221-au" class="au" title="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LuckyBay_EN-AU9801108025_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140221-ca" class="ca" title="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LuckyBay_EN-CA9801108025_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140221-cn" class="cn" title="俄罗斯索契冬奥会第8天2014年2月15日，周洋(左)短道速滑女子1500米项目夺冠后激动地抱着李坚柔 (© Xinhua/Wang Haofei/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ZhouYangLiJianrou_ZH-CN10480058661_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="俄罗斯索契冬奥会第8天2014年2月15日，周洋(左)短道速滑女子1500米项目夺冠后激动地抱着李坚柔 (© Xinhua/Wang Haofei/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140221-de" class="de" title="Gold (© Jim Zuckerman/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Gold_DE-DE11331103337_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gold (© Jim Zuckerman/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140221-fr" class="fr" title="Lucky Bay dans le parc national du cap Le Grand, Australie-Occidentale (© Ocean/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LuckyBay_FR-FR9801108025_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lucky Bay dans le parc national du cap Le Grand, Australie-Occidentale (© Ocean/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140221-jp" class="jp" title="｢ハルパ・コンサートホール｣アイスランド, レイキャビク (© Hans Strand/Corbis) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Harpa_JA-JP9812376041_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ハルパ・コンサートホール｣アイスランド, レイキャビク (© Hans Strand/Corbis) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140221-nz" class="nz" title="Backcountry skier near Mt. Baker Ski Area, North Cascades National Park, Washington (© Jay Goodrich/Tandem Stock) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FreshTracks_ROW13876398918_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Backcountry skier near Mt. Baker Ski Area, North Cascades National Park, Washington (© Jay Goodrich/Tandem Stock) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140221-uk" class="uk" title="Backcountry skier near Mt. Baker Ski Area, North Cascades National Park, Washington, USA (© Jay Goodrich/Tandem Stock) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FreshTracks_EN-GB12433078517_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Backcountry skier near Mt. Baker Ski Area, North Cascades National Park, Washington, USA (© Jay Goodrich/Tandem Stock) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140221-us" class="us" title="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LakeHallstrattStars_EN-US11063234596_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stars arc over Lake Hallstatt, Austria (© Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>22</span>
+--
 		<a href="#20140222-au" class="au" title="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaucasusMountains_EN-AU12934062323_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140222-ca" class="ca" title="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaucasusMountains_EN-CA12934062323_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140222-cn" class="cn" title="高加索山脉 (© David Trood/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaucasusMountains_ZH-CN13903723970_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="高加索山脉 (© David Trood/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140222-de" class="de" title="Kaukasus-Gebirge (© David Trood/Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaucasusMountains_DE-DE12934062323_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kaukasus-Gebirge (© David Trood/Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140222-fr" class="fr" title="Montagnes du Caucase (© David Trood/Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaucasusMountains_FR-FR12934062323_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Montagnes du Caucase (© David Trood/Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140222-jp" class="jp" title="｢コーカサス山脈｣ (© David Trood/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaucasusMountains_JA-JP12934062323_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢コーカサス山脈｣ (© David Trood/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140222-nz" class="nz" title="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LuckyBay_ROW12658366253_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140222-uk" class="uk" title="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaucasusMountains_EN-GB12934062323_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140222-us" class="us" title="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LuckyBay_EN-US11624973825_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>23</span>
+--
 		<a href="#20140223-au" class="au" title="Lightning storm over Grand Canyon National Park, Arizona (© Scott Stulberg/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GCNPLightning_EN-AU11403682566_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lightning storm over Grand Canyon National Park, Arizona (© Scott Stulberg/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140223-ca" class="ca" title="Lightning storm over Grand Canyon National Park, Arizona (© Scott Stulberg/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GCNPLightning_EN-CA11403682566_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lightning storm over Grand Canyon National Park, Arizona (© Scott Stulberg/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140223-cn" class="cn" title="南澳富琳德斯国家公园，大赤袋鼠与它的孩子 (© Peter Walton Photography/Photolibrary/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RedKangarooFlindersRanges_ZH-CN6761707050_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="南澳富琳德斯国家公园，大赤袋鼠与它的孩子 (© Peter Walton Photography/Photolibrary/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140223-de" class="de" title="Gewitter über dem Grand-Canyon-Nationalpark, Arizona, USA (© Scott Stulberg/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GCNPLightning_DE-DE11403682566_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gewitter über dem Grand-Canyon-Nationalpark, Arizona, USA (© Scott Stulberg/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140223-fr" class="fr" title="Orage au-dessus du parc national du Grand Canyon, Arizona, États-Unis (© Scott Stulberg/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GCNPLightning_FR-FR11403682566_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Orage au-dessus du parc national du Grand Canyon, Arizona, États-Unis (© Scott Stulberg/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140223-jp" class="jp" title="｢フィギュア女子フリー・浅田真央｣ソチ冬季五輪, アイスバーグ・スケート・パレス (© Matthew Stockman/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MaoAsada_JA-JP11986565533_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢フィギュア女子フリー・浅田真央｣ソチ冬季五輪, アイスバーグ・スケート・パレス (© Matthew Stockman/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140223-nz" class="nz" title="Red fox near Churchill, Manitoba, Canada (© MyLoupe/Universal Images Group/Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RedFoxCanada_ROW11990496307_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Red fox near Churchill, Manitoba, Canada (© MyLoupe/Universal Images Group/Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140223-uk" class="uk" title="Lightning storm over Grand Canyon National Park, Arizona, USA (© Scott Stulberg/Corbis) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GCNPLightning_EN-GB11403682566_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lightning storm over Grand Canyon National Park, Arizona, USA (© Scott Stulberg/Corbis) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140223-us" class="us" title="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CaucasusMountains_EN-US14066879059_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Caucasus Mountains near Sochi, Russia (© David Trood/Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>24</span>
+--
 		<a href="#20140224-au" class="au" title="Aerial view of Wall Street, Manhattan, New York City, New York (© Cameron Davidson/Corbis) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WallStreetNY_EN-AU9293687068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aerial view of Wall Street, Manhattan, New York City, New York (© Cameron Davidson/Corbis) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140224-ca" class="ca" title="Aerial view of Wall Street, Manhattan, New York City, New York (© Cameron Davidson/Corbis) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WallStreetNY_EN-CA9293687068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aerial view of Wall Street, Manhattan, New York City, New York (© Cameron Davidson/Corbis) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140224-cn" class="cn" title="华盛顿北瀑布国家公园贝克山滑雪场的滑雪者 (© Jay Goodrich/Tandem Stock) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FreshTracks_ZH-CN13096937879_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="华盛顿北瀑布国家公园贝克山滑雪场的滑雪者 (© Jay Goodrich/Tandem Stock) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140224-de" class="de" title="Luftbild der Wall Street, Manhattan, New York City, New York, USA (© Cameron Davidson/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WallStreetNY_DE-DE9293687068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Luftbild der Wall Street, Manhattan, New York City, New York, USA (© Cameron Davidson/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140224-fr" class="fr" title="Vue aérienne de Wall Street à Manhattan, New York, États-Unis (© Cameron Davidson/Corbis) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WallStreetNY_FR-FR9293687068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vue aérienne de Wall Street à Manhattan, New York, États-Unis (© Cameron Davidson/Corbis) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140224-jp" class="jp" title="｢サンド・ポイント｣イギリス, サマセット (© Richard Cooke/Alamy) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SandPointSomerset_JA-JP8986012224_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢サンド・ポイント｣イギリス, サマセット (© Richard Cooke/Alamy) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140224-nz" class="nz" title="Lightning storm over Grand Canyon National Park, Arizona (© Scott Stulberg/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GCNPLightning_ROW14500903370_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lightning storm over Grand Canyon National Park, Arizona (© Scott Stulberg/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140224-uk" class="uk" title="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LuckyBay_EN-GB9801108025_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lucky Bay, Cape Le Grand National Park, Australia (© Ocean/Corbis) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140224-us" class="us" title="Lightning storm over Grand Canyon National Park, Arizona (© Scott Stulberg/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GCNPLightning_EN-US12950830710_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lightning storm over Grand Canyon National Park, Arizona (© Scott Stulberg/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>25</span>
+--
 		<a href="#20140225-au" class="au" title="Weather station on Brocken peak, Saxony-Anhalt, Germany (© Günter Gräfenhain/Huber/4Corners) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrockenWetterStation_EN-AU9068662423_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Weather station on Brocken peak, Saxony-Anhalt, Germany (© Günter Gräfenhain/Huber/4Corners) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140225-ca" class="ca" title="Weather station on Brocken peak, Saxony-Anhalt, Germany (© Günter Gräfenhain/Huber/4Corners) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrockenWetterStation_EN-CA9068662423_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Weather station on Brocken peak, Saxony-Anhalt, Germany (© Günter Gräfenhain/Huber/4Corners) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140225-cn" class="cn" title="长野县落叶松林的上空 (© SHOSEI/Aflo/Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RimedLarchForest_ZH-CN9958136964_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="长野县落叶松林的上空 (© SHOSEI/Aflo/Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140225-de" class="de" title="Lucky Bay, Cape-Le-Grand-National-Park, Australien (© Ocean/Corbis) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LuckyBay_DE-DE9801108025_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lucky Bay, Cape-Le-Grand-National-Park, Australien (© Ocean/Corbis) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140225-fr" class="fr" title="Parlement européen à Strasbourg, Bas-Rhin, Alsace (© Matthieu Colin/hemis.fr/Alamy) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EuropeanParliament_FR-FR6423243216_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Parlement européen à Strasbourg, Bas-Rhin, Alsace (© Matthieu Colin/hemis.fr/Alamy) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140225-jp" class="jp" title="｢ボコド湖のフィッシング・ハウス｣ハンガリー, オロスラーニ (© David Pinzer Photography/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HungaryHouseBoats_JA-JP6450350649_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ボコド湖のフィッシング・ハウス｣ハンガリー, オロスラーニ (© David Pinzer Photography/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140225-nz" class="nz" title="Aerial view of Wall Street, Manhattan, New York City, New York (© Cameron Davidson/Corbis) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WallStreetNY_ROW10826249065_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aerial view of Wall Street, Manhattan, New York City, New York (© Cameron Davidson/Corbis) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140225-uk" class="uk" title="Weather station on Brocken peak, Saxony-Anhalt, Germany (© Günter Gräfenhain/Huber/4Corners) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrockenWetterStation_EN-GB9068662423_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Weather station on Brocken peak, Saxony-Anhalt, Germany (© Günter Gräfenhain/Huber/4Corners) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140225-us" class="us" title="Aerial view of Wall Street, New York City (© Cameron Davidson/Corbis) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WallStreetNY_EN-US9293687068_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aerial view of Wall Street, New York City (© Cameron Davidson/Corbis) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>26</span>
+--
 		<a href="#20140226-au" class="au" title="Wild dogs in Botswana (© Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BotswanaWildDogs_EN-AU8842794637_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wild dogs in Botswana (© Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140226-ca" class="ca" title="Wild dogs in Botswana (© Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BotswanaWildDogs_EN-CA8842794637_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wild dogs in Botswana (© Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140226-cn" class="cn" title="博茨瓦纳的非洲野犬 (© Getty Images) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BotswanaWildDogs_ZH-CN8842794637_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="博茨瓦纳的非洲野犬 (© Getty Images) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140226-de" class="de" title="Afrikanische Wildhunde in Botswana (© Getty Images) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BotswanaWildDogs_DE-DE8842794637_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Afrikanische Wildhunde in Botswana (© Getty Images) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140226-fr" class="fr" title="Lycaons au Botswana (© Getty Images) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BotswanaWildDogs_FR-FR8842794637_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lycaons au Botswana (© Getty Images) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140226-jp" class="jp" title="｢リカオン｣ボツワナ (© Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BotswanaWildDogs_JA-JP8842794637_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢リカオン｣ボツワナ (© Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140226-nz" class="nz" title="Weather station on Brocken peak, Saxony-Anhalt, Germany (© Günter Gräfenhain/Huber/4Corners) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrockenWetterStation_ROW12744041301_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Weather station on Brocken peak, Saxony-Anhalt, Germany (© Günter Gräfenhain/Huber/4Corners) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140226-uk" class="uk" title="Wild dogs in Botswana (© Getty Images) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BotswanaWildDogs_EN-GB8842794637_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wild dogs in Botswana (© Getty Images) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140226-us" class="us" title="Foliage, including cottonwoods, willows, sage, and rabbitbrush, in California's Owens Valley (© Marc Adamus/Aurora Photos) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WinterFoliage_EN-US11495568937_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Foliage, including cottonwoods, willows, sage, and rabbitbrush, in California's Owens Valley (© Marc Adamus/Aurora Photos) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>27</span>
+--
 		<a href="#20140227-au" class="au" title="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California (© Josh Miller/Aurora Photos) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HorsetailFalls_EN-AU10249006443_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California (© Josh Miller/Aurora Photos) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140227-ca" class="ca" title="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California (© Josh Miller/Aurora Photos) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HorsetailFalls_EN-CA10249006443_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California (© Josh Miller/Aurora Photos) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140227-cn" class="cn" title="加州约塞米蒂国家公园，日落时分从塔夫脱点观赏马尾瀑布 (© Josh Miller/Aurora Photos) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HorsetailFalls_ZH-CN11282945536_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="加州约塞米蒂国家公园，日落时分从塔夫脱点观赏马尾瀑布 (© Josh Miller/Aurora Photos) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140227-de" class="de" title="Horsetail Fall bei Sonnenuntergang, vom Taft Point aus gesehen, Yosemite-Nationalpark, Kalifornien, USA (© Josh Miller/Aurora Photos) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HorsetailFalls_DE-DE10249006443_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Horsetail Fall bei Sonnenuntergang, vom Taft Point aus gesehen, Yosemite-Nationalpark, Kalifornien, USA (© Josh Miller/Aurora Photos) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140227-fr" class="fr" title="Horsetail Fall au coucher du soleil depuis Taft Point, parc national de Yosemite, Californie, États-Unis (© Josh Miller/Aurora Photos) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HorsetailFalls_FR-FR10249006443_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Horsetail Fall au coucher du soleil depuis Taft Point, parc national de Yosemite, Californie, États-Unis (© Josh Miller/Aurora Photos) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140227-jp" class="jp" title="｢清流公園なるふち平｣福岡, 篠栗町 (© Brian Kennedy/Flickr/Getty Images) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NarufuchiDamRoad_JA-JP8557134243_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢清流公園なるふち平｣福岡, 篠栗町 (© Brian Kennedy/Flickr/Getty Images) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140227-nz" class="nz" title="Wild dogs in Botswana (© Getty Images) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BotswanaWildDogs_ROW9927865565_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wild dogs in Botswana (© Getty Images) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140227-uk" class="uk" title="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California, USA (© Josh Miller/Aurora Photos) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HorsetailFalls_EN-GB10249006443_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California, USA (© Josh Miller/Aurora Photos) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140227-us" class="us" title="African wild dogs in Botswana (© Getty Images) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BotswanaWildDogs_EN-US8842794637_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="African wild dogs in Botswana (© Getty Images) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>28</span>
+--
 		<a href="#20140228-au" class="au" title="Wild boar herd, Alam-Pedja Nature Reserve, Estonia (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WildBoars_EN-AU8845725645_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wild boar herd, Alam-Pedja Nature Reserve, Estonia (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140228-ca" class="ca" title="Wild boar herd, Alam-Pedja Nature Reserve, Estonia (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WildBoars_EN-CA8845725645_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wild boar herd, Alam-Pedja Nature Reserve, Estonia (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140228-cn" class="cn" title="加拿大圣劳伦斯湾的竖琴海豹宝宝 (© Mitsuaki Iwago/Corbis) &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StLawrenceHarpSeal_ZH-CN7809993664_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="加拿大圣劳伦斯湾的竖琴海豹宝宝 (© Mitsuaki Iwago/Corbis) &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140228-de" class="de" title="Wildschweinrotte, Alam-Pedja-Naturschutzgebiet, Estland (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WildBoars_DE-DE8845725645_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wildschweinrotte, Alam-Pedja-Naturschutzgebiet, Estland (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140228-fr" class="fr" title="Harde de sangliers, réserve naturelle d’Alam-Pedja, Estonie (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing France)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WildBoars_FR-FR8845725645_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Harde de sangliers, réserve naturelle d’Alam-Pedja, Estonie (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing France)" />
-			<img src="flags/fr.gif" alt="France" title="France" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140228-jp" class="jp" title="｢イノシシの群れ｣エストニア, アラム・ペジャ自然保護区 (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WildBoars_JA-JP8845725645_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢イノシシの群れ｣エストニア, アラム・ペジャ自然保護区 (© Wild Wonders of Europe/Zacek/Minden Pictures) &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140228-nz" class="nz" title="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California (© Josh Miller/Aurora Photos) &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HorsetailFalls_ROW11860605964_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California (© Josh Miller/Aurora Photos) &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140228-uk" class="uk" title="Memorial to the Welshmen of the 38th Division who fell at Mametz wood during the First World War (© Kevin Howchin/Alamy) &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RedDragonMemorial_EN-GB16114743411_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Memorial to the Welshmen of the 38th Division who fell at Mametz wood during the First World War (© Kevin Howchin/Alamy) &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20140228-us" class="us" title="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California (© Josh Miller/Aurora Photos) &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HorsetailFalls_EN-US10826666871_1366x768.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Horsetail Fall at sunset seen from Taft Point, Yosemite National Park, California (© Josh Miller/Aurora Photos) &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td></td></tr>
-</table>
-    <div class="ad">
-      <script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x90, created 8/4/09 */
-google_ad_slot = "6880081602";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-      <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
-<div class="clear"></div>
-<div class="footer">
-  <div class="wrapper">
-    <p>Brought to you by Long Zheng at <a href="http://www.istartedsomething.com">www.istartedsomething.com</a></p>
-    <p>Images are copyright to their respective owners. <a href="http://www.bing.com">Bing</a> is a (funny) trademark of Microsoft Corporation. Some icons are by The Noun Project (Creative Commons).</p>
-  </div>
-</div>
-<div id="imageview">
-  <div class="loading"><img src="style/images/ajax-loader.gif" /> </div>
-  <div class="viewer">
-    <p class="image"><img src="" /></p>
-    <div class="video">
-    </div>
-    <p class="desc"></p>
-    <div class="facts">
-      <ul>
-      </ul>
-      <div class="clear"></div>
-    </div>
-    <div class="buttons">
-        <div class="viewerad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2619236561011065";
-			/* Viewer ad */
-			google_ad_slot = "3707022863";
-			google_ad_width = 728;
-			google_ad_height = 15;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
-        </div>
-        <div class="videobuttons">
-            <a href="#" class="showvideo">Switch to video version</a>
-            <a href="#" class="hidevideo">Switch to image version</a>
-        </div>
-        <a href="#" class="close">Close</a>
-    </div>
-  </div>
-</div>
-<!-- Start of StatCounter Code -->
-<script type="text/javascript">
-var sc_project=4814143; 
-var sc_invisible=1; 
-var sc_partition=54; 
-var sc_click_stat=1; 
-var sc_security="9418942d"; 
-</script>
-<script type="text/javascript"
-src="http://www.statcounter.com/counter/counter.js"></script>
-<noscript>
-<div class="statcounter"><a title="free hit counters" href="http://www.statcounter.com/" target="_blank">
-<img class="statcounter" src="http://c.statcounter.com/4814143/0/9418942d/1/" alt="free hit counters" ></a></div>
-</noscript>
-<!-- End of StatCounter Code -->
-</body>
-</html>

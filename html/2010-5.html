@@ -1,1201 +1,743 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Bing Image Archive</title>
-<meta name="description" content="Collection of the latest homepage background images from Bing.com">
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
-<link href="style/css.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.blockUI.js"></script>
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.08122.js"></script>
-<script type="text/javascript" src="js/bingimages.js"></script>
-<link href="http://feeds.feedburner.com/bingimages" type="application/rss+xml" rel="alternate" title="Bing Image Archive RSS Feed" />
-</head>
-<body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-182613-10', 'istartedsomething.com');
-  ga('send', 'pageview');
-
-</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=168868916648885";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- precache black background --><img src="style/images/black-95.png" style="display:none;" />
-<div class="sharebar">
-<div class="wrapper">
-<div class="fb-like" data-href="http://www.istartedsomething.com/bingimages/" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.istartedsomething.com/bingimages/" data-text="Bing Image Archive - latest homepage images from Bing">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
-</div>
-<div class="header">
-  <div class="wrapper">
-    <h1><a href="http://www.istartedsomething.com/bingimages/">Bing Image Archive</a></h1>
-    <h2>Showcasing the backgrounds from the frontpage of Bing</h2>
-  </div>
-</div>
-<div class="content">
-  <div class="wrapper">
-    <ul class="countries">
-            <li>
-        <input type="checkbox" checked="checked" name="countryfilter[]" value="us" id="us"/>
-        <label for="us"> <img src="flags/us.gif" alt="United States" title="United States" /> <span>United States</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="gb" id="gb"/>
-        <label for="gb"> <img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" /> <span>United Kingdom</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="au" id="au"/>
-        <label for="au"> <img src="flags/au.gif" alt="Australia" title="Australia" /> <span>Australia</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="jp" id="jp"/>
-        <label for="jp"> <img src="flags/jp.gif" alt="Japan" title="Japan" /> <span>Japan</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="cn" id="cn"/>
-        <label for="cn"> <img src="flags/cn.gif" alt="China" title="China" /> <span>China</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="nz" id="nz"/>
-        <label for="nz"> <img src="flags/nz.gif" alt="New Zealand" title="New Zealand" /> <span>New Zealand</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="de" id="de"/>
-        <label for="de"> <img src="flags/de.gif" alt="Germany" title="Germany" /> <span>Germany</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="ca" id="ca"/>
-        <label for="ca"> <img src="flags/ca.gif" alt="Canada" title="Canada" /> <span>Canada</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="fr" id="fr"/>
-        <label for="fr"> <img src="flags/fr.gif" alt="France" title="France" /> <span>France</span> </label>
-      </li>
-          </ul>
-    <div class="clear"></div>
-
-<div class="ad_small">
-<script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x15, created 6/26/09 */
-google_ad_slot = "2476437438";
-google_ad_width = 728;
-google_ad_height = 15;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-
-<div class="clear"></div>
-    <ul class="month">
-            <li class="month_prev">
-        <p><a href="?m=4&y=2010">Previous month</a></p>
-      </li>
-      <li class="month_current">
-        <h3>May 2010</h3>
-      </li>
-      <li class="month_next">
-        <p><a href="?m=6&y=2010">Next month</a></p>
-      </li>
-    </ul>
-    <div class="clear"></div>
-    <table class='calendar'>
-	<thead>
-				<th>Sunday</th>
-				<th>Monday</th>
-				<th>Tuesday</th>
-				<th>Wednesday</th>
-				<th>Thursday</th>
-				<th>Friday</th>
-				<th>Saturday</th>
-			</thead>
-	<tr><td></td><td></td><td></td><td></td><td></td><td></td><td class='dated'><span class='day'>1</span>
 		<a href="#20100501-au" class="au" title="Hurricane Jeanne over the Bahamas in 2004 -- NOAA/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hurricane_EN-AU3505247152.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hurricane Jeanne over the Bahamas in 2004 -- NOAA/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100501-ca" class="ca" title="Spring wildflowers in Antelope Valley, California  -- Ron and Patty Thomas/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AntelopeValley_EN-CA2762219993.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Spring wildflowers in Antelope Valley, California  -- Ron and Patty Thomas/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100501-cn" class="cn" title="上海世博园中的游人 -- Philippe Lopez/AFP/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EXPO2_ZH-CN1240596362.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="上海世博园中的游人 -- Philippe Lopez/AFP/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100501-de" class="de" title="Satellitenbild: Hurrikan Jeanne zieht im Jahr 2004 über die Bahamas – NOAA/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hurricane_DE-DE3505247152.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Satellitenbild: Hurrikan Jeanne zieht im Jahr 2004 über die Bahamas – NOAA/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100501-jp" class="jp" title="｢2004年のハリケーン・ジーン｣バハマ上空, 気象観測衛星NOAA -- NOAA/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hurricane_JA-JP3505247152.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢2004年のハリケーン・ジーン｣バハマ上空, 気象観測衛星NOAA -- NOAA/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100501-nz" class="nz" title="Spring wildflowers in Antelope Valley, California  -- Ron and Patty Thomas/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AntelopeValley_ROW2762219993.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Spring wildflowers in Antelope Valley, California  -- Ron and Patty Thomas/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100501-uk" class="uk" title="The Michael Lee-Chin Crystal Building, Royal Ontario Museum, Toronto, Ontario -- Ken Straiton/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ROM_EN-GB1970163901.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Michael Lee-Chin Crystal Building, Royal Ontario Museum, Toronto, Ontario -- Ken Straiton/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100501-us" class="us" title="Spring wildflowers in Antelope Valley, California  -- Ron and Patty Thomas/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AntelopeValley_EN-US2762219993.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Spring wildflowers in Antelope Valley, California  -- Ron and Patty Thomas/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>2</span>
+--
 		<a href="#20100502-au" class="au" title="Hedgehog-- Images, Agence Photographique/eStock Photo &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hedgehog_EN-AU2261906661.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hedgehog-- Images, Agence Photographique/eStock Photo &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100502-ca" class="ca" title="Hurricane Jeanne over the Bahamas in 2004 -- NOAA/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hurricane_EN-CA3505247152.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hurricane Jeanne over the Bahamas in 2004 -- NOAA/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100502-cn" class="cn" title="2010年上海世博会上，标新立异的世博会场馆设计 -- Philippe Lopez/AFP/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=EXPO3_ZH-CN3643113853.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="2010年上海世博会上，标新立异的世博会场馆设计 -- Philippe Lopez/AFP/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100502-de" class="de" title="Redwood-Bäume im gleichnamigen Nationalpark, Kalifornien – Bob Stefko/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Redwoods_DE-DE2276431997.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Redwood-Bäume im gleichnamigen Nationalpark, Kalifornien – Bob Stefko/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100502-jp" class="jp" title="｢ハリネズミ｣ -- Images, Agence Photographique/eStock Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hedgehog_JA-JP2261906661.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ハリネズミ｣ -- Images, Agence Photographique/eStock Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100502-nz" class="nz" title="Hurricane Jeanne over the Bahamas in 2004 -- NOAA/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hurricane_ROW3505247152.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hurricane Jeanne over the Bahamas in 2004 -- NOAA/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100502-uk" class="uk" title="Vineyards growing in volcanic ash in La Geria on Lanzarote Island in the Canary Islands, Spain -- Marc Dozier/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LanzaroteVineyard_EN-GB2060078017.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vineyards growing in volcanic ash in La Geria on Lanzarote Island in the Canary Islands, Spain -- Marc Dozier/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100502-us" class="us" title="Hurricane Jeanne over the Bahamas in 2004 -- NOAA/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hurricane_EN-US3505247152.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hurricane Jeanne over the Bahamas in 2004 -- NOAA/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>3</span>
+--
 		<a href="#20100503-au" class="au" title="Fort Jefferson National Monument, Florida -- Bob Krist/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FortJefferson_EN-AU3238366844.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fort Jefferson National Monument, Florida -- Bob Krist/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100503-ca" class="ca" title="Hedgehog-- Images, Agence Photographique/eStock Photo &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hedgehog_EN-CA2261906661.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hedgehog-- Images, Agence Photographique/eStock Photo &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100503-cn" class="cn" title="匈牙利国家公园中的蜂虎鸟 -- ARCO/age fotostock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BeeEaters_ZH-CN1666895179.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="匈牙利国家公园中的蜂虎鸟 -- ARCO/age fotostock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100503-de" class="de" title="Fort Jefferson in Florida – Bob Krist/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FortJefferson_DE-DE3238366844.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fort Jefferson in Florida – Bob Krist/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100503-jp" class="jp" title="｢夫婦岩｣三重県, 伊勢市 -- Gavin Hellier/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WeddedRocks_JA-JP175986454.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢夫婦岩｣三重県, 伊勢市 -- Gavin Hellier/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100503-nz" class="nz" title="Hedgehog-- Images, Agence Photographique/eStock Photo &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hedgehog_ROW2261906661.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hedgehog-- Images, Agence Photographique/eStock Photo &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100503-uk" class="uk" title="Hedgehog -- Images, Agence Photographique/eStock Photo &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hedgehog_EN-GB2261906661.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hedgehog -- Images, Agence Photographique/eStock Photo &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100503-us" class="us" title="Hedgehog-- Images, Agence Photographique/eStock Photo &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hedgehog_EN-US2261906661.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hedgehog-- Images, Agence Photographique/eStock Photo &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>4</span>
+--
 		<a href="#20100504-au" class="au" title="Mount Popocatépetl near Puebla, Mexico -- Felix Stensonage fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Puebla_EN-AU1018157332.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mount Popocatépetl near Puebla, Mexico -- Felix Stensonage fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100504-ca" class="ca" title="Fort Jefferson National Monument, Florida -- Bob Krist/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FortJefferson_EN-CA3238366844.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fort Jefferson National Monument, Florida -- Bob Krist/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100504-cn" class="cn" title="二十四节气之立夏 -- Dennis Kirkland/Jaynes &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Frog_ZH-CN1374036262.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="二十四节气之立夏 -- Dennis Kirkland/Jaynes &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100504-de" class="de" title="Der Vulkan Popocatépetl in der Nähe von Puebla, Zentralmexiko – Felix Stensonage fotostock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Puebla_DE-DE1018157332.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Der Vulkan Popocatépetl in der Nähe von Puebla, Zentralmexiko – Felix Stensonage fotostock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100504-jp" class="jp" title="｢こいのぼり｣沖縄, 那覇 -- Karin Slade / Getty images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Koinobori_JA-JP2484273255.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢こいのぼり｣沖縄, 那覇 -- Karin Slade / Getty images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100504-nz" class="nz" title="Fort Jefferson National Monument, Florida -- Bob Krist/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FortJefferson_ROW3238366844.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fort Jefferson National Monument, Florida -- Bob Krist/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100504-uk" class="uk" title="The Mayan ruins of Tikal rise from the jungle in Guatemala --  Keren Su/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tikal_EN-GB1809967032.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Mayan ruins of Tikal rise from the jungle in Guatemala --  Keren Su/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100504-us" class="us" title="Fort Jefferson in Dry Tortugas National Park, Florida -- Bob Krist/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FortJefferson_EN-US3238366844.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fort Jefferson in Dry Tortugas National Park, Florida -- Bob Krist/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>5</span>
+--
 		<a href="#20100505-au" class="au" title="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CarlsbadCavern_EN-AU2391804922.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100505-ca" class="ca" title="Mount Popocatépetl near Puebla, Mexico -- Felix Stensonage fotostock &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Puebla_EN-CA1018157332.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mount Popocatépetl near Puebla, Mexico -- Felix Stensonage fotostock &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100505-cn" class="cn" title="挪威蜿蜒崎岖的山地公路 -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Trollstigen_ZH-CN1819080779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="挪威蜿蜒崎岖的山地公路 -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100505-de" class="de" title="Die Carlsbad-Höhle im Carlsbad-Caverns-Nationalpark, New Mexico – David L. Brown/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CarlsbadCavern_DE-DE2391804922.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Carlsbad-Höhle im Carlsbad-Caverns-Nationalpark, New Mexico – David L. Brown/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100505-jp" class="jp" title="｢里芋の葉に登るアマガエル｣神奈川, 横浜 -- ASO FUJITA / age fotostock &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Frog_JA-JP1041552271.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢里芋の葉に登るアマガエル｣神奈川, 横浜 -- ASO FUJITA / age fotostock &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100505-nz" class="nz" title="Mount Popocatépetl near Puebla, Mexico -- Felix Stensonage fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Puebla_ROW1018157332.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mount Popocatépetl near Puebla, Mexico -- Felix Stensonage fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100505-uk" class="uk" title="Independence Monument in Avenida de la Reforma,  Mexico City,  Mexico -- Walter Bibikow/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Reforma_EN-GB1967760360.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Independence Monument in Avenida de la Reforma,  Mexico City,  Mexico -- Walter Bibikow/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100505-us" class="us" title="La Merced Church, Puebla, Puebla State, Mexico -- Panoramic Images/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Puebla_EN-US93793952.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="La Merced Church, Puebla, Puebla State, Mexico -- Panoramic Images/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>6</span>
+--
 		<a href="#20100506-au" class="au" title="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IguazuFalls_EN-AU1112883463.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100506-ca" class="ca" title="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CarlsbadCavern_EN-CA2391804922.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100506-cn" class="cn" title="黄色的蚕茧 -- Inge Spence/Visuals Unlimited,Inc &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SilkMoth_ZH-CN1728483827.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="黄色的蚕茧 -- Inge Spence/Visuals Unlimited,Inc &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100506-de" class="de" title="Eishockey-Torhüter im Einsatz – Rim Light/PhotoLink/Photodisc/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcehockeyGoalie_DE-DE322563109.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eishockey-Torhüter im Einsatz – Rim Light/PhotoLink/Photodisc/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100506-jp" class="jp" title="｢ポポカテペトル｣メキシコ, プエブラ -- Felix Stensonage fotostock &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Puebla_JA-JP1018157332.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ポポカテペトル｣メキシコ, プエブラ -- Felix Stensonage fotostock &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100506-nz" class="nz" title="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CarlsbadCavern_ROW2391804922.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100506-uk" class="uk" title="An election worker prepares the voting booths at Gunnersbury Triangle Social Club in west London – Adrian Dennis/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Election1_EN-GB842054857.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="An election worker prepares the voting booths at Gunnersbury Triangle Social Club in west London – Adrian Dennis/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100506-us" class="us" title="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CarlsbadCavern_EN-US211217376.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>7</span>
+--
 		<a href="#20100507-au" class="au" title="Yellow Silk Moth and cocoons  in Thailand -- Inge Spence/Visuals Unlimited, Inc. &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SilkMoth_EN-AU1728483827.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yellow Silk Moth and cocoons  in Thailand -- Inge Spence/Visuals Unlimited, Inc. &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100507-ca" class="ca" title="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IguazuFalls_EN-CA1112883463.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100507-cn" class="cn" title="世界上最宽的瀑布，巴西的伊瓜苏瀑布  -- SIME/eStock Photo &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IguazuFalls_ZH-CN1112883463.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="世界上最宽的瀑布，巴西的伊瓜苏瀑布  -- SIME/eStock Photo &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100507-de" class="de" title="Frisch geschlüpfter Seidenspinner sitzt auf den Kokons seiner Geschwister, Thailand – Inge Spence/Visuals Unlimited, Inc. &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SilkMoth_DE-DE1728483827.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Frisch geschlüpfter Seidenspinner sitzt auf den Kokons seiner Geschwister, Thailand – Inge Spence/Visuals Unlimited, Inc. &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100507-jp" class="jp" title="｢イグアスの滝｣ブラジル, パラナ州 -- SIME/eStock Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IguazuFalls_JA-JP1112883463.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢イグアスの滝｣ブラジル, パラナ州 -- SIME/eStock Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100507-nz" class="nz" title="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IguazuFalls_ROW1112883463.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100507-uk" class="uk" title="A television news camera trains its lens on number 10 Downing - Oli Scarff/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Election2_EN-GB479515393.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A television news camera trains its lens on number 10 Downing - Oli Scarff/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100507-us" class="us" title="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IguazuFalls_EN-US1053534436.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>8</span>
+--
 		<a href="#20100508-au" class="au" title="A female sea otter floats with a newborn pup resting on her chest in Prince William Sound, Alaska -- Steven Kazlowski/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OtterMother_EN-AU3388833431.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A female sea otter floats with a newborn pup resting on her chest in Prince William Sound, Alaska -- Steven Kazlowski/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100508-ca" class="ca" title="Yellow Silk Moth and cocoons  in Thailand -- Inge Spence/Visuals Unlimited, Inc. &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SilkMoth_EN-CA1728483827.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yellow Silk Moth and cocoons  in Thailand -- Inge Spence/Visuals Unlimited, Inc. &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100508-cn" class="cn" title="母亲节，爱要如何表达？小水獭依偎在妈妈的怀抱里 -- Steven Kazlowski/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OtterMother_ZH-CN3388833431.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="母亲节，爱要如何表达？小水獭依偎在妈妈的怀抱里 -- Steven Kazlowski/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100508-de" class="de" title="Blumen und Statuen schmücken den Garten des Kurfürstlichen Palais in Trier – Tom Haseltine/Photographer's Choice/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ElectoralPalace_DE-DE2339796033.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blumen und Statuen schmücken den Garten des Kurfürstlichen Palais in Trier – Tom Haseltine/Photographer's Choice/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100508-jp" class="jp" title="｢ラッコのお母さんと子供｣アメリカ, アラスカ州, プリンス・ウィリアム湾  -- Steven Kazlowski/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OtterMother_JA-JP3388833431.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ラッコのお母さんと子供｣アメリカ, アラスカ州, プリンス・ウィリアム湾  -- Steven Kazlowski/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100508-nz" class="nz" title="Yellow Silk Moth and cocoons  in Thailand -- Inge Spence/Visuals Unlimited, Inc. &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SilkMoth_ROW1728483827.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yellow Silk Moth and cocoons  in Thailand -- Inge Spence/Visuals Unlimited, Inc. &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100508-uk" class="uk" title="Ponies grazing at Chinkwell Tor - Adam Burton/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TenTors_EN-GB2059999570.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ponies grazing at Chinkwell Tor - Adam Burton/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100508-us" class="us" title="Yellow Silk Moth and cocoons  in Thailand -- Inge Spence/Visuals Unlimited, Inc. &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SilkMoth_EN-US1311526365.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yellow Silk Moth and cocoons  in Thailand -- Inge Spence/Visuals Unlimited, Inc. &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>9</span>
+--
 		<a href="#20100509-au" class="au" title="A country road with fields and granaries and an approaching rain storm in Oyen, Alberta, Canada -- Darwin Wiggett/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OyenRoad_EN-AU955871051.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A country road with fields and granaries and an approaching rain storm in Oyen, Alberta, Canada -- Darwin Wiggett/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100509-ca" class="ca" title="A female sea otter floats with a newborn pup resting on her chest in Prince William Sound, Alaska -- Steven Kazlowski/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OtterMother_EN-CA3388833431.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A female sea otter floats with a newborn pup resting on her chest in Prince William Sound, Alaska -- Steven Kazlowski/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100509-cn" class="cn" title="五月之夏：“松风涧水杂清音，空山如弄琴” -- Raymond Forbes/age fotostock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Boardwalk_ZH-CN1479536745.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="五月之夏：“松风涧水杂清音，空山如弄琴” -- Raymond Forbes/age fotostock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100509-de" class="de" title="Gepardenmutter mit vier Jungen im Masai Mara-Reservat, Kenia – DLILLC/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CheetahFamily_DE-DE545569307.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gepardenmutter mit vier Jungen im Masai Mara-Reservat, Kenia – DLILLC/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100509-jp" class="jp" title="｢オイエンの穀倉地帯｣カナダ, アルバータ州 -- Darwin Wiggett/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OyenRoad_JA-JP955871051.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢オイエンの穀倉地帯｣カナダ, アルバータ州 -- Darwin Wiggett/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100509-nz" class="nz" title="A female sea otter floats with a newborn pup resting on her chest in Prince William Sound, Alaska -- Steven Kazlowski/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OtterMother_ROW3388833431.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A female sea otter floats with a newborn pup resting on her chest in Prince William Sound, Alaska -- Steven Kazlowski/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100509-uk" class="uk" title="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Uchisar_EN-GB3816071571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100509-us" class="us" title="A female sea otter floats with a newborn pup resting on her chest in Prince William Sound, Alaska -- Steven Kazlowski/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OtterMother_EN-US1821313223.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A female sea otter floats with a newborn pup resting on her chest in Prince William Sound, Alaska -- Steven Kazlowski/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>10</span>
+--
 		<a href="#20100510-au" class="au" title="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=JantarMantar_EN-AU2871111743.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100510-ca" class="ca" title="A country road with fields and granaries and an approaching rain storm in Oyen, Alberta, Canada -- Darwin Wiggett/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OyenRoad_EN-CA955871051.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A country road with fields and granaries and an approaching rain storm in Oyen, Alberta, Canada -- Darwin Wiggett/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100510-cn" class="cn" title="五月之夏：“岸头树子直如筠，谁遣相招住水滨” -- Anne Montfort/Photononstop/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BaobabTrees_ZH-CN993792720.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="五月之夏：“岸头树子直如筠，谁遣相招住水滨” -- Anne Montfort/Photononstop/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100510-de" class="de" title="Die Iguazu-Wasserfälle auf der brasilianischen Seite im Bundesstaat Parana – SIME/eStock Photo &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IguazuFalls_DE-DE1112883463.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Iguazu-Wasserfälle auf der brasilianischen Seite im Bundesstaat Parana – SIME/eStock Photo &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100510-jp" class="jp" title="｢ジャンタル・マンタル天文所 ｣インド, ラジャスタン, ジャイプル -- Klaus Lang/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=JantarMantar_JA-JP2871111743.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ジャンタル・マンタル天文所 ｣インド, ラジャスタン, ジャイプル -- Klaus Lang/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100510-nz" class="nz" title="A country road with fields and granaries and an approaching rain storm in Oyen, Alberta, Canada -- Darwin Wiggett/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OyenRoad_ROW955871051.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A country road with fields and granaries and an approaching rain storm in Oyen, Alberta, Canada -- Darwin Wiggett/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100510-uk" class="uk" title="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CatsEyeNebula_EN-GB3514068596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100510-us" class="us" title="A country road with fields and granaries and an approaching rain storm in Oyen, Alberta, Canada -- Darwin Wiggett/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OyenRoad_EN-US1082983371.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A country road with fields and granaries and an approaching rain storm in Oyen, Alberta, Canada -- Darwin Wiggett/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>11</span>
+--
 		<a href="#20100511-au" class="au" title="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Uchisar_EN-AU3816071571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100511-ca" class="ca" title="Great Blue Hole underwater sinkhole off the coast of Belize - Image Source/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Belize_EN-CA1001629859.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Great Blue Hole underwater sinkhole off the coast of Belize - Image Source/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100511-cn" class="cn" title="五月之夏：“麦随风里熟，梅逐雨中黄” -- Darwin Wiggett/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OyenRoad_ZH-CN955871051.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="五月之夏：“麦随风里熟，梅逐雨中黄” -- Darwin Wiggett/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100511-de" class="de" title="Blick auf die Bühne eines leeren Filmtheaters – altrendo images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CinemaTheatre_DE-DE1513097351.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blick auf die Bühne eines leeren Filmtheaters – altrendo images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100511-jp" class="jp" title="｢葵祭｣京都, 上賀茂神社 -- JTB Photo / Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AoiFestival_JA-JP541999579.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢葵祭｣京都, 上賀茂神社 -- JTB Photo / Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100511-nz" class="nz" title="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=JantarMantar_ROW2871111743.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100511-uk" class="uk" title="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=JantarMantar_EN-GB2871111743.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100511-us" class="us" title="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=JantarMantar_EN-US12644042.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>12</span>
+--
 		<a href="#20100512-au" class="au" title="Clown triggerfish off the coast of Bunaken Island, Sulawesi, Indonesia -- Georgette Douwma/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ClownTriggerfish_EN-AU161327842.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Clown triggerfish off the coast of Bunaken Island, Sulawesi, Indonesia -- Georgette Douwma/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100512-ca" class="ca" title="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Uchisar_EN-CA3816071571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100512-cn" class="cn" title="五月之夏:“草树知春不久归，百般红紫斗芳菲” -- Mike Powles/Oxford Scientific (OSF)/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Rabbits_ZH-CN2777149617.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="五月之夏:“草树知春不久归，百般红紫斗芳菲” -- Mike Powles/Oxford Scientific (OSF)/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100512-de" class="de" title="Ein Schwarm Leoparden-Drückerfische vor der Küste der indonesischen Insel Bunaken – Georgette Douwma/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ClownTriggerfish_DE-DE161327842.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein Schwarm Leoparden-Drückerfische vor der Küste der indonesischen Insel Bunaken – Georgette Douwma/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100512-jp" class="jp" title="｢ルイス・アンド・クラーク・トレイル｣アメリカ, モンタナ州 -- Tom Trill/Superstock/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UpperMissouriBreaks_JA-JP3177461943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ルイス・アンド・クラーク・トレイル｣アメリカ, モンタナ州 -- Tom Trill/Superstock/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100512-nz" class="nz" title="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Uchisar_ROW3816071571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100512-uk" class="uk" title="Penicillium notatum showing conidiophores and conidia - Dr Fred Hossler/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Penicillin_EN-GB641807636.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Penicillium notatum showing conidiophores and conidia - Dr Fred Hossler/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100512-us" class="us" title="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Uchisar_EN-US1413245011.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eroded rock formations and camels in Uchisar, Cappadocia, Turkey -- Marc Dozier/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>13</span>
+--
 		<a href="#20100513-au" class="au" title="White Cliffs area of the Upper Missouri Breaks National Monument on the Lewis and Clark Trail, Montana -- Tom Trill/Superstock/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UpperMissouriBreaks_EN-AU3177461943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Cliffs area of the Upper Missouri Breaks National Monument on the Lewis and Clark Trail, Montana -- Tom Trill/Superstock/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100513-ca" class="ca" title="Clown triggerfish off the coast of Bunaken Island, Sulawesi, Indonesia -- Georgette Douwma/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ClownTriggerfish_EN-CA161327842.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Clown triggerfish off the coast of Bunaken Island, Sulawesi, Indonesia -- Georgette Douwma/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100513-cn" class="cn" title="五月之夏：“首夏犹清和，芳草亦未歇” -- Boris Roessler/epa/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Shamrock_ZH-CN512085987.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="五月之夏：“首夏犹清和，芳草亦未歇” -- Boris Roessler/epa/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100513-de" class="de" title="Weiße Felsen im Upper Missouri River Breaks-Naturschutzgebiet, Montana – Tom Trill/Superstock/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UpperMissouriBreaks_DE-DE3177461943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Weiße Felsen im Upper Missouri River Breaks-Naturschutzgebiet, Montana – Tom Trill/Superstock/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100513-jp" class="jp" title="｢出雲神楽殿のしめ縄｣島根, 出雲大社 -- JTB Photo / Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IzumoShintoShrine_JA-JP1137303330.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢出雲神楽殿のしめ縄｣島根, 出雲大社 -- JTB Photo / Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100513-nz" class="nz" title="Clown triggerfish off the coast of Bunaken Island, Sulawesi, Indonesia -- Georgette Douwma/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ClownTriggerfish_ROW161327842.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Clown triggerfish off the coast of Bunaken Island, Sulawesi, Indonesia -- Georgette Douwma/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100513-uk" class="uk" title="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IguazuFalls_EN-GB1112883463.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Iguazu Falls, Parana, Brazil -- SIME/eStock Photo &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100513-us" class="us" title="Clown triggerfish off the coast of Bunaken Island, Sulawesi, Indonesia -- Georgette Douwma/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ClownTriggerfish_EN-US2626699072.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Clown triggerfish off the coast of Bunaken Island, Sulawesi, Indonesia -- Georgette Douwma/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>14</span>
+--
 		<a href="#20100514-au" class="au" title="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CatsEyeNebula_EN-AU3514068596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100514-ca" class="ca" title="White Cliffs area of the Upper Missouri Breaks National Monument on the Lewis and Clark Trail, Montana -- Tom Trill/Superstock/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UpperMissouriBreaks_EN-CA3177461943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Cliffs area of the Upper Missouri Breaks National Monument on the Lewis and Clark Trail, Montana -- Tom Trill/Superstock/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100514-cn" class="cn" title="美国阿拉斯加沃森湖畔的“标识林” -- Don Johnston/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SignForest_ZH-CN1771026672.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="美国阿拉斯加沃森湖畔的“标识林” -- Don Johnston/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100514-de" class="de" title="Eine Ottermutter schwimmt auf dem Rücken mit ihrem Jungen auf der Brust, Alaska – Steven Kazlowski/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OtterMother_DE-DE3388833431.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Eine Ottermutter schwimmt auf dem Rücken mit ihrem Jungen auf der Brust, Alaska – Steven Kazlowski/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100514-jp" class="jp" title="｢キャッツアイ星雲｣ハッブル宇宙望遠鏡 -- STScI/NASA/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CatsEyeNebula_JA-JP3514068596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢キャッツアイ星雲｣ハッブル宇宙望遠鏡 -- STScI/NASA/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100514-nz" class="nz" title="White Cliffs area of the Upper Missouri Breaks National Monument on the Lewis and Clark Trail, Montana -- Tom Trill/Superstock/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UpperMissouriBreaks_ROW3177461943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Cliffs area of the Upper Missouri Breaks National Monument on the Lewis and Clark Trail, Montana -- Tom Trill/Superstock/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100514-uk" class="uk" title="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CarlsbadCavern_EN-GB2391804922.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Big Room in Carlsbad Cavern, Carlsbad Caverns National Park, New Mexico -- David L. Brown/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100514-us" class="us" title="White Cliffs area of the Upper Missouri Breaks National Monument on the Lewis and Clark Trail, Montana -- Tom Trill/Superstock/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UpperMissouriBreaks_EN-US3177461943.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Cliffs area of the Upper Missouri Breaks National Monument on the Lewis and Clark Trail, Montana -- Tom Trill/Superstock/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>15</span>
+--
 		<a href="#20100515-au" class="au" title="Cheetah and cubs in the Masai Mara National Reserve, Kenya -- DLILLC/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CheetahFamily_EN-AU545569307.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Cheetah and cubs in the Masai Mara National Reserve, Kenya -- DLILLC/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100515-ca" class="ca" title="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CatsEyeNebula_EN-CA3514068596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100515-cn" class="cn" title="在巴布亚新几内亚发现的新生物种，它被命名为“袋猴” -- Michele Westmorland/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cuscus_ZH-CN2223740503.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="在巴布亚新几内亚发现的新生物种，它被命名为“袋猴” -- Michele Westmorland/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100515-de" class="de" title="Bizarre Felsformationen in Kappadokien, Türkei – Marc Dozier/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Uchisar_DE-DE3816071571.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bizarre Felsformationen in Kappadokien, Türkei – Marc Dozier/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100515-jp" class="jp" title="｢チーターの親子｣ケニア, マサイ・マラ国立保護区 -- DLILLC/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CheetahFamily_JA-JP545569307.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢チーターの親子｣ケニア, マサイ・マラ国立保護区 -- DLILLC/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100515-nz" class="nz" title="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CatsEyeNebula_ROW3514068596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100515-uk" class="uk" title="Hackney Marshes football pitches in North London - Matt Cardy/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FACupFinal_EN-GB993220007.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hackney Marshes football pitches in North London - Matt Cardy/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100515-us" class="us" title="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CatsEyeNebula_EN-US194962793.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The dust of the Cat's Eye Nebula -- STScI/NASA/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>16</span>
+--
 		<a href="#20100516-au" class="au" title="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Trollstigen_EN-AU1819080779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100516-ca" class="ca" title="Cheetah and cubs in the Masai Mara National Reserve, Kenya -- DLILLC/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CheetahFamily_EN-CA545569307.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Cheetah and cubs in the Masai Mara National Reserve, Kenya -- DLILLC/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100516-cn" class="cn" title="天龙星座中的猫眼星云 -- STScI/NASA/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CatsEyeNebula_ZH-CN3514068596.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="天龙星座中的猫眼星云 -- STScI/NASA/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100516-de" class="de" title="Der Trollstigen ist eine Passstraße mit elf Haarnadelkurven in Norwegen – Rainer Mirau/Mauritius/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Trollstigen_DE-DE1819080779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Der Trollstigen ist eine Passstraße mit elf Haarnadelkurven in Norwegen – Rainer Mirau/Mauritius/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100516-jp" class="jp" title="｢トロールスティーゲン山道｣ノルウェー, ムーレ・オ・ロムスダール -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Trollstigen_JA-JP1819080779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢トロールスティーゲン山道｣ノルウェー, ムーレ・オ・ロムスダール -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100516-nz" class="nz" title="Cheetah and cubs in the Masai Mara National Reserve, Kenya -- DLILLC/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CheetahFamily_ROW545569307.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Cheetah and cubs in the Masai Mara National Reserve, Kenya -- DLILLC/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100516-uk" class="uk" title="Rimini Bar - Meltzer Eduard/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Lasers_EN-GB2069459631.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Rimini Bar - Meltzer Eduard/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100516-us" class="us" title="Cheetah and cubs in the Masai Mara National Reserve, Kenya -- DLILLC/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CheetahFamily_EN-US533700733.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Cheetah and cubs in the Masai Mara National Reserve, Kenya -- DLILLC/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>17</span>
+--
 		<a href="#20100517-au" class="au" title="Mount Saint Helens and the devastation from the 1980 eruption, Washington -- Alan Kearney/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaintHelens_EN-AU45767445.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mount Saint Helens and the devastation from the 1980 eruption, Washington -- Alan Kearney/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100517-ca" class="ca" title="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Trollstigen_EN-CA1819080779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100517-cn" class="cn" title="肯尼亚马赛马拉国家保护区中，猎豹和它的幼崽们 -- DLILLC/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CheetahFamily_ZH-CN545569307.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="肯尼亚马赛马拉国家保护区中，猎豹和它的幼崽们 -- DLILLC/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100517-de" class="de" title="Mount Saint Helen und die Folgen seines letzten Ausbruchs, Washington – Alan Kearney/age fotostock/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaintHelens_DE-DE45767445.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mount Saint Helen und die Folgen seines letzten Ausbruchs, Washington – Alan Kearney/age fotostock/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100517-jp" class="jp" title="｢ロンドン塔｣イギリス, ロンドン -- Creatas/age fotostock &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TowerofLondon_JA-JP1403406022.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ロンドン塔｣イギリス, ロンドン -- Creatas/age fotostock &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100517-nz" class="nz" title="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Trollstigen_ROW1819080779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100517-uk" class="uk" title="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Trollstigen_EN-GB1819080779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100517-us" class="us" title="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Trollstigen_EN-US2119369570.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Trollstigen mountain road in Romsdal, Norway -- Rainer Mirau/Mauritius/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>18</span>
+--
 		<a href="#20100518-au" class="au" title="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TowerofLondon_EN-AU1403406022.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100518-ca" class="ca" title="African Elephant in Ngorongoro Crater in Ngorongoro Conservation Area, Tanzania - Blaine Harrington III/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Elephants_EN-CA152601216.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="African Elephant in Ngorongoro Crater in Ngorongoro Conservation Area, Tanzania - Blaine Harrington III/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100518-cn" class="cn" title="英国伦敦塔特写 -- Creatas/age fotostock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TowerofLondon_ZH-CN1403406022.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="英国伦敦塔特写 -- Creatas/age fotostock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100518-de" class="de" title="Nahaufnahme des Towers in London – Creatas/age fotostock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TowerofLondon_DE-DE1403406022.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Nahaufnahme des Towers in London – Creatas/age fotostock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100518-jp" class="jp" title="｢三愛の丘｣北海道, 十勝岳 -- JTB Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SanaiHill_JA-JP688764703.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢三愛の丘｣北海道, 十勝岳 -- JTB Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100518-nz" class="nz" title="Mount Saint Helens and the devastation from the 1980 eruption, Washington -- Alan Kearney/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaintHelens_ROW45767445.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mount Saint Helens and the devastation from the 1980 eruption, Washington -- Alan Kearney/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100518-uk" class="uk" title="Mount Saint Helens and the devastation from the 1980 eruption, Washington -- Alan Kearney/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaintHelens_EN-GB45767445.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mount Saint Helens and the devastation from the 1980 eruption, Washington -- Alan Kearney/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100518-us" class="us" title="Mount Saint Helens and the devastation from the 1980 eruption, Washington -- Alan Kearney/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaintHelens_EN-US1306028872.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mount Saint Helens and the devastation from the 1980 eruption, Washington -- Alan Kearney/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>19</span>
+--
 		<a href="#20100519-au" class="au" title="Blue-ringed Octopus in the Lembeh Straits, Sulawesi Island, Indonesia -- Peter Arnold Images/Photolibrary Nachos Calonge/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Blue-ringedOctopus_EN-AU537101951.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Blue-ringed Octopus in the Lembeh Straits, Sulawesi Island, Indonesia -- Peter Arnold Images/Photolibrary Nachos Calonge/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100519-ca" class="ca" title="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TowerofLondon_EN-CA1403406022.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100519-cn" class="cn" title="在肯尼亚纳库鲁湖上拍摄到的白鹈鹕鸟群 -- Werner Bollmann/age fotostock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePelicans_ZH-CN539350839.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="在肯尼亚纳库鲁湖上拍摄到的白鹈鹕鸟群 -- Werner Bollmann/age fotostock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100519-de" class="de" title="Der Kreuzgang des Hieronymus-Klosters in Lissabon, Portugal – Nachos Calonge/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hieronymites_DE-DE1969310672.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Der Kreuzgang des Hieronymus-Klosters in Lissabon, Portugal – Nachos Calonge/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100519-jp" class="jp" title="｢羅平の菜の花畑｣中国, 雲南省, 金鶏公園 -- JTB Photo/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MustardField_JA-JP55794018.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢羅平の菜の花畑｣中国, 雲南省, 金鶏公園 -- JTB Photo/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100519-nz" class="nz" title="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TowerofLondon_ROW1403406022.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100519-uk" class="uk" title="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TowerofLondon_EN-GB1403406022.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100519-us" class="us" title="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TowerofLondon_EN-US1862605795.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A close-up of the Tower of London, London -- Creatas/age fotostock &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>20</span>
+--
 		<a href="#20100520-au" class="au" title="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePelicans_EN-AU539350839.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100520-ca" class="ca" title="The Cloister of the Monastery of the Hieronymites  in Lisbon, Portugal -- Nachos Calonge/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hieronymites_EN-CA1201044242.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Cloister of the Monastery of the Hieronymites  in Lisbon, Portugal -- Nachos Calonge/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100520-cn" class="cn" title="二十四节气中的小满 -- Chris Cheadle/All Canada Photos &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dahlia_ZH-CN134862169.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="二十四节气中的小满 -- Chris Cheadle/All Canada Photos &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100520-de" class="de" title="Ein Dachs streift durch die hessischen Wälder – ARCO/M. Delpho/Arco Images/age fotostock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Badger_DE-DE2859598588.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein Dachs streift durch die hessischen Wälder – ARCO/M. Delpho/Arco Images/age fotostock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100520-jp" class="jp" title="｢円山公園のカキツバタ｣京都, 東山区 -- JTB Photo / Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Irises_JA-JP722439955.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢円山公園のカキツバタ｣京都, 東山区 -- JTB Photo / Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100520-nz" class="nz" title="Dahlia blossom with honey bee, British Columbia, Canada --Chris Cheadle/All Canada Photos &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dahlia_ROW134862169.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dahlia blossom with honey bee, British Columbia, Canada --Chris Cheadle/All Canada Photos &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100520-uk" class="uk" title="The Cloister of the Monastery of the Hieronymites  in Lisbon, Portugal -- Nachos Calonge/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hieronymites_EN-GB1201044242.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Cloister of the Monastery of the Hieronymites  in Lisbon, Portugal -- Nachos Calonge/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100520-us" class="us" title="The Cloister of the Monastery of the Hieronymites  in Lisbon, Portugal -- Nachos Calonge/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hieronymites_EN-US1201044242.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Cloister of the Monastery of the Hieronymites  in Lisbon, Portugal -- Nachos Calonge/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>21</span>
+--
 		<a href="#20100521-au" class="au" title="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Paphos_EN-AU288486645.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100521-ca" class="ca" title="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePelicans_EN-CA539350839.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100521-cn" class="cn" title="奥地利施蒂利亚州的朝圣教堂 -- plainpicture/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Frauenberg_ZH-CN972535748.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="奥地利施蒂利亚州的朝圣教堂 -- plainpicture/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100521-de" class="de" title="Der Felsen der Aphrodite in der Bucht von Paphos, Zypern – Riccardo Spila/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Paphos_DE-DE288486645.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Der Felsen der Aphrodite in der Bucht von Paphos, Zypern – Riccardo Spila/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100521-jp" class="jp" title="｢トゥルッリ｣イタリア, アルベロベッロ -- Peter Adams/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Alberobello_JA-JP435053341.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢トゥルッリ｣イタリア, アルベロベッロ -- Peter Adams/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100521-nz" class="nz" title="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePelicans_ROW539350839.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100521-uk" class="uk" title="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePelicans_EN-GB42626044.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100521-us" class="us" title="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhitePelicans_EN-US42626044.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="White Pelicans on  Lake Nakuru, Kenya -- Werner Bollmann/age fotostock &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>22</span>
+--
 		<a href="#20100522-au" class="au" title="Pilgrimage Church of Frauenberg  in Styria, Austria -- plainpicture/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Frauenberg_EN-AU972535748.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Pilgrimage Church of Frauenberg  in Styria, Austria -- plainpicture/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100522-ca" class="ca" title="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Paphos_EN-CA288486645.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100522-cn" class="cn" title="南美洲苏里南共和国，海滩上刚被孵化出来的绿海龟 -- Frans Lanting/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TurtleHatchling_ZH-CN407919738.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="南美洲苏里南共和国，海滩上刚被孵化出来的绿海龟 -- Frans Lanting/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100522-de" class="de" title="Wallfahrtskirche Frauenberg in der Steiermark, Österreich –  plainpicture/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Frauenberg_DE-DE972535748.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wallfahrtskirche Frauenberg in der Steiermark, Österreich –  plainpicture/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100522-jp" class="jp" title="｢グレートソルト湖の夕暮れ｣アメリカ, ユタ州 -- Great Salt Lake Landscapes & More/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaltLake_JA-JP1257526951.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢グレートソルト湖の夕暮れ｣アメリカ, ユタ州 -- Great Salt Lake Landscapes & More/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100522-nz" class="nz" title="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Paphos_ROW288486645.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100522-uk" class="uk" title="Traditional fishermen standing on a stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StiltFisherman_EN-GB513530903.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Traditional fishermen standing on a stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100522-us" class="us" title="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Paphos_EN-US3975269776.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>23</span>
+--
 		<a href="#20100523-au" class="au" title="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrooklynBridge_EN-AU2034221625.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100523-ca" class="ca" title="Pilgrimage Church of Frauenberg  in Styria, Austria -- plainpicture/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Frauenberg_EN-CA972535748.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Pilgrimage Church of Frauenberg  in Styria, Austria -- plainpicture/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100523-cn" class="cn" title="纽约市的布鲁克林大桥 -- Gavin Hellier/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrooklynBridge_ZH-CN2034221625.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="纽约市的布鲁克林大桥 -- Gavin Hellier/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100523-de" class="de" title="Brooklyn Bridge in New York – Gavin Hellier/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrooklynBridge_DE-DE2034221625.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Brooklyn Bridge in New York – Gavin Hellier/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100523-jp" class="jp" title="｢ゼリンのゼー桟橋｣ドイツ,リューゲン島 -- Tobias Bindhammer/age fotostock &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Sellin_JA-JP1600907529.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ゼリンのゼー桟橋｣ドイツ,リューゲン島 -- Tobias Bindhammer/age fotostock &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100523-nz" class="nz" title="Badger in Hessen, Germany -- Gerd Schnuerer/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Badger_ROW2859598588.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Badger in Hessen, Germany -- Gerd Schnuerer/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100523-uk" class="uk" title="Green sea turtle hatchling in Surinam, South America -- Frans Lanting/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TurtleHatchling_EN-GB2446716521.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Green sea turtle hatchling in Surinam, South America -- Frans Lanting/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100523-us" class="us" title="Pilgrimage Church of Frauenberg  in Styria, Austria -- plainpicture/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Frauenberg_EN-US2970367445.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Pilgrimage Church of Frauenberg  in Styria, Austria -- plainpicture/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>24</span>
+--
 		<a href="#20100524-au" class="au" title="African Elephant in Ngorongoro Crater in Ngorongoro Conservation Area, Tanzania -- Blaine Harrington III/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Ngorongoro_EN-AU343749390.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="African Elephant in Ngorongoro Crater in Ngorongoro Conservation Area, Tanzania -- Blaine Harrington III/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100524-ca" class="ca" title="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrooklynBridge_EN-CA2034221625.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100524-cn" class="cn" title="坦桑尼亚恩戈罗恩戈罗火山口 -- Blaine Harrington III/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Ngorongoro_ZH-CN343749390.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="坦桑尼亚恩戈罗恩戈罗火山口 -- Blaine Harrington III/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100524-de" class="de" title="Ein afrikanischer Elefant im Ngorongoro-Krater, Tansania – Blaine Harrington III/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Ngorongoro_DE-DE343749390.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein afrikanischer Elefant im Ngorongoro-Krater, Tansania – Blaine Harrington III/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100524-jp" class="jp" title="｢三亜｣中国, 海南省 -- Best View Stock/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Sanya_JA-JP2154338505.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢三亜｣中国, 海南省 -- Best View Stock/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100524-nz" class="nz" title="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrooklynBridge_ROW2034221625.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100524-uk" class="uk" title="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrooklynBridge_EN-GB2225829590.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100524-us" class="us" title="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrooklynBridge_EN-US2225829590.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Brooklyn Bridge, New York City -- Gavin Hellier/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>25</span>
+--
 		<a href="#20100525-au" class="au" title="Two players chase the ball during a game of the NRL State of Origin series at ANZ Stadium in Sydney, Australia in 2009 -- Matt King/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Rugby_EN-AU2420618657.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Two players chase the ball during a game of the NRL State of Origin series at ANZ Stadium in Sydney, Australia in 2009 -- Matt King/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100525-ca" class="ca" title="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=JantarMantar_EN-CA2871111743.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Laghu Samrat Yantra sundial at the Jantar Mantar astronomical observatory, built in the early 1700’s, in Jaipur, Rajasthan, India -- Klaus Lang/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100525-cn" class="cn" title="伯利兹海域著名的蓝洞 -- Image Source/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BlueHole_ZH-CN663031748.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="伯利兹海域著名的蓝洞 -- Image Source/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100525-de" class="de" title="Ein Hubschrauber fliegt über das Great Blue Hole vor der Küste von  Belize – Image Source/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BlueHole_DE-DE663031748.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein Hubschrauber fliegt über das Great Blue Hole vor der Küste von  Belize – Image Source/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100525-jp" class="jp" title="｢アドラール山のラクダの隊商｣モーリタニア, サハラ砂漠 -- SUETONE Emilio/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mauritania_JA-JP652401334.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アドラール山のラクダの隊商｣モーリタニア, サハラ砂漠 -- SUETONE Emilio/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100525-nz" class="nz" title="African Elephant in Ngorongoro Crater in Ngorongoro Conservation Area, Tanzania -- Blaine Harrington III/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Ngorongoro_ROW343749390.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="African Elephant in Ngorongoro Crater in Ngorongoro Conservation Area, Tanzania -- Blaine Harrington III/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100525-uk" class="uk" title="From Life to Life, Chelsea Flower Show 2008 - Rosalind Simon/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ChelseaFlowerShow_EN-GB211945288.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="From Life to Life, Chelsea Flower Show 2008 - Rosalind Simon/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100525-us" class="us" title="African Elephant in Ngorongoro Crater in Ngorongoro Conservation Area, Tanzania -- Blaine Harrington III/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Ngorongoro_EN-US152601216.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="African Elephant in Ngorongoro Crater in Ngorongoro Conservation Area, Tanzania -- Blaine Harrington III/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>26</span>
+--
 		<a href="#20100526-au" class="au" title="Traditional fishermen standing on a stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StiltFisherman_EN-AU1090587541.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Traditional fishermen standing on a stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100526-ca" class="ca" title="Mount Saint Helens and the devastation from the 1980 eruption, Washington, USA -- Alan Kearney/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaintHelens_EN-CA45767445.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mount Saint Helens and the devastation from the 1980 eruption, Washington, USA -- Alan Kearney/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100526-cn" class="cn" title="斯里兰卡渔民传统的捕鱼方式 -- Tips Italia/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StiltFisherman_ZH-CN1090587541.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="斯里兰卡渔民传统的捕鱼方式 -- Tips Italia/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100526-de" class="de" title="Stelzenfischer auf Sri Lanka – Tips Italia/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StiltFisherman_DE-DE1090587541.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stelzenfischer auf Sri Lanka – Tips Italia/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100526-jp" class="jp" title="｢竹で編んだ小船｣ベトナム -- Sami Sarkis/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BambooBoat_JA-JP1057817945.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢竹で編んだ小船｣ベトナム -- Sami Sarkis/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100526-nz" class="nz" title="Great Blue Hole underwater sinkhole off the coast of Belize -- Image Source/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BlueHole_ROW663031748.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Great Blue Hole underwater sinkhole off the coast of Belize -- Image Source/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100526-uk" class="uk" title="France Nord Dunkerque harbour- HOUZE Philippe/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dunkerque_EN-GB1631312879.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="France Nord Dunkerque harbour- HOUZE Philippe/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100526-us" class="us" title="Great Blue Hole underwater sinkhole off the coast of Belize -- Image Source/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BlueHole_EN-US1001629859.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Great Blue Hole underwater sinkhole off the coast of Belize -- Image Source/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>27</span>
+--
 		<a href="#20100527-au" class="au" title="Western Tarsier clinging to tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tarsier_EN-AU1116718037.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Western Tarsier clinging to tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100527-ca" class="ca" title="Traditional fishermen standing on a stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StiltFisherman_EN-CA513530903.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Traditional fishermen standing on a stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100527-cn" class="cn" title="婆罗洲的印度眼镜猴 -- Frans Lanting/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tarsier_ZH-CN1116718037.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="婆罗洲的印度眼镜猴 -- Frans Lanting/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100527-de" class="de" title="Ein Koboldmaki klammert sich an einen Ast im malaysischen Bundesstaat Sabah auf Borneo – Frans Lanting/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tarsier_DE-DE1116718037.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein Koboldmaki klammert sich an einen Ast im malaysischen Bundesstaat Sabah auf Borneo – Frans Lanting/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100527-jp" class="jp" title="｢横浜ランドマークタワー｣神奈川, 横浜 -- Luciano Lepre/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=YokohamaPort_JA-JP133481862.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢横浜ランドマークタワー｣神奈川, 横浜 -- Luciano Lepre/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100527-nz" class="nz" title="Traditional fishermen standing on a stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StiltFisherman_ROW1090587541.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Traditional fishermen standing on a stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100527-uk" class="uk" title="Great Blue Hole underwater sinkhole off the coast of Belize -- Image Source/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BlueHole_EN-GB1001629859.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Great Blue Hole underwater sinkhole off the coast of Belize -- Image Source/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100527-us" class="us" title="Traditional fishermen standing on stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StiltFisherman_EN-US513530903.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Traditional fishermen standing on stilts in the sea in Sri Lanka -- Tips Italia/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>28</span>
+--
 		<a href="#20100528-au" class="au" title="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MadagascarKarst_EN-AU2349585573.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100528-ca" class="ca" title="Western Tarsier clinging to tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tarsier_EN-CA257380235.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Western Tarsier clinging to tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100528-cn" class="cn" title="马达加斯加喀斯特石灰岩层地质奇观 -- Frans Lanting/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MadagascarKarst_ZH-CN2349585573.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="马达加斯加喀斯特石灰岩层地质奇观 -- Frans Lanting/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100528-de" class="de" title="Kalksteinformationen im Tsingy de Bemaraha-Nationalpark, Madagaskar – Frans Lanting/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MadagascarKarst_DE-DE2349585573.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kalksteinformationen im Tsingy de Bemaraha-Nationalpark, Madagaskar – Frans Lanting/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100528-jp" class="jp" title="｢ロス棚氷｣南極 -- A Rose/age fotostock &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IcebergCalm_JA-JP362002723.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ロス棚氷｣南極 -- A Rose/age fotostock &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100528-nz" class="nz" title="Western Tarsier clinging to tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tarsier_ROW1116718037.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Western Tarsier clinging to tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100528-uk" class="uk" title="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MadagascarKarst_EN-GB1725562771.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100528-us" class="us" title="Western Tarsier clinging to a tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tarsier_EN-US257380235.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Western Tarsier clinging to a tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>29</span>
+--
 		<a href="#20100529-au" class="au" title="Elves Chasm, Grand Canyon National Park, Arizona -- Michael DeYoung/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ElvesChasm_EN-AU783212421.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Elves Chasm, Grand Canyon National Park, Arizona -- Michael DeYoung/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100529-ca" class="ca" title="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MadagascarKarst_EN-CA2349585573.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100529-cn" class="cn" title="亚利桑那州大峡谷国家公园 -- Michael DeYoung/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ElvesChasm_ZH-CN783212421.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="亚利桑那州大峡谷国家公园 -- Michael DeYoung/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100529-de" class="de" title="Die Elves Chasm im Grand Canyon-Nationalpark, Arizona – Michael DeYoung/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ElvesChasm_DE-DE783212421.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Elves Chasm im Grand Canyon-Nationalpark, Arizona – Michael DeYoung/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100529-jp" class="jp" title="｢野生のオシドリ｣イギリス -- David Slater/DanitaDelimont.com &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MandarinDuck_JA-JP2057460281.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢野生のオシドリ｣イギリス -- David Slater/DanitaDelimont.com &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100529-nz" class="nz" title="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MadagascarKarst_ROW2349585573.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100529-uk" class="uk" title="Puente Zubizuri  in Bilbao, Spain -- Juanma Aparicio/age fotostock &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PuenteZubizuri_EN-GB377314788.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Puente Zubizuri  in Bilbao, Spain -- Juanma Aparicio/age fotostock &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100529-us" class="us" title="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MadagascarKarst_EN-US1725562771.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Karst limestone formations in Tsingy de Bemaraha Strict Nature Reserve, Madagascar -- Frans Lanting/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>30</span>
+--
 		<a href="#20100530-au" class="au" title="Great Blue Hole underwater sinkhole off the coast of Belize -- Image Source/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BlueHole_EN-AU663031748.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Great Blue Hole underwater sinkhole off the coast of Belize -- Image Source/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100530-ca" class="ca" title="Elves Chasm, Grand Canyon National Park, Arizona -- Michael DeYoung/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ElvesChasm_EN-CA2134139549.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Elves Chasm, Grand Canyon National Park, Arizona -- Michael DeYoung/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100530-cn" class="cn" title="意大利罗马著名的斗兽场 -- Rene Mattee/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ElDjem_ZH-CN2644817778.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="意大利罗马著名的斗兽场 -- Rene Mattee/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100530-de" class="de" title="Die Zubizuri-Brücke in der spanischen Stadt Bilbao – Juanma Aparicio/age fotostock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PuenteZubizuri_DE-DE2193480852.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Zubizuri-Brücke in der spanischen Stadt Bilbao – Juanma Aparicio/age fotostock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100530-jp" class="jp" title="｢レベルストーク山国立公園｣カナダ, ブリティッシュコロンビア -- Darwin Wiggett/age fotostock &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RevelstokeBoardwalk_JA-JP3700721909.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢レベルストーク山国立公園｣カナダ, ブリティッシュコロンビア -- Darwin Wiggett/age fotostock &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100530-nz" class="nz" title="Elves Chasm, Grand Canyon National Park, Arizona -- Michael DeYoung/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ElvesChasm_ROW783212421.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Elves Chasm, Grand Canyon National Park, Arizona -- Michael DeYoung/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100530-uk" class="uk" title="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Paphos_EN-GB3975269776.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Aphrodite's Rock in Paphos, Cyprus -- Riccardo Spila/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100530-us" class="us" title="Elves Chasm, Grand Canyon National Park, Arizona -- Michael DeYoung/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ElvesChasm_EN-US783212421.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Elves Chasm, Grand Canyon National Park, Arizona -- Michael DeYoung/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>31</span>
+--
 		<a href="#20100531-au" class="au" title="AVHRR natural colour satellite image of Australia, Indonesia and New Zealand with shaded topographic relief -- Nick Gibson/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Australia_EN-AU675498155.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="AVHRR natural colour satellite image of Australia, Indonesia and New Zealand with shaded topographic relief -- Nick Gibson/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100531-ca" class="ca" title="Photovoltaic arrays tilted to sun in Chino Valley, Arizona -- Joho Joho/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SolarPanel_EN-CA2266965439.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Photovoltaic arrays tilted to sun in Chino Valley, Arizona -- Joho Joho/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100531-cn" class="cn" title="幸福的摩天轮，今天是六一儿童节 -- Mansoor Malik &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DubaiFerriswheel_ZH-CN2957377208.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="幸福的摩天轮，今天是六一儿童节 -- Mansoor Malik &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100531-de" class="de" title="Berlin mit Fernsehturm und Dom bei Nacht – Gerd Schnuerer/Photographer's Choice/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Berlin_DE-DE227011678.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Berlin mit Fernsehturm und Dom bei Nacht – Gerd Schnuerer/Photographer's Choice/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100531-jp" class="jp" title="｢渦巻き銀河｣かに星雲  --  NASA/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrabNebula_JA-JP117603760.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢渦巻き銀河｣かに星雲  --  NASA/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100531-nz" class="nz" title="Photovoltaic arrays tilted to sun in Chino Valley, Arizona -- Joho Joho/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SolarPanel_ROW2266965439.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Photovoltaic arrays tilted to sun in Chino Valley, Arizona -- Joho Joho/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100531-uk" class="uk" title="Western Tarsier clinging to tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tarsier_EN-GB257380235.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Western Tarsier clinging to tree in Sabah State, Borneo -- Frans Lanting/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100531-us" class="us" title="The Memorial Amphitheater at the Tomb of the Unknowns, Arlington, Virginia -- SuperStock RF/Superstock &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=UnknownSoldier_EN-US2691970335.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Memorial Amphitheater at the Tomb of the Unknowns, Arlington, Virginia -- SuperStock RF/Superstock &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td></td><td></td><td></td><td></td><td></td></tr>
-</table>
-    <div class="ad">
-      <script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x90, created 8/4/09 */
-google_ad_slot = "6880081602";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-      <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
-<div class="clear"></div>
-<div class="footer">
-  <div class="wrapper">
-    <p>Brought to you by Long Zheng at <a href="http://www.istartedsomething.com">www.istartedsomething.com</a></p>
-    <p>Images are copyright to their respective owners. <a href="http://www.bing.com">Bing</a> is a (funny) trademark of Microsoft Corporation. Some icons are by The Noun Project (Creative Commons).</p>
-  </div>
-</div>
-<div id="imageview">
-  <div class="loading"><img src="style/images/ajax-loader.gif" /> </div>
-  <div class="viewer">
-    <p class="image"><img src="" /></p>
-    <div class="video">
-    </div>
-    <p class="desc"></p>
-    <div class="facts">
-      <ul>
-      </ul>
-      <div class="clear"></div>
-    </div>
-    <div class="buttons">
-        <div class="viewerad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2619236561011065";
-			/* Viewer ad */
-			google_ad_slot = "3707022863";
-			google_ad_width = 728;
-			google_ad_height = 15;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
-        </div>
-        <div class="videobuttons">
-            <a href="#" class="showvideo">Switch to video version</a>
-            <a href="#" class="hidevideo">Switch to image version</a>
-        </div>
-        <a href="#" class="close">Close</a>
-    </div>
-  </div>
-</div>
-<!-- Start of StatCounter Code -->
-<script type="text/javascript">
-var sc_project=4814143; 
-var sc_invisible=1; 
-var sc_partition=54; 
-var sc_click_stat=1; 
-var sc_security="9418942d"; 
-</script>
-<script type="text/javascript"
-src="http://www.statcounter.com/counter/counter.js"></script>
-<noscript>
-<div class="statcounter"><a title="free hit counters" href="http://www.statcounter.com/" target="_blank">
-<img class="statcounter" src="http://c.statcounter.com/4814143/0/9418942d/1/" alt="free hit counters" ></a></div>
-</noscript>
-<!-- End of StatCounter Code -->
-</body>
-</html>

@@ -1,5 +1,6 @@
 #!/bin/sh
 for i in html/*
 do
-	sed -n '/resize/p' -i $i
+	grep 'resize' -B1 $i > $i.tmp
+	mv $i.tmp $i
 done

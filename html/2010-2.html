@@ -1,1104 +1,671 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Bing Image Archive</title>
-<meta name="description" content="Collection of the latest homepage background images from Bing.com">
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
-<link href="style/css.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.blockUI.js"></script>
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.08122.js"></script>
-<script type="text/javascript" src="js/bingimages.js"></script>
-<link href="http://feeds.feedburner.com/bingimages" type="application/rss+xml" rel="alternate" title="Bing Image Archive RSS Feed" />
-</head>
-<body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-182613-10', 'istartedsomething.com');
-  ga('send', 'pageview');
-
-</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=168868916648885";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- precache black background --><img src="style/images/black-95.png" style="display:none;" />
-<div class="sharebar">
-<div class="wrapper">
-<div class="fb-like" data-href="http://www.istartedsomething.com/bingimages/" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.istartedsomething.com/bingimages/" data-text="Bing Image Archive - latest homepage images from Bing">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
-</div>
-<div class="header">
-  <div class="wrapper">
-    <h1><a href="http://www.istartedsomething.com/bingimages/">Bing Image Archive</a></h1>
-    <h2>Showcasing the backgrounds from the frontpage of Bing</h2>
-  </div>
-</div>
-<div class="content">
-  <div class="wrapper">
-    <ul class="countries">
-            <li>
-        <input type="checkbox" checked="checked" name="countryfilter[]" value="us" id="us"/>
-        <label for="us"> <img src="flags/us.gif" alt="United States" title="United States" /> <span>United States</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="gb" id="gb"/>
-        <label for="gb"> <img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" /> <span>United Kingdom</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="au" id="au"/>
-        <label for="au"> <img src="flags/au.gif" alt="Australia" title="Australia" /> <span>Australia</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="jp" id="jp"/>
-        <label for="jp"> <img src="flags/jp.gif" alt="Japan" title="Japan" /> <span>Japan</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="cn" id="cn"/>
-        <label for="cn"> <img src="flags/cn.gif" alt="China" title="China" /> <span>China</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="nz" id="nz"/>
-        <label for="nz"> <img src="flags/nz.gif" alt="New Zealand" title="New Zealand" /> <span>New Zealand</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="de" id="de"/>
-        <label for="de"> <img src="flags/de.gif" alt="Germany" title="Germany" /> <span>Germany</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="ca" id="ca"/>
-        <label for="ca"> <img src="flags/ca.gif" alt="Canada" title="Canada" /> <span>Canada</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="fr" id="fr"/>
-        <label for="fr"> <img src="flags/fr.gif" alt="France" title="France" /> <span>France</span> </label>
-      </li>
-          </ul>
-    <div class="clear"></div>
-
-<div class="ad_small">
-<script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x15, created 6/26/09 */
-google_ad_slot = "2476437438";
-google_ad_width = 728;
-google_ad_height = 15;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-
-<div class="clear"></div>
-    <ul class="month">
-            <li class="month_prev">
-        <p><a href="?m=1&y=2010">Previous month</a></p>
-      </li>
-      <li class="month_current">
-        <h3>February 2010</h3>
-      </li>
-      <li class="month_next">
-        <p><a href="?m=3&y=2010">Next month</a></p>
-      </li>
-    </ul>
-    <div class="clear"></div>
-    <table class='calendar'>
-	<thead>
-				<th>Sunday</th>
-				<th>Monday</th>
-				<th>Tuesday</th>
-				<th>Wednesday</th>
-				<th>Thursday</th>
-				<th>Friday</th>
-				<th>Saturday</th>
-			</thead>
-	<tr><td></td><td class='dated'><span class='day'>1</span>
 		<a href="#20100201-au" class="au" title="A large brain coral grows toward the ocean's surface in the Great Barrier Reef of Australia -- Stuart Westmorland/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrainCoral_EN-AU2259676779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A large brain coral grows toward the ocean's surface in the Great Barrier Reef of Australia -- Stuart Westmorland/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100201-ca" class="ca" title="Japanese Cranes Cawing -- Akihiko Tachikawa/Aflo Foto Agency &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cranes_EN-CA1289772618.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Japanese Cranes Cawing -- Akihiko Tachikawa/Aflo Foto Agency &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100201-cn" class="cn" title="由美国宇航局的火星侦察轨道器拍摄的火星陨石坑  - - NASA &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mars_ZH-CN3513063468.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="由美国宇航局的火星侦察轨道器拍摄的火星陨石坑  - - NASA &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100201-de" class="de" title="Hirnkoralle im Great Barrier Reef vor der Küste Australiens – Stuart Westmorland/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrainCoral_DE-DE2259676779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hirnkoralle im Great Barrier Reef vor der Küste Australiens – Stuart Westmorland/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100201-jp" class="jp" title="｢ノウサンゴ｣オーストラリア, グレート・バリア・リーフ -- Stuart Westmorland/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrainCoral_JA-JP2259676779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ノウサンゴ｣オーストラリア, グレート・バリア・リーフ -- Stuart Westmorland/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100201-nz" class="nz" title="Japanese Cranes Cawing -- Akihiko Tachikawa/Aflo Foto Agency &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cranes_ROW1289772618.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Japanese Cranes Cawing -- Akihiko Tachikawa/Aflo Foto Agency &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100201-uk" class="uk" title="Breeding plumage of the Roseate Spoonbill -- Jack Milchanowski/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Spoonbill_EN-GB3126535782.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Breeding plumage of the Roseate Spoonbill -- Jack Milchanowski/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100201-us" class="us" title="Large ferry sailing in Puget Sound, near Seattle, Washington -- Todd Pearson/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SeattleFerry_EN-US1333824149.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Large ferry sailing in Puget Sound, near Seattle, Washington -- Todd Pearson/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>2</span>
+--
 		<a href="#20100202-au" class="au" title="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jinshanling_EN-AU161982528.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100202-ca" class="ca" title="A large brain coral grows toward the ocean's surface in the Great Barrier Reef of Australia -- Stuart Westmorland/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrainCoral_EN-CA2259676779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A large brain coral grows toward the ocean's surface in the Great Barrier Reef of Australia -- Stuart Westmorland/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100202-cn" class="cn" title="在天空盘旋的秃鹫 --  John Lund/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Vultures_ZH-CN989355476.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="在天空盘旋的秃鹫 --  John Lund/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100202-de" class="de" title="Der sogenannte Jinshanling-Abschnitt der Chinesischen Mauer – Liu Liqun/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jinshanling_DE-DE161982528.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Der sogenannte Jinshanling-Abschnitt der Chinesischen Mauer – Liu Liqun/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100202-jp" class="jp" title="｢オホーツク海のゴマフアザラシ｣北海道, オホーツク海 -- Tsuneo Nakamura/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SpottedSeal_JA-JP512222701.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢オホーツク海のゴマフアザラシ｣北海道, オホーツク海 -- Tsuneo Nakamura/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100202-nz" class="nz" title="A large brain coral grows toward the ocean's surface in the Great Barrier Reef of Australia -- Stuart Westmorland/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrainCoral_ROW2259676779.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A large brain coral grows toward the ocean's surface in the Great Barrier Reef of Australia -- Stuart Westmorland/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100202-uk" class="uk" title="Snow blankets a temple on a mountain in South Korea's eastern Gangwon Province -- YONHAP/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GangwonSnow_EN-GB3119374952.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Snow blankets a temple on a mountain in South Korea's eastern Gangwon Province -- YONHAP/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100202-us" class="us" title="Groundhog – Greg Scott/Masterfile &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Groundhog_EN-US923715777.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Groundhog – Greg Scott/Masterfile &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>3</span>
+--
 		<a href="#20100203-au" class="au" title="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mauritania_EN-AU652401334.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100203-ca" class="ca" title="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jinshanling_EN-CA161982528.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100203-cn" class="cn" title="太空中的木卫一 -- Michael Benson/Corbis &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Io_ZH-CN688703338.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="太空中的木卫一 -- Michael Benson/Corbis &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100203-de" class="de" title="Rückseite der Fürstbischöflichen Residenz in Würzburg – Werner Hilpert/Panther Media/age fotostock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WuerzburgResidenz_DE-DE2747116022.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Rückseite der Fürstbischöflichen Residenz in Würzburg – Werner Hilpert/Panther Media/age fotostock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100203-jp" class="jp" title="｢銀閣寺｣京都, 左京区 -- Glen Allison/Getty images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Ginkakuji_JA-JP937352313.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢銀閣寺｣京都, 左京区 -- Glen Allison/Getty images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100203-nz" class="nz" title="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jinshanling_ROW161982528.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100203-uk" class="uk" title="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jinshanling_EN-GB161982528.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100203-us" class="us" title="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Jinshanling_EN-US3408113.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Great Wall at Jinshanling, China -- Liu Liqun/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>4</span>
+--
 		<a href="#20100204-au" class="au" title="Adult brown bear in the fog at Lake Katmai National Park in Southwest Alaska -- Alaska Stock Images/age fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrownBearx_EN-AU2288414627.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Adult brown bear in the fog at Lake Katmai National Park in Southwest Alaska -- Alaska Stock Images/age fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100204-ca" class="ca" title="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mauritania_EN-CA652401334.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100204-cn" class="cn" title="瑞典的斯德哥尔摩 -- Jeremy Woodhouse/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Stockholm_ZH-CN2487892800.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="瑞典的斯德哥尔摩 -- Jeremy Woodhouse/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100204-de" class="de" title="Die Insel Riddarholmen im Westen Stockholms, Schweden – Jeremy Woodhouse/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Stockholm_DE-DE2487892800.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Insel Riddarholmen im Westen Stockholms, Schweden – Jeremy Woodhouse/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100204-jp" class="jp" title="｢さっぽろ雪まつり｣北海道, 札幌 -- JTB Photo/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SapporoSnowFestival_JA-JP1149550776.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢さっぽろ雪まつり｣北海道, 札幌 -- JTB Photo/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100204-nz" class="nz" title="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mauritania_ROW652401334.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100204-uk" class="uk" title="Male Broadclub Cuttlefish in courtship, Indonesia -- White/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cuttlefish_EN-GB396217963.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Male Broadclub Cuttlefish in courtship, Indonesia -- White/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100204-us" class="us" title="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mauritania_EN-US3595601013.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>5</span>
+--
 		<a href="#20100205-au" class="au" title="Belogradchik Fortress near Belogradchik, Bulgaria -- Dimitar Sotirov/age fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Belogradchik_EN-AU3136832220.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Belogradchik Fortress near Belogradchik, Bulgaria -- Dimitar Sotirov/age fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100205-ca" class="ca" title="Riddarholmen islet in  Stockholm, Sweden -- Jeremy Woodhouse/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Stockholm_EN-CA2487892800.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Riddarholmen islet in  Stockholm, Sweden -- Jeremy Woodhouse/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100205-cn" class="cn" title="英国德文郡达特姆尔高原浓雾的早晨 --  David Clapp/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dartmoor_ZH-CN3409950406.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="英国德文郡达特姆尔高原浓雾的早晨 --  David Clapp/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100205-de" class="de" title="Braunbär im Nebel des Katmai-Nationalparks, Alaska – Alaska Stock Images/age fotostock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrownBearx_DE-DE2288414627.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Braunbär im Nebel des Katmai-Nationalparks, Alaska – Alaska Stock Images/age fotostock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100205-jp" class="jp" title="｢ベログラトチク要塞｣ブルガリア, ベログラトチク -- Dimitar Sotirov/age fotostock &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Belogradchik_JA-JP3136832220.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ベログラトチク要塞｣ブルガリア, ベログラトチク -- Dimitar Sotirov/age fotostock &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100205-nz" class="nz" title="Riddarholmen islet in  Stockholm, Sweden -- Jeremy Woodhouse/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Stockholm_ROW2487892800.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Riddarholmen islet in  Stockholm, Sweden -- Jeremy Woodhouse/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100205-uk" class="uk" title="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SapporoSnowFestival_EN-GB1149550776.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100205-us" class="us" title="Riddarholmen islet in  Stockholm, Sweden -- Jeremy Woodhouse/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Stockholm_EN-US437544045.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Riddarholmen islet in  Stockholm, Sweden -- Jeremy Woodhouse/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>6</span>
+--
 		<a href="#20100206-au" class="au" title="Perth skyline across the Swan river -- David Messent/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Perthskyline_EN-AU593521569.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Perth skyline across the Swan river -- David Messent/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100206-ca" class="ca" title="Belogradchik Fortress near Belogradchik, Bulgaria -- Dimitar Sotirov/age fotostock &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Belogradchik_EN-CA3136832220.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Belogradchik Fortress near Belogradchik, Bulgaria -- Dimitar Sotirov/age fotostock &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100206-cn" class="cn" title="日本札幌雪节上的大型雪雕 -- JTB Photo/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SapporoSnowFestival_ZH-CN1149550776.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="日本札幌雪节上的大型雪雕 -- JTB Photo/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100206-de" class="de" title="Morgendämmerung und Frühnebel in Dartmoor, Grafschaft Devon, England –  David Clapp/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dartmoor_DE-DE3409950406.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Morgendämmerung und Frühnebel in Dartmoor, Grafschaft Devon, England –  David Clapp/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100206-jp" class="jp" title="｢霧の中のヒグマ｣アメリカ, アラスカ州, カトマイ国立公園 -- Alaska Stock Images/age &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrownBearx_JA-JP2288414627.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢霧の中のヒグマ｣アメリカ, アラスカ州, カトマイ国立公園 -- Alaska Stock Images/age &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100206-nz" class="nz" title="Belogradchik Fortress near Belogradchik, Bulgaria -- Dimitar Sotirov/age fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Belogradchik_ROW3136832220.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Belogradchik Fortress near Belogradchik, Bulgaria -- Dimitar Sotirov/age fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100206-uk" class="uk" title="England vs. Italy during the RBS Six Nations Championships, Twickenham Arena, London, England - Leo Mason/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SixNations_EN-GB795053894.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="England vs. Italy during the RBS Six Nations Championships, Twickenham Arena, London, England - Leo Mason/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100206-us" class="us" title="Belogradchik Fortress near Belogradchik, Bulgaria -- Dimitar Sotirov/age fotostock &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Belogradchik_EN-US1640082973.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Belogradchik Fortress near Belogradchik, Bulgaria -- Dimitar Sotirov/age fotostock &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>7</span>
+--
 		<a href="#20100207-au" class="au" title="Dawn breaks on foggy morning in Dartmoor, Devon, England, UK --  David Clapp/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dartmoor_EN-AU3409950406.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dawn breaks on foggy morning in Dartmoor, Devon, England, UK --  David Clapp/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100207-ca" class="ca" title="Adult brown bear in the fog at Lake Katmai National Park in Southwest Alaska -- Alaska Stock Images/age fotostock &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrownBearx_EN-CA2288414627.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Adult brown bear in the fog at Lake Katmai National Park in Southwest Alaska -- Alaska Stock Images/age fotostock &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100207-cn" class="cn" title="吉林长白山森林野生动物园中的东北虎 --  Adam Wong/Redlink-Asian Photography Network/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SiberianTiger_ZH-CN3711503700.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="吉林长白山森林野生动物园中的东北虎 --  Adam Wong/Redlink-Asian Photography Network/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100207-de" class="de" title="Schneebedeckte Tannenbäume im Bayrischen Wald – Radius/Superstock &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SnowyTrees_DE-DE1375323911.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Schneebedeckte Tannenbäume im Bayrischen Wald – Radius/Superstock &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100207-jp" class="jp" title="｢ダートムーアの霧の夜明け｣イギリス, デヴォン州, ダートムーア --  David Clapp/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dartmoor_JA-JP3409950406.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ダートムーアの霧の夜明け｣イギリス, デヴォン州, ダートムーア --  David Clapp/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100207-nz" class="nz" title="Adult brown bear in the fog at Lake Katmai National Park in Southwest Alaska -- Alaska Stock Images/age fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BrownBearx_ROW2288414627.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Adult brown bear in the fog at Lake Katmai National Park in Southwest Alaska -- Alaska Stock Images/age fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100207-uk" class="uk" title="Japanese Cranes Cawing -- Akihiko Tachikawa/Aflo Foto Agency &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cranes_EN-GB1289772618.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Japanese Cranes Cawing -- Akihiko Tachikawa/Aflo Foto Agency &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100207-us" class="us" title="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MiamiLights_EN-US1356107223.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>8</span>
+--
 		<a href="#20100208-au" class="au" title="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SapporoSnowFestival_EN-AU1149550776.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100208-ca" class="ca" title="Dawn breaks on foggy morning in Dartmoor, Devon, England, UK --  David Clapp/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dartmoor_EN-CA3409950406.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dawn breaks on foggy morning in Dartmoor, Devon, England, UK --  David Clapp/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100208-cn" class="cn" title="具有”老虎气势”的台湾高雄莲花湖龙虎塔 -- Superstock/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TigerPagodas_ZH-CN1419750402.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="具有”老虎气势”的台湾高雄莲花湖龙虎塔 -- Superstock/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100208-de" class="de" title="Ein Haus aus Schnee in Sapporo beim alljährlichen Schneefestival, Japan – JTB Photo/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SapporoSnowFestival_DE-DE1149550776.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein Haus aus Schnee in Sapporo beim alljährlichen Schneefestival, Japan – JTB Photo/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100208-jp" class="jp" title="｢リッダーホルメン島｣スウェーデン, ストックホルム -- Jeremy Woodhouse/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Stockholm_JA-JP2487892800.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢リッダーホルメン島｣スウェーデン, ストックホルム -- Jeremy Woodhouse/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100208-nz" class="nz" title="Dawn breaks on foggy morning in Dartmoor, Devon, England, UK --  David Clapp/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dartmoor_ROW3409950406.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Dawn breaks on foggy morning in Dartmoor, Devon, England, UK --  David Clapp/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100208-uk" class="uk" title="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mauritania_EN-GB652401334.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Camel trek in the Adrar mountains of the Sahara desert in Mauritania-- SUETONE Emilio/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100208-us" class="us" title="Hippo in the Grumeti River, Serengeti National Park, Tanzania -- Art Wolfe/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hippo_EN-US2765955405.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hippo in the Grumeti River, Serengeti National Park, Tanzania -- Art Wolfe/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>9</span>
+--
 		<a href="#20100209-au" class="au" title="Glenfinnan Viaduct, Lochaber, Highland, Scotland -- Derek Croucher/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Glenfinnan_EN-AU737686325.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Glenfinnan Viaduct, Lochaber, Highland, Scotland -- Derek Croucher/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100209-ca" class="ca" title="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SapporoSnowFestival_EN-CA1149550776.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100209-cn" class="cn" title="印度国家公园中刚满月的老虎幼崽 -- Gavriel Jecan/age fotostock/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TigerCub_ZH-CN388669716.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="印度国家公园中刚满月的老虎幼崽 -- Gavriel Jecan/age fotostock/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100209-de" class="de" title="Heiße Quelle im Norris Geyser Basin des Yellowstone Nationalparks, Wyoming – Fred Hirschmann/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PorcelainTerrace_DE-DE2352564775.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Heiße Quelle im Norris Geyser Basin des Yellowstone Nationalparks, Wyoming – Fred Hirschmann/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100209-jp" class="jp" title="｢フレッシュウォーターベイ｣イギリス, ワイト島 -- Adam Burton/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IsleofWright_JA-JP1605733070.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢フレッシュウォーターベイ｣イギリス, ワイト島 -- Adam Burton/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100209-nz" class="nz" title="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SapporoSnowFestival_ROW2322085923.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100209-uk" class="uk" title="Clyde Point Lighthouse, Maine, USA - Glen Allison/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Lighthouse_EN-GB1759113862.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Clyde Point Lighthouse, Maine, USA - Glen Allison/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100209-us" class="us" title="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SapporoSnowFestival_EN-US276238360.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Snow sculpture at the Sapporo Snow Festival in Sapporo, Japan -- JTB Photo/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>10</span>
+--
 		<a href="#20100210-au" class="au" title="Buttermere, Cumbria in the Lake District of England, UK --  SIME/eStock Photo &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cumbria_EN-AU2447314.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Buttermere, Cumbria in the Lake District of England, UK --  SIME/eStock Photo &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100210-ca" class="ca" title="Hot spring on the Porcelain Terrace at Norris Geyser Basin, Yellowstone National Park, Wyoming -- Fred Hirschmann/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PorcelainTerrace_EN-CA2352564775.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot spring on the Porcelain Terrace at Norris Geyser Basin, Yellowstone National Park, Wyoming -- Fred Hirschmann/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100210-cn" class="cn" title="民间工艺品布老虎 -- Keren Su/China Span/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TigerPillow_ZH-CN1830038774.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="民间工艺品布老虎 -- Keren Su/China Span/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100210-de" class="de" title="Ein Skifahrer auf der sogenannten „Face of Bell“-Abfahrt in Aspen, Colorado – Gordon Wiltsie/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Aspen_DE-DE1226337492.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein Skifahrer auf der sogenannten „Face of Bell“-Abfahrt in Aspen, Colorado – Gordon Wiltsie/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100210-jp" class="jp" title="｢コジオスコ国立公園｣ オーストラリア, ニューサウスウェールズ州 – Ted Mead/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RamsheadRange_JA-JP2492554710.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢コジオスコ国立公園｣ オーストラリア, ニューサウスウェールズ州 – Ted Mead/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100210-nz" class="nz" title="Chalk cliffs and sea ledges of Freshwater Bay on the Isle of Wight, England, United Kingdom -- Adam Burton/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IsleofWright_ROW1605733070.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Chalk cliffs and sea ledges of Freshwater Bay on the Isle of Wight, England, United Kingdom -- Adam Burton/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100210-uk" class="uk" title="Hot spring on the Porcelain Terrace at Norris Geyser Basin, Yellowstone National Park, Wyoming -- Fred Hirschmann/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PorcelainTerrace_EN-GB2352564775.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot spring on the Porcelain Terrace at Norris Geyser Basin, Yellowstone National Park, Wyoming -- Fred Hirschmann/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100210-us" class="us" title="Hot spring on the Porcelain Terrace at Norris Geyser Basin, Yellowstone National Park, Wyoming -- Fred Hirschmann/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PorcelainTerrace_EN-US197950542.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot spring on the Porcelain Terrace at Norris Geyser Basin, Yellowstone National Park, Wyoming -- Fred Hirschmann/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>11</span>
+--
 		<a href="#20100211-au" class="au" title="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Vancouver_EN-AU3373716546.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100211-ca" class="ca" title="A skier on the Face of Bell, Aspen, Colorado -- Gordon Wiltsie/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Aspen_EN-CA1226337492.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A skier on the Face of Bell, Aspen, Colorado -- Gordon Wiltsie/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100211-cn" class="cn" title="民间剪纸艺术十二生肖中的虎 -- TAO Images Limited/Tao Images/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TigerPapercut_ZH-CN1144420377.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="民间剪纸艺术十二生肖中的虎 -- TAO Images Limited/Tao Images/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100211-de" class="de" title="Die kanadische Stadt Vancouver in der Dämmerung – Rudy Sulgan/Corbis &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Vancouver_DE-DE3373716546.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die kanadische Stadt Vancouver in der Dämmerung – Rudy Sulgan/Corbis &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100211-jp" class="jp" title="｢フォールス・クリーク｣カナダ, ブリティッシュコロンビア州, バンクーバー -- Rudy Sulgan/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Vancouver_JA-JP3373716546.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢フォールス・クリーク｣カナダ, ブリティッシュコロンビア州, バンクーバー -- Rudy Sulgan/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100211-nz" class="nz" title="Ramshead Range, Kosciuszko National Park, Australia – Ted Mead/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RamsheadRange_ROW2492554710.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ramshead Range, Kosciuszko National Park, Australia – Ted Mead/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100211-uk" class="uk" title="Wave Breakers, Robben Island, South Africa - Hoberman Collection UK/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RobbenIsland_EN-GB463131034.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wave Breakers, Robben Island, South Africa - Hoberman Collection UK/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100211-us" class="us" title="A skier on the Face of Bell, Aspen, Colorado -- Gordon Wiltsie/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Aspen_EN-US479173414.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A skier on the Face of Bell, Aspen, Colorado -- Gordon Wiltsie/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>12</span>
+--
 		<a href="#20100212-au" class="au" title="Manhattan and Central Park, New York -- David Jay Zimmerman/Corbis Edge/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Manhattan_EN-AU813705435.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Manhattan and Central Park, New York -- David Jay Zimmerman/Corbis Edge/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100212-ca" class="ca" title="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Vancouver_EN-CA3373716546.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100212-cn" class="cn" title="必应祝福2010虎年春节快乐 -- Ilovephoto Design/Photodisc/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TigerDesign_ZH-CN1331081079.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="必应祝福2010虎年春节快乐 -- Ilovephoto Design/Photodisc/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100212-de" class="de" title="Schneeraupen präparieren die Skipiste am Whistler Mountain, British Columbia, Kanada – Randy Lincks/Photolibrary &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Whistler_DE-DE3752019227.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Schneeraupen präparieren die Skipiste am Whistler Mountain, British Columbia, Kanada – Randy Lincks/Photolibrary &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100212-jp" class="jp" title="｢オネオンタ渓谷｣アメリカ, オレゴン州, コロンビア川 -- age fotostock/SuperStock &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oneata_JA-JP1879030948.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢オネオンタ渓谷｣アメリカ, オレゴン州, コロンビア川 -- age fotostock/SuperStock &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100212-nz" class="nz" title="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Vancouver_ROW3373716546.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100212-uk" class="uk" title="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Vancouver_EN-GB3373716546.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100212-us" class="us" title="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Vancouver_EN-US1185638268.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Vancouver, British Columbia, Canada at dusk -- Rudy Sulgan/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>13</span>
+--
 		<a href="#20100213-au" class="au" title="Australian Fur Seals --  Shoot Shoot/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Seals_EN-AU1374723207.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Australian Fur Seals --  Shoot Shoot/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100213-ca" class="ca" title="Snow cats grooming the snow on Whistler Mountain, British Columbia – Randy Lincks/Photolibrary &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Whistler_EN-CA3752019227.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Snow cats grooming the snow on Whistler Mountain, British Columbia – Randy Lincks/Photolibrary &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100213-cn" class="cn" title="春节传统：吉利又喜庆的春联 -- SuperStock RF/SuperStock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CNYBanners_ZH-CN1112646076.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="春节传统：吉利又喜庆的春联 -- SuperStock RF/SuperStock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100213-de" class="de" title="Ein Snowboarder springt durch den mittleren der Olympischen Ringe während der Eröffnungsfeier der Winterspiele 2010 in Vancouver, Kanada – Michael Kappeler/AFP/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SnowBoarder_DE-DE16155064.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ein Snowboarder springt durch den mittleren der Olympischen Ringe während der Eröffnungsfeier der Winterspiele 2010 in Vancouver, Kanada – Michael Kappeler/AFP/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100213-jp" class="jp" title="｢バターミア湖｣イギリス, カンブリア湖水地方 --  SIME/eStock Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cumbria_JA-JP2447314.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢バターミア湖｣イギリス, カンブリア湖水地方 --  SIME/eStock Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100213-nz" class="nz" title="Oneonta Gorge, in the Columbia River Gorge, Oregon, USA -- age fotostock/SuperStock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Oneata_ROW1879030948.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Oneonta Gorge, in the Columbia River Gorge, Oregon, USA -- age fotostock/SuperStock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100213-uk" class="uk" title="Snow cats grooming the snow on Whistler Mountain, British Columbia – Randy Lincks/Photolibrary &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Whistler_EN-GB3752019227.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Snow cats grooming the snow on Whistler Mountain, British Columbia – Randy Lincks/Photolibrary &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100213-us" class="us" title="Snow cats grooming the snow on Whistler Mountain, British Columbia – Randy Lincks/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Whistler_EN-US3227853730.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Snow cats grooming the snow on Whistler Mountain, British Columbia – Randy Lincks/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>14</span>
+--
 		<a href="#20100214-au" class="au" title="Carhenge in western Nebraska -- Bachmann Bachmann/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=carhenge_EN-AU3072995775.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Carhenge in western Nebraska -- Bachmann Bachmann/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100214-ca" class="ca" title="Performers entertain during the Opening Ceremony of the 2010 Vancouver Winter Olympics Vancouver, Canada -- Streeter Lecka/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FiddlePlayer_EN-CA185155388.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Performers entertain during the Opening Ceremony of the 2010 Vancouver Winter Olympics Vancouver, Canada -- Streeter Lecka/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100214-cn" class="cn" title="海南三亚一处温馨浪漫的爱之沙滩 -- 林婷婷/武汉 &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Valentine_ZH-CN1536171886.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="海南三亚一处温馨浪漫的爱之沙滩 -- 林婷婷/武汉 &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100214-de" class="de" title="Die deutsche Biathletin Magdalena Neuner auf dem Weg zur Silbermedaille beim 7,5 km-Sprint bei den Olympischen Spielen in Vancouver am 13. Februar 2010 – Alberto Pizzoli/AFP/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MagdalenaNeuner_DE-DE3050131408.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die deutsche Biathletin Magdalena Neuner auf dem Weg zur Silbermedaille beim 7,5 km-Sprint bei den Olympischen Spielen in Vancouver am 13. Februar 2010 – Alberto Pizzoli/AFP/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100214-jp" class="jp" title="｢ヤシの木の浜辺 ｣モルディブ, アリ環礁 -- Purestock/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AriAtoll_JA-JP2538952081.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ヤシの木の浜辺 ｣モルディブ, アリ環礁 -- Purestock/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100214-nz" class="nz" title="Speed skater -- Tertra Images/SuperStock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SpeedSkater_ROW436139303.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Speed skater -- Tertra Images/SuperStock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100214-uk" class="uk" title="A snowboarder flies through the centre ring of the Olympic Rings during the opening ceremony of the 2010 Winter Olympics in Vancouver, Canada - Michael Kappeler/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OpeningCeremony_EN-GB16155064.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A snowboarder flies through the centre ring of the Olympic Rings during the opening ceremony of the 2010 Winter Olympics in Vancouver, Canada - Michael Kappeler/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100214-us" class="us" title="Silver medalist Magdalena Neuner of Germany during the Women's Biathlon 7.5km Sprint at the Vancouver Winter Olympics on February 13, 2010 – Alberto Pizzoli/AFP/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensBiathlon_EN-US1528453903.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Silver medalist Magdalena Neuner of Germany during the Women's Biathlon 7.5km Sprint at the Vancouver Winter Olympics on February 13, 2010 – Alberto Pizzoli/AFP/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>15</span>
+--
 		<a href="#20100215-au" class="au" title="Australian Dale Begg-Smith performs aerial maneuvers before the Men's Moguls Freestyle Skiing event at the Vancouver Winter Olympics on February 14, 2010 -- Adrian Dennis/AFP/Getty Images) &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DaleBeggSmith_EN-AU151368017.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Australian Dale Begg-Smith performs aerial maneuvers before the Men's Moguls Freestyle Skiing event at the Vancouver Winter Olympics on February 14, 2010 -- Adrian Dennis/AFP/Getty Images) &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100215-ca" class="ca" title="Haralds Silovs of Latvia competes in the Men's Speed Skating 5000 m at the Vancouver 2010 Winter Olympics on February 13, 2010 in Vancouver, Canada --Jasper Juinen/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensSpeedSkating_EN-CA3540726706.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Haralds Silovs of Latvia competes in the Men's Speed Skating 5000 m at the Vancouver 2010 Winter Olympics on February 13, 2010 in Vancouver, Canada --Jasper Juinen/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100215-cn" class="cn" title="春节习俗：合家团圆吃饺子 -- Corbis/Superstock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dumpling_ZH-CN887167467.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="春节习俗：合家团圆吃饺子 -- Corbis/Superstock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100215-de" class="de" title="David Möller, Deutschland, beim Herreneinzel der Rennrodler bei den Winterspielen 2010. – Shaun  Botterill/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DavidMoeller_DE-DE2170498828.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="David Möller, Deutschland, beim Herreneinzel der Rennrodler bei den Winterspielen 2010. – Shaun  Botterill/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100215-jp" class="jp" title="｢クイアイング山｣イギリス, スコットランド, スカイ島 -- Derek Croucher/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IsleofSkye_JA-JP744952523.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢クイアイング山｣イギリス, スコットランド, スカイ島 -- Derek Croucher/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100215-nz" class="nz" title="pure1-00028034-001 (pl)Description: Palm trees on the beach of Ari Atoll, Maldives -- Purestock/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AriAtoll_ROW2538952081.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="pure1-00028034-001 (pl)Description: Palm trees on the beach of Ari Atoll, Maldives -- Purestock/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100215-uk" class="uk" title="Haralds Silovs of Latvia competes in the Men's Speed Skating 5,000m at the Vancouver 2010 Winter Olympics on February 13, 2010 in Vancouver, Canada --Jasper Juinen/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SpeedSkater_EN-GB3540726706.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Haralds Silovs of Latvia competes in the Men's Speed Skating 5,000m at the Vancouver 2010 Winter Olympics on February 13, 2010 in Vancouver, Canada --Jasper Juinen/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100215-us" class="us" title="A skier performs during the Women's Moguls Freestyle Skiing qualification at the 2010 Vancouver Winter Olympics on February 13, 2010 – Martin Bureau/AFP/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensMoguls_EN-US1584584395.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A skier performs during the Women's Moguls Freestyle Skiing qualification at the 2010 Vancouver Winter Olympics on February 13, 2010 – Martin Bureau/AFP/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>16</span>
+--
 		<a href="#20100216-au" class="au" title="Jagged peaks in the Patagonian Andes in Argentina --  Galen Rowell/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Andes_EN-AU1635889032.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Jagged peaks in the Patagonian Andes in Argentina --  Galen Rowell/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100216-ca" class="ca" title="David Moeller of Germany competes during the Luge Men's Singles at the 2010 Winter Olympics -- Shaun Botterill/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensLuge_EN-CA2170498828.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="David Moeller of Germany competes during the Luge Men's Singles at the 2010 Winter Olympics -- Shaun Botterill/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100216-cn" class="cn" title="北方人眼中的传统春节 -- TAO Images Limited/Tao Images/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RedLanterns_ZH-CN1291949188.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北方人眼中的传统春节 -- TAO Images Limited/Tao Images/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100216-de" class="de" title="Bode Miller, USA, durchfährt ein Tor während der Herren-Abfahrt am 15. Februar bei der Winterolympiade 2010 - Olivier Morin/AFP/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensDownHill_DE-DE3655057485.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bode Miller, USA, durchfährt ein Tor während der Herren-Abfahrt am 15. Februar bei der Winterolympiade 2010 - Olivier Morin/AFP/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100216-jp" class="jp" title="｢アンス・ソレイユビーチ｣セーシェル, マヘ島 --  SIME/eStock Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AnseSoleil_JA-JP547776489.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アンス・ソレイユビーチ｣セーシェル, マヘ島 --  SIME/eStock Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100216-nz" class="nz" title="The Quiraing, Isle of Skye, Scotland --Derek Croucher/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IsleofSkye_ROW744952523.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The Quiraing, Isle of Skye, Scotland --Derek Croucher/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100216-uk" class="uk" title="Alexandre Bilodeau of Canada during the Freestyle Skiing Men's Moguls at the 2010 Winter Olympics on February 14th 2010. --  Jamie Squire/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensMoguls_EN-GB203639791.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Alexandre Bilodeau of Canada during the Freestyle Skiing Men's Moguls at the 2010 Winter Olympics on February 14th 2010. --  Jamie Squire/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100216-us" class="us" title="Alexandre Bilodeau of Canada during the Freestyle Skiing Men's Moguls at the 2010 Winter Olympics on February 14, 2010. --  Jamie Squire/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensMoguls_EN-US2933740648.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Alexandre Bilodeau of Canada during the Freestyle Skiing Men's Moguls at the 2010 Winter Olympics on February 14, 2010. --  Jamie Squire/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>17</span>
+--
 		<a href="#20100217-au" class="au" title="Two mallard on a snowy landscape at Lake Kussharo, Hokkaido, Japan -- Remy Woodhouse/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Ducks_EN-AU2604603590.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Two mallard on a snowy landscape at Lake Kussharo, Hokkaido, Japan -- Remy Woodhouse/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100217-ca" class="ca" title="Xavier De Le Rue of France runs the course during the Men's Snowboard SBX qualifications at the Vancouver Winter Olympics on February 15, 2010 – Adrian Dennis/AFP/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensSnowboardCross_EN-CA716907336.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Xavier De Le Rue of France runs the course during the Men's Snowboard SBX qualifications at the Vancouver Winter Olympics on February 15, 2010 – Adrian Dennis/AFP/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100217-cn" class="cn" title="香港春节的跨年烟火汇演 -- JTB Photo/Japan Travel Bureau/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HongKong_ZH-CN3239374070.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="香港春节的跨年烟火汇演 -- JTB Photo/Japan Travel Bureau/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100217-de" class="de" title="Die Französin Nelly Moenne Loccoz beim Snowboardcross-Wettbewerb der Frauen am 16. Februar während der Winterspiele 2010 von Vancouver – Adrian Dennis/AFP/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensSnowboardCross_DE-DE980501296.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Französin Nelly Moenne Loccoz beim Snowboardcross-Wettbewerb der Frauen am 16. Februar während der Winterspiele 2010 von Vancouver – Adrian Dennis/AFP/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100217-jp" class="jp" title="｢ハンブルクの倉庫街｣ドイツ, ハンブルク -- Justus de Cuveland/Photolibrary &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WaterCastle_JA-JP941196582.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ハンブルクの倉庫街｣ドイツ, ハンブルク -- Justus de Cuveland/Photolibrary &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100217-nz" class="nz" title="Anse Soleil beach on the island of Mahe in the Seychelles &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AnseSoleil_ROW547776489.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Anse Soleil beach on the island of Mahe in the Seychelles &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100217-uk" class="uk" title="Xue Shen and Hongbo Zhao of China compete in the Figure Skating Pairs Free Program at the Vancouver 2010 Winter Olympics on 15 February 2010 - Jamie Squire/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PairsSkating_EN-GB2416121428.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Xue Shen and Hongbo Zhao of China compete in the Figure Skating Pairs Free Program at the Vancouver 2010 Winter Olympics on 15 February 2010 - Jamie Squire/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100217-us" class="us" title="Xavier De Le Rue of France runs the course during the Men's Snowboard SBX qualifications at the Vancouver Winter Olympics on February 15, 2010 – Adrian Dennis/AFP/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensSnowboardCross_EN-US464269607.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Xavier De Le Rue of France runs the course during the Men's Snowboard SBX qualifications at the Vancouver Winter Olympics on February 15, 2010 – Adrian Dennis/AFP/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>18</span>
+--
 		<a href="#20100218-au" class="au" title="Ponte Estaiada Octávio Frias de Oliveira bridge in São Paulo, Brazil -- Andre Sieber &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SaoPaulo_EN-AU1710408292.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ponte Estaiada Octávio Frias de Oliveira bridge in São Paulo, Brazil -- Andre Sieber &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100218-ca" class="ca" title="Haavard Vad Petersson and Torger Nergaard of Norway sweep a path for the stone during the Men's Curling at the Vancouver 2010 Winter Olympics on February 16, 2010 -- Cameron Spencer/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensCurling_EN-CA2574467235.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Haavard Vad Petersson and Torger Nergaard of Norway sweep a path for the stone during the Men's Curling at the Vancouver 2010 Winter Olympics on February 16, 2010 -- Cameron Spencer/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100218-cn" class="cn" title="海外华侨庆春节：加拿大多伦多的春节彩灯 -- Henry Georgi/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Toronto_ZH-CN679699931.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="海外华侨庆春节：加拿大多伦多的春节彩灯 -- Henry Georgi/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100218-de" class="de" title="Die Kanadierin Gillian Apps erzielt am 17. Februar ein Tor während des Eishockey Spiels gegen Schweden bei der Winterolympiade 2010 -- Harry How/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HockeyNight_DE-DE1113192793.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die Kanadierin Gillian Apps erzielt am 17. Februar ein Tor während des Eishockey Spiels gegen Schweden bei der Winterolympiade 2010 -- Harry How/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100218-jp" class="jp" title="｢ナナカマドと鷽（ウソ）｣北海道, 旭川-- JTB Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Usui_JA-JP135190271.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ナナカマドと鷽（ウソ）｣北海道, 旭川-- JTB Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100218-nz" class="nz" title="Buttermere, Cumbria in the Lake District of England, UK --  SIME/eStock Photo &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cumbria_ROW2447314.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Buttermere, Cumbria in the Lake District of England, UK --  SIME/eStock Photo &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100218-uk" class="uk" title="France's Nelly Moenne Loccoz competes during the Women's Snowboard Cross event at the Vancouver Winter Olympics on 16 February 2010 – Adrian Dennis/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensSnowboardCross_EN-GB980501296.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="France's Nelly Moenne Loccoz competes during the Women's Snowboard Cross event at the Vancouver Winter Olympics on 16 February 2010 – Adrian Dennis/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100218-us" class="us" title="Haavard Vad Petersson and Torger Nergaard of Norway sweep a path for the stone during the Men's Curling at the Vancouver 2010 Winter Olympics on February 16, 2010 -- Cameron Spencer/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensCurling_EN-US515071025.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Haavard Vad Petersson and Torger Nergaard of Norway sweep a path for the stone during the Men's Curling at the Vancouver 2010 Winter Olympics on February 16, 2010 -- Cameron Spencer/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>19</span>
+--
 		<a href="#20100219-au" class="au" title="Torah Bright of Australia gets airborne during a training session of the Women's Snowboard Halfpipe event at the Vancouver Winter Olympics on February 18, 2010 – Martin Bureau/AFP/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TorahBright_EN-AU2463769088.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Torah Bright of Australia gets airborne during a training session of the Women's Snowboard Halfpipe event at the Vancouver Winter Olympics on February 18, 2010 – Martin Bureau/AFP/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100219-ca" class="ca" title="Lindsey Vonn of the USA celebrates after completing the Alpine Skiing Ladies Downhill at the Vancouver 2010 Winter Olympics on February 17, 2010 -- Sandra Behne/Bongarts &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensDownhill_EN-CA2719061195.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lindsey Vonn of the USA celebrates after completing the Alpine Skiing Ladies Downhill at the Vancouver 2010 Winter Olympics on February 17, 2010 -- Sandra Behne/Bongarts &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100219-cn" class="cn" title="外国人过中国春节：伦敦街头的漂亮灯笼 -- Marion Krauskopf/Panther Media/age fotostock &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=London_ZH-CN3218933046.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="外国人过中国春节：伦敦街头的漂亮灯笼 -- Marion Krauskopf/Panther Media/age fotostock &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100219-de" class="de" title="Die deutsche Skirennläuferin Maria Riesch feiert ihren Sieg bei der Super-Kombination der Frauen während der Olympischen Winterspiele in Vancouver am 18. Februar 2010 – Emmanuel Dunand/AFP/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MariaRiesch_DE-DE461150859.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die deutsche Skirennläuferin Maria Riesch feiert ihren Sieg bei der Super-Kombination der Frauen während der Olympischen Winterspiele in Vancouver am 18. Februar 2010 – Emmanuel Dunand/AFP/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100219-jp" class="jp" title="｢シチリアの鉄道橋｣イタリア, シチリア州  -- SIME/eStock Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Sicily_JA-JP3101689012.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢シチリアの鉄道橋｣イタリア, シチリア州  -- SIME/eStock Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100219-nz" class="nz" title="Wasserschloesschen, water castle in the old warehouse district of Hamburg, Germany -- Justus de Cuveland/Photolibrary &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WaterCastle_ROW941196582.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Wasserschloesschen, water castle in the old warehouse district of Hamburg, Germany -- Justus de Cuveland/Photolibrary &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100219-uk" class="uk" title="Noelle Pikus-Pace of the USA practices during skeleton training at the Vancouver 2010 Winter Olympics on 16 February 2010 -- Richard Heathcote/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensSkeleton_EN-GB221582243.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Noelle Pikus-Pace of the USA practices during skeleton training at the Vancouver 2010 Winter Olympics on 16 February 2010 -- Richard Heathcote/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100219-us" class="us" title="Lindsey Vonn of the USA celebrates after completing the Alpine Skiing Ladies Downhill at the Vancouver 2010 Winter Olympics on February 17, 2010 -- Sandra Behne/Bongarts &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensDownhill_EN-US2248592140.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lindsey Vonn of the USA celebrates after completing the Alpine Skiing Ladies Downhill at the Vancouver 2010 Winter Olympics on February 17, 2010 -- Sandra Behne/Bongarts &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>20</span>
+--
 		<a href="#20100220-au" class="au" title="Mt. Vesuvius, Italy -- Guido Alberto Rossi/TipsImages &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=mtvesuvius_EN-AU1701909909.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mt. Vesuvius, Italy -- Guido Alberto Rossi/TipsImages &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100220-ca" class="ca" title="Torah Bright of Australia gets airborne during a training session of the Women's Snowboard Halfpipe event at the Vancouver Winter Olympics on February 18, 2010 – Martin Bureau/AFP/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Halfpipe_EN-CA2463769088.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Torah Bright of Australia gets airborne during a training session of the Women's Snowboard Halfpipe event at the Vancouver Winter Olympics on February 18, 2010 – Martin Bureau/AFP/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100220-cn" class="cn" title="老北京春节习俗：地坛公园举办的春节庙会 -- TAO Images Limited/Tao Images/Photolibrary &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CNYDecor_ZH-CN424427970.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="老北京春节习俗：地坛公园举办的春节庙会 -- TAO Images Limited/Tao Images/Photolibrary &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100220-de" class="de" title="Die dänische Curlerin Denise Dupont bei der Abgabe eines Steins während des Aufeinandertreffens von China und Dänemark bei den Winterspielen von Vancouver am 19. Februar, 2010 -- Alex Livesey/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DeniseDupont_DE-DE1554443696.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die dänische Curlerin Denise Dupont bei der Abgabe eines Steins während des Aufeinandertreffens von China und Dänemark bei den Winterspielen von Vancouver am 19. Februar, 2010 -- Alex Livesey/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100220-jp" class="jp" title="｢レイク・クラーク国立公園｣アメリカ, アラスカ州 -- Alaska Stock Images/age fotostock &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TurquoiseLake_JA-JP2747004261.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢レイク・クラーク国立公園｣アメリカ, アラスカ州 -- Alaska Stock Images/age fotostock &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100220-nz" class="nz" title="Stone railroad arch bridge, Sicily, Italy -- SIME/eStock Photo &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Sicily_ROW3101689012.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Stone railroad arch bridge, Sicily, Italy -- SIME/eStock Photo &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100220-uk" class="uk" title="Magda Genuin of Italy leads the field during the Women's Cross-Country Individual Sprint C Quarter-Final at the 2010 Vancouver Winter Olympics on 16 February 2010 in Whistler, Canada - Lars Baron/Bongarts/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensCrossCountry_EN-GB1688990636.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Magda Genuin of Italy leads the field during the Women's Cross-Country Individual Sprint C Quarter-Final at the 2010 Vancouver Winter Olympics on 16 February 2010 in Whistler, Canada - Lars Baron/Bongarts/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100220-us" class="us" title="Magda Genuin of Italy leads the field during the Women's Cross-Country Individual Sprint C Quarter-Final at the 2010 Vancouver Winter Olympics on February 16, 2010 in Whistler, Canada - Lars Baron/Bongarts/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensCrossCountry_EN-US1156023859.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Magda Genuin of Italy leads the field during the Women's Cross-Country Individual Sprint C Quarter-Final at the 2010 Vancouver Winter Olympics on February 16, 2010 in Whistler, Canada - Lars Baron/Bongarts/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>21</span>
+--
 		<a href="#20100221-au" class="au" title="Boardwalk in Mount Revelstoke National Park, British Columbia, Canada -- Darwin Wiggett/age fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RevelstokeBoardwalk_EN-AU3700721909.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Boardwalk in Mount Revelstoke National Park, British Columbia, Canada -- Darwin Wiggett/age fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100221-ca" class="ca" title="Goalkeeper Jonas Gustavsson of Sweden makes a save against Dmitri Meleshko of Belarus during the Men’s Ice Hockey preliminary game at the Vancouver 2010 Winter Olympics on February 19, 2010 -- Bruce Bennett/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SwedenHockey_EN-CA149849375.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Goalkeeper Jonas Gustavsson of Sweden makes a save against Dmitri Meleshko of Belarus during the Men’s Ice Hockey preliminary game at the Vancouver 2010 Winter Olympics on February 19, 2010 -- Bruce Bennett/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100221-cn" class="cn" title="北京时间2月20日凌晨2点，惠斯勒跳台滑雪中心举行的跳台滑雪男子大台资格赛，哈萨克斯坦选手 Nikolay Karpenko 腾空而起 -- Al Bello/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SkiJumping_ZH-CN221752613.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北京时间2月20日凌晨2点，惠斯勒跳台滑雪中心举行的跳台滑雪男子大台资格赛，哈萨克斯坦选手 Nikolay Karpenko 腾空而起 -- Al Bello/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100221-de" class="de" title="Der Pole Adam Malysz küsst den Boden nach seinem Sprung von der Großschanze am 20 Februar während der Olympischen Winterspiele von Vancouver -- Alexander Hassenstein/Bongarts/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AdamMalysz_DE-DE588303504.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Der Pole Adam Malysz küsst den Boden nach seinem Sprung von der Großschanze am 20 Februar während der Olympischen Winterspiele von Vancouver -- Alexander Hassenstein/Bongarts/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100221-jp" class="jp" title="｢偕楽園｣茨城, 水戸市 -- JTB Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Kairakuen_JA-JP990158973.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢偕楽園｣茨城, 水戸市 -- JTB Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100221-nz" class="nz" title="Turquoise Lake in Clark National Park, Alaska, USA -- Alaska Stock Images/age fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TurquoiseLake_ROW2747004261.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Turquoise Lake in Clark National Park, Alaska, USA -- Alaska Stock Images/age fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100221-uk" class="uk" title="Amy Williams of Great Britain and Northern Ireland celebrates winning the gold medal for the women's skeleton on 19 February 2010 - Shaun Botterill/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AmyWilliams_EN-GB2972390391.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Amy Williams of Great Britain and Northern Ireland celebrates winning the gold medal for the women's skeleton on 19 February 2010 - Shaun Botterill/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100221-us" class="us" title="Goalkeeper Jonas Gustavsson of Sweden makes a save against Dmitri Meleshko of Belarus during the Men’s Ice Hockey preliminary game at the Vancouver 2010 Winter Olympics on February 19, 2010 -- Bruce Bennett/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensHockey_EN-US312651811.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Goalkeeper Jonas Gustavsson of Sweden makes a save against Dmitri Meleshko of Belarus during the Men’s Ice Hockey preliminary game at the Vancouver 2010 Winter Olympics on February 19, 2010 -- Bruce Bennett/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>22</span>
+--
 		<a href="#20100222-au" class="au" title="Fisherman's traps, ropes, and floats on a dock in Port Clyde, Maine -- Medford Taylor/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Maine_EN-AU1359922552.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Fisherman's traps, ropes, and floats on a dock in Port Clyde, Maine -- Medford Taylor/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100222-ca" class="ca" title="Li Nina of China competes in the Ladies Aerials practice at the Vancouver 2010 Winter Olympics on February 20, 2010 -- Cameron Spencer/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensAerialsUpsideDown_EN-CA804246360.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Li Nina of China competes in the Ladies Aerials practice at the Vancouver 2010 Winter Olympics on February 20, 2010 -- Cameron Spencer/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100222-cn" class="cn" title="北京时间2月21日凌晨，在加拿大温哥华惠斯勒滑雪中心举行的跳台滑雪男子大台个人赛中，波兰选手 Adam Malysz 在最后一跳后，激动的亲吻地面 -- Alexander Hassenstein/Bongarts/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SkiJumpingTwo_ZH-CN588303504.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北京时间2月21日凌晨，在加拿大温哥华惠斯勒滑雪中心举行的跳台滑雪男子大台个人赛中，波兰选手 Adam Malysz 在最后一跳后，激动的亲吻地面 -- Alexander Hassenstein/Bongarts/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100222-de" class="de" title="Bob Deutschland 1 mit André Lange und Kevin Kuske im dritten Lauf des Zweierbob-Wettbewerbs bei den Olympischen Winterspielen in Vancouver am 21. Februar 2010 – Shaun Botterill/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=AndreLange_DE-DE697985126.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bob Deutschland 1 mit André Lange und Kevin Kuske im dritten Lauf des Zweierbob-Wettbewerbs bei den Olympischen Winterspielen in Vancouver am 21. Februar 2010 – Shaun Botterill/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100222-jp" class="jp" title="｢富士山の噴火口｣静岡, 山梨 -- Karen Kasmauski &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MtFuji_JA-JP1275535446.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢富士山の噴火口｣静岡, 山梨 -- Karen Kasmauski &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100222-nz" class="nz" title="Boardwalk in Mount Revelstoke National Park, British Columbia, Canada -- Darwin Wiggett/age fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RevelstokeBoardwalk_ROW3700721909.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Boardwalk in Mount Revelstoke National Park, British Columbia, Canada -- Darwin Wiggett/age fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100222-uk" class="uk" title="Tajikistan's Andrey Drygin, wearing an old Swedish team ski outfit, clears a gate during the Men's Super-G race at the Vancouver 2010 Winter Olympics on 19 February 2010 – Fabrice Coffrini/AFP/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensSuperG_EN-GB388967619.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Tajikistan's Andrey Drygin, wearing an old Swedish team ski outfit, clears a gate during the Men's Super-G race at the Vancouver 2010 Winter Olympics on 19 February 2010 – Fabrice Coffrini/AFP/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100222-us" class="us" title="Adam Malysz of Poland kisses the ground after jumping the Large Hill at the 2010 Vancouver Winter Olympics on February 20, 2010 -- Alexander Hassenstein/Bongarts/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SkiJumpKiss_EN-US1172787701.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Adam Malysz of Poland kisses the ground after jumping the Large Hill at the 2010 Vancouver Winter Olympics on February 20, 2010 -- Alexander Hassenstein/Bongarts/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>23</span>
+--
 		<a href="#20100223-au" class="au" title="Bridal Veil Falls in Yosemite National Park, California, USA --  Richard Price/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Yosemite_EN-AU2812300564.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bridal Veil Falls in Yosemite National Park, California, USA --  Richard Price/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100223-ca" class="ca" title="Richard Spalinger of Switzerland (L) and Thomas Zangerl of Austria compete in Men's Ski Cross at the Vancouver 2010 Winter Olympics on February 21, 2010 -- Streeter Lecka/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensSkiCross_EN-CA710353080.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Richard Spalinger of Switzerland (L) and Thomas Zangerl of Austria compete in Men's Ski Cross at the Vancouver 2010 Winter Olympics on February 21, 2010 -- Streeter Lecka/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100223-cn" class="cn" title="2月22日凌晨4时45分，在加拿大温哥华赛普拉斯山滑雪场举行的自由式滑雪障碍争先赛1/4决赛中，瑞士的 Richard Spalinger 和奥地利的 Thomas Zangerl 二人紧追不舍。 -- Streeter Lecka/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SkiCrossRace_ZH-CN710353080.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="2月22日凌晨4时45分，在加拿大温哥华赛普拉斯山滑雪场举行的自由式滑雪障碍争先赛1/4决赛中，瑞士的 Richard Spalinger 和奥地利的 Thomas Zangerl 二人紧追不舍。 -- Streeter Lecka/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100223-de" class="de" title="Claudia Nystad (links) und Evi Sachenbacher-Stehle feiern den Gewinn der Goldmedaille im Skilanglauf-Teamsprint der Frauen am 22. Februar 2010 bei den Olympischen Winterspielen von Vancouver im Whistler Olympic Park, Whistler, Kanada. – Alexander Hassenst &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NystadSachenbacher_DE-DE635826580.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Claudia Nystad (links) und Evi Sachenbacher-Stehle feiern den Gewinn der Goldmedaille im Skilanglauf-Teamsprint der Frauen am 22. Februar 2010 bei den Olympischen Winterspielen von Vancouver im Whistler Olympic Park, Whistler, Kanada. – Alexander Hassenst &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100223-jp" class="jp" title="｢ブライダルベール滝｣アメリカ, カリフォルニア州, ヨセミテ国立公園 --  Richard Price/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Yosemite_JA-JP2812300564.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ブライダルベール滝｣アメリカ, カリフォルニア州, ヨセミテ国立公園 --  Richard Price/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100223-nz" class="nz" title="Speed skater -- Jun Tsukuda/age fotostock &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Skater_ROW1025343240.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Speed skater -- Jun Tsukuda/age fotostock &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100223-uk" class="uk" title="Team USA celebrates after Brian Rafalski  scores past goalkeeper Martin Brodeur of Canada during their Men’s Ice Hockey preliminary game at the Vancouver 2010 Winter Olympics on 21 February 2010 - Bruce Bennett/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=HockeyPrelim_EN-GB163556916.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Team USA celebrates after Brian Rafalski  scores past goalkeeper Martin Brodeur of Canada during their Men’s Ice Hockey preliminary game at the Vancouver 2010 Winter Olympics on 21 February 2010 - Bruce Bennett/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100223-us" class="us" title="Richard Spalinger of Switzerland (L) and Thomas Zangerl of Austria compete in Men's Ski Cross at the Vancouver 2010 Winter Olympics on February 21, 2010 -- Streeter Lecka/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MensSkiCross_EN-US1749694166.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Richard Spalinger of Switzerland (L) and Thomas Zangerl of Austria compete in Men's Ski Cross at the Vancouver 2010 Winter Olympics on February 21, 2010 -- Streeter Lecka/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>24</span>
+--
 		<a href="#20100224-au" class="au" title="Sanya, Hainan province, China -- Best View Stock/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Sanya_EN-AU2154338505.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sanya, Hainan province, China -- Best View Stock/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100224-ca" class="ca" title="Russia's Dimitry Ipatov jumps in the Men's Team Ski Jumping round 1 at the the Vancouver Winter Olympics on February 22, 2010 – Javier Soriano/AFP/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SkiJumping_EN-CA183314280.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Russia's Dimitry Ipatov jumps in the Men's Team Ski Jumping round 1 at the the Vancouver Winter Olympics on February 22, 2010 – Javier Soriano/AFP/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100224-cn" class="cn" title="北京时间2月23日上午刚刚结束的花样滑冰冰舞自由舞比赛中，来自英国的 Sinead Kerr 和 John Kerr 表演难度动作 -- Matthew Stockman/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IceDance24_ZH-CN2956592271.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北京时间2月23日上午刚刚结束的花样滑冰冰舞自由舞比赛中，来自英国的 Sinead Kerr 和 John Kerr 表演难度动作 -- Matthew Stockman/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100224-de" class="de" title="Parade kanadischer Mounties mit ihren Pferden vor dem Olympischen Feuer in Vancouver am 23. Februar 2010 – VINCENZO PINTO/AFP/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mounties_DE-DE137960971.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Parade kanadischer Mounties mit ihren Pferden vor dem Olympischen Feuer in Vancouver am 23. Februar 2010 – VINCENZO PINTO/AFP/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100224-jp" class="jp" title="｢北野天満宮｣京都, 上京区 -- murotayasuo murotayasuo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=KitanoShrine_JA-JP1454614243.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢北野天満宮｣京都, 上京区 -- murotayasuo murotayasuo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100224-nz" class="nz" title="Bridal Veil Falls in Yosemite National Park, California, USA --  Richard Price/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Yosemite_ROW2812300564.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Bridal Veil Falls in Yosemite National Park, California, USA --  Richard Price/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100224-uk" class="uk" title="Russia's Dimitry Ipatov jumps in the Men's Team Ski Jumping round 1 at the the Vancouver Winter Olympics on February 22, 2010 – Javier Soriano/AFP/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SkiJumping_EN-US1314976447.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Russia's Dimitry Ipatov jumps in the Men's Team Ski Jumping round 1 at the the Vancouver Winter Olympics on February 22, 2010 – Javier Soriano/AFP/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100224-us" class="us" title="Russia's Dimitry Ipatov jumps in the Men's Team Ski Jumping round 1 at the the Vancouver Winter Olympics on February 22, 2010 – Javier Soriano/AFP/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SkiJumping_EN-US1314976447.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Russia's Dimitry Ipatov jumps in the Men's Team Ski Jumping round 1 at the the Vancouver Winter Olympics on February 22, 2010 – Javier Soriano/AFP/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>25</span>
+--
 		<a href="#20100225-au" class="au" title="Niagara Falls from the Canadian side of the falls -- Lester Lefkowitz/Corbis &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CanadianNiagara_EN-AU2426545507.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Niagara Falls from the Canadian side of the falls -- Lester Lefkowitz/Corbis &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100225-ca" class="ca" title="Peru's Manfred Oettl Reyes clears a gate during the Men's Vancouver 2010 Winter Olympics Giant slalom event at Whistler Creek side Alpine skiing venue on February 23, 2010 - FABRICE COFFRINI/AFP/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GiantSlalom_EN-CA1636115117.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Peru's Manfred Oettl Reyes clears a gate during the Men's Vancouver 2010 Winter Olympics Giant slalom event at Whistler Creek side Alpine skiing venue on February 23, 2010 - FABRICE COFFRINI/AFP/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100225-cn" class="cn" title="北京时间2月23日，在加拿大温哥华体育场中举行的，花样滑冰女子单人滑短节目比赛中，美籍日裔选手长洲未来表演的难度动作 -- Matthew Stockman/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FigureSkating_ZH-CN86815844.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北京时间2月23日，在加拿大温哥华体育场中举行的，花样滑冰女子单人滑短节目比赛中，美籍日裔选手长洲未来表演的难度动作 -- Matthew Stockman/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100225-de" class="de" title="Schwedens Johan Olsson, Frankreichs Vincent Vittoz, Deutschlands Axel Teichmann und Norwegens Odd-Bjoern Hjelmeset (von rechts nach links) am 24. Februar 2010 bei der 4 x 10 km-Langlauf-Staffel der Herren im Whistler Olympic Park während der Olympischen W &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrossCountry_DE-DE638776089.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Schwedens Johan Olsson, Frankreichs Vincent Vittoz, Deutschlands Axel Teichmann und Norwegens Odd-Bjoern Hjelmeset (von rechts nach links) am 24. Februar 2010 bei der 4 x 10 km-Langlauf-Staffel der Herren im Whistler Olympic Park während der Olympischen W &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100225-jp" class="jp" title="｢ナイアガラ、カナダ滝 ｣カナダ, オンタリオ州-- Lester Lefkowitz/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CanadianNiagara_JA-JP2426545507.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ナイアガラ、カナダ滝 ｣カナダ, オンタリオ州-- Lester Lefkowitz/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100225-nz" class="nz" title="The city of Dalian and Zhongshan Square, Liaoning Province, China  -- Jerry Driendl/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Dalian_ROW442590110.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="The city of Dalian and Zhongshan Square, Liaoning Province, China  -- Jerry Driendl/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100225-uk" class="uk" title="Peru's Manfred Oettl Reyes clears a gate during the Men's Giant slalom event on February 23, 2010 at Whistler Creekside Alpine skiing venue - FABRICE COFFRINI/AFP/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PeruSkier_EN-US421097220.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Peru's Manfred Oettl Reyes clears a gate during the Men's Giant slalom event on February 23, 2010 at Whistler Creekside Alpine skiing venue - FABRICE COFFRINI/AFP/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100225-us" class="us" title="Peru's Manfred Oettl Reyes clears a gate during the Men's Giant slalom event on February 23, 2010 at Whistler Creekside Alpine skiing venue - FABRICE COFFRINI/AFP/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PeruSkier_EN-US421097220.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Peru's Manfred Oettl Reyes clears a gate during the Men's Giant slalom event on February 23, 2010 at Whistler Creekside Alpine skiing venue - FABRICE COFFRINI/AFP/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>26</span>
+--
 		<a href="#20100226-au" class="au" title="A protester shows his colours during a gay rights march through Sydney --Torsten Blackwood/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MardiGras_EN-AU2291442155.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A protester shows his colours during a gay rights march through Sydney --Torsten Blackwood/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100226-ca" class="ca" title="(L-R) Anders Soedergren, Marcus Hellner, Johan Olsson and Daniel Richardsson of Sweden celebrate winning the gold medal during the Men’s Cross Country 4 x 10 km relay at the 2010 Vancouver Winter Olympics on February 24, 2010 --Lars Baron/Bongarts/Getty I &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CrossCountryGold_EN-CA234684078.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="(L-R) Anders Soedergren, Marcus Hellner, Johan Olsson and Daniel Richardsson of Sweden celebrate winning the gold medal during the Men’s Cross Country 4 x 10 km relay at the 2010 Vancouver Winter Olympics on February 24, 2010 --Lars Baron/Bongarts/Getty I &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100226-cn" class="cn" title="北京时间2月25日上午，在刚刚结束的短道速滑女子3000米接力赛中，短道速滑队为中国又添一金，图为比赛中韩国选手李恩星紧追中国选手张会 – Vincenzo Pinto/AFP/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ShortTrack3000m_ZH-CN1232576051.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北京时间2月25日上午，在刚刚结束的短道速滑女子3000米接力赛中，短道速滑队为中国又添一金，图为比赛中韩国选手李恩星紧追中国选手张会 – Vincenzo Pinto/AFP/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100226-de" class="de" title="Goldmedaillen-Gewinnerin Kim Yu-Na aus Südkorea während des Eiskunstlauf-Finales der Damen am 25. Februar 2010 bei den Olympischen Winterspielen in Vancouver – Jamie Squire/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LadiesFigureSkating_DE-DE1096400195.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Goldmedaillen-Gewinnerin Kim Yu-Na aus Südkorea während des Eiskunstlauf-Finales der Damen am 25. Februar 2010 bei den Olympischen Winterspielen in Vancouver – Jamie Squire/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100226-jp" class="jp" title="｢ポースリンテラスの温泉池｣アメリカ, ワイオミング州, イエローストーン国立公園 -- Fred Hirschmann/Corbis &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PorcelainTerrace_JA-JP2352564775.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢ポースリンテラスの温泉池｣アメリカ, ワイオミング州, イエローストーン国立公園 -- Fred Hirschmann/Corbis &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100226-nz" class="nz" title="Niagara Falls from the Canadian side of the falls -- Lester Lefkowitz/Corbis &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CanadianNiagara_ROW2426545507.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Niagara Falls from the Canadian side of the falls -- Lester Lefkowitz/Corbis &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100226-uk" class="uk" title="Kaillie Humphries and Heather Moyse of Canada compete in Canada 1 during the Women's Bobsleigh race at the 2010 Vancouver Winter Olympics on February 23, 2010 --Hassenstein/Bongarts/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensBobsleigh_EN-US2148894401.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kaillie Humphries and Heather Moyse of Canada compete in Canada 1 during the Women's Bobsleigh race at the 2010 Vancouver Winter Olympics on February 23, 2010 --Hassenstein/Bongarts/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100226-us" class="us" title="Kaillie Humphries and Heather Moyse of Canada compete in Canada 1 during the Women's Bobsleigh race at the 2010 Vancouver Winter Olympics on February 23, 2010 --Hassenstein/Bongarts/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WomensBobsleigh_EN-US2148894401.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Kaillie Humphries and Heather Moyse of Canada compete in Canada 1 during the Women's Bobsleigh race at the 2010 Vancouver Winter Olympics on February 23, 2010 --Hassenstein/Bongarts/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>27</span>
+--
 		<a href="#20100227-au" class="au" title="A skier on the Face of Bell, Aspen, Colorado -- Gordon Wiltsie/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Aspen_EN-AU1226337492.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A skier on the Face of Bell, Aspen, Colorado -- Gordon Wiltsie/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100227-ca" class="ca" title="Canadian mounties parade with their horses in front of the Olympic flame in Vancouver on February 23, 2010 on the sidelines of the Vancouver Winter Olympics. (VINCENZO PINTO/AFP/Getty Images) &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Mounties_EN-CA137960971.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Canadian mounties parade with their horses in front of the Olympic flame in Vancouver on February 23, 2010 on the sidelines of the Vancouver Winter Olympics. (VINCENZO PINTO/AFP/Getty Images) &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100227-cn" class="cn" title="北京时间2月26日上午决出的花样滑冰女子自由舞比赛中，韩国选手金妍儿表现出色，并最终摘得金牌 -- Jamie Squire/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LadiesFreeSkating_ZH-CN1096400195.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北京时间2月26日上午决出的花样滑冰女子自由舞比赛中，韩国选手金妍儿表现出色，并最终摘得金牌 -- Jamie Squire/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100227-de" class="de" title="Die slowenische Snowboarderin Gloria Kotnik beim Riesenslalom der Frauen bei den Olympischen Spielen in Vancouver am 26. Februar 2010 – Jamie Squire/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LadiesPGS_DE-DE147248265.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Die slowenische Snowboarderin Gloria Kotnik beim Riesenslalom der Frauen bei den Olympischen Spielen in Vancouver am 26. Februar 2010 – Jamie Squire/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100227-jp" class="jp" title="｢アスペンのスキーヤー｣アメリカ､コロラド州 -- Gordon Wiltsie/Getty Images &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Aspen_JA-JP1226337492.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢アスペンのスキーヤー｣アメリカ､コロラド州 -- Gordon Wiltsie/Getty Images &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100227-nz" class="nz" title="Tea Plantation near Tzaneen town, South Africa -- SIME/eStock Photo &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Tzaneen_ROW1004841820.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Tea Plantation near Tzaneen town, South Africa -- SIME/eStock Photo &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100227-uk" class="uk" title="Gold medalist Bill Demong (L) and  silver medalist Johnny Spillane (C) of the United States and Austria's bronze medalist Bernhard Gruberin compete in the Men's Nordic Combined Cross Country at the Vancouver Winter Olympics on February 25, 2010 --  Don Em &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NordicMedalists_EN-US3960907680.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gold medalist Bill Demong (L) and  silver medalist Johnny Spillane (C) of the United States and Austria's bronze medalist Bernhard Gruberin compete in the Men's Nordic Combined Cross Country at the Vancouver Winter Olympics on February 25, 2010 --  Don Em &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100227-us" class="us" title="Gold medalist Bill Demong (L) and  silver medalist Johnny Spillane (C) of the United States and Austria's bronze medalist Bernhard Gruberin compete in the Men's Nordic Combined Cross Country at the Vancouver Winter Olympics on February 25, 2010 --  Don Em &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NordicMedalists_EN-US3960907680.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gold medalist Bill Demong (L) and  silver medalist Johnny Spillane (C) of the United States and Austria's bronze medalist Bernhard Gruberin compete in the Men's Nordic Combined Cross Country at the Vancouver Winter Olympics on February 25, 2010 --  Don Em &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>28</span>
+--
 		<a href="#20100228-au" class="au" title="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MiamiLights_EN-AU1356107223.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Art Deco buildings at Miami Beach, Florida -- Mitchell Funk/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100228-ca" class="ca" title="Glorija Kotnik of Slovenia competes during the Ladies’ Snowboard Parallel Giant Slalom at the Vancouver 2010 Winter Olympics on February 26, 2010  -- Jamie Squire/Getty Images &copy; (Bing Canada)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=LadiesPGS_EN-CA147248265.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Glorija Kotnik of Slovenia competes during the Ladies’ Snowboard Parallel Giant Slalom at the Vancouver 2010 Winter Olympics on February 26, 2010  -- Jamie Squire/Getty Images &copy; (Bing Canada)" />
-			<img src="flags/ca.gif" alt="Canada" title="Canada" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100228-cn" class="cn" title="北京时间2月27日上午结束的单板滑雪女子平行大回转比赛中，斯洛文尼亚选手 Glorija Kotnik 竞技该项目 -- Jamie Squire/Getty Images &copy; (Bing China)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Snowboard_ZH-CN147248265.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="北京时间2月27日上午结束的单板滑雪女子平行大回转比赛中，斯洛文尼亚选手 Glorija Kotnik 竞技该项目 -- Jamie Squire/Getty Images &copy; (Bing China)" />
-			<img src="flags/cn.gif" alt="China" title="China" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100228-de" class="de" title="Silbermedaillengewinner Ivica Kostelic feiert mit seiner Nationalflagge nach der Blumenzeremonie des Herrenslaloms am 27. Februar bei den olympischen Winterspielen von Vancouver 2010  -- Olivier Morin/AFP/Getty Images &copy; (Bing Germany)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CroatianFlag_DE-DE1871115060.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Silbermedaillengewinner Ivica Kostelic feiert mit seiner Nationalflagge nach der Blumenzeremonie des Herrenslaloms am 27. Februar bei den olympischen Winterspielen von Vancouver 2010  -- Olivier Morin/AFP/Getty Images &copy; (Bing Germany)" />
-			<img src="flags/de.gif" alt="Germany" title="Germany" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100228-jp" class="jp" title="｢岡山後楽園｣岡山 -- JTB Photo &copy; (Bing Japan)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Korakuen_JA-JP1712700489.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="｢岡山後楽園｣岡山 -- JTB Photo &copy; (Bing Japan)" />
-			<img src="flags/jp.gif" alt="Japan" title="Japan" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100228-nz" class="nz" title="A skier on the Face of Bell, Aspen, Colorado -- Gordon Wiltsie/Getty Images &copy; (Bing New Zealand)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Aspen_ROW1226337492.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="A skier on the Face of Bell, Aspen, Colorado -- Gordon Wiltsie/Getty Images &copy; (Bing New Zealand)" />
-			<img src="flags/nz.gif" alt="New Zealand" title="New Zealand" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100228-uk" class="uk" title="Gold medalist, Canada's Charles Hamelin (R) and Apolo Anton Ohno (L) of the United States n the Men's Short Track 500m final at the 2010 Winter Olympics on February 26, 2010 – Yuri Kadobnov/Getty Images &copy; (Bing )" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ShortTrackFinal_EN-US940596880.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gold medalist, Canada's Charles Hamelin (R) and Apolo Anton Ohno (L) of the United States n the Men's Short Track 500m final at the 2010 Winter Olympics on February 26, 2010 – Yuri Kadobnov/Getty Images &copy; (Bing )" />
-			<img src="flags/uk.gif" alt="" title="" class="flag-overlay" />
-		</a>
+--
 		<a href="#20100228-us" class="us" title="Gold medalist, Canada's Charles Hamelin (R) and Apolo Anton Ohno (L) of the United States n the Men's Short Track 500m final at the 2010 Winter Olympics on February 26, 2010 – Yuri Kadobnov/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ShortTrackFinal_EN-US940596880.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gold medalist, Canada's Charles Hamelin (R) and Apolo Anton Ohno (L) of the United States n the Men's Short Track 500m final at the 2010 Winter Olympics on February 26, 2010 – Yuri Kadobnov/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-</table>
-    <div class="ad">
-      <script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x90, created 8/4/09 */
-google_ad_slot = "6880081602";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-      <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
-<div class="clear"></div>
-<div class="footer">
-  <div class="wrapper">
-    <p>Brought to you by Long Zheng at <a href="http://www.istartedsomething.com">www.istartedsomething.com</a></p>
-    <p>Images are copyright to their respective owners. <a href="http://www.bing.com">Bing</a> is a (funny) trademark of Microsoft Corporation. Some icons are by The Noun Project (Creative Commons).</p>
-  </div>
-</div>
-<div id="imageview">
-  <div class="loading"><img src="style/images/ajax-loader.gif" /> </div>
-  <div class="viewer">
-    <p class="image"><img src="" /></p>
-    <div class="video">
-    </div>
-    <p class="desc"></p>
-    <div class="facts">
-      <ul>
-      </ul>
-      <div class="clear"></div>
-    </div>
-    <div class="buttons">
-        <div class="viewerad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2619236561011065";
-			/* Viewer ad */
-			google_ad_slot = "3707022863";
-			google_ad_width = 728;
-			google_ad_height = 15;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
-        </div>
-        <div class="videobuttons">
-            <a href="#" class="showvideo">Switch to video version</a>
-            <a href="#" class="hidevideo">Switch to image version</a>
-        </div>
-        <a href="#" class="close">Close</a>
-    </div>
-  </div>
-</div>
-<!-- Start of StatCounter Code -->
-<script type="text/javascript">
-var sc_project=4814143; 
-var sc_invisible=1; 
-var sc_partition=54; 
-var sc_click_stat=1; 
-var sc_security="9418942d"; 
-</script>
-<script type="text/javascript"
-src="http://www.statcounter.com/counter/counter.js"></script>
-<noscript>
-<div class="statcounter"><a title="free hit counters" href="http://www.statcounter.com/" target="_blank">
-<img class="statcounter" src="http://c.statcounter.com/4814143/0/9418942d/1/" alt="free hit counters" ></a></div>
-</noscript>
-<!-- End of StatCounter Code -->
-</body>
-</html>

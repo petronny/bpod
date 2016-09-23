@@ -1,448 +1,179 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Bing Image Archive</title>
-<meta name="description" content="Collection of the latest homepage background images from Bing.com">
-<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
-<link href="style/css.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.blockUI.js"></script>
-<script type="text/javascript" src="js/jquery.cookie.js"></script>
-<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="js/modernizr.custom.08122.js"></script>
-<script type="text/javascript" src="js/bingimages.js"></script>
-<link href="http://feeds.feedburner.com/bingimages" type="application/rss+xml" rel="alternate" title="Bing Image Archive RSS Feed" />
-</head>
-<body>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-182613-10', 'istartedsomething.com');
-  ga('send', 'pageview');
-
-</script>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=168868916648885";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<!-- precache black background --><img src="style/images/black-95.png" style="display:none;" />
-<div class="sharebar">
-<div class="wrapper">
-<div class="fb-like" data-href="http://www.istartedsomething.com/bingimages/" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>
-<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.istartedsomething.com/bingimages/" data-text="Bing Image Archive - latest homepage images from Bing">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</div>
-</div>
-<div class="header">
-  <div class="wrapper">
-    <h1><a href="http://www.istartedsomething.com/bingimages/">Bing Image Archive</a></h1>
-    <h2>Showcasing the backgrounds from the frontpage of Bing</h2>
-  </div>
-</div>
-<div class="content">
-  <div class="wrapper">
-    <ul class="countries">
-            <li>
-        <input type="checkbox" checked="checked" name="countryfilter[]" value="us" id="us"/>
-        <label for="us"> <img src="flags/us.gif" alt="United States" title="United States" /> <span>United States</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="gb" id="gb"/>
-        <label for="gb"> <img src="flags/gb.gif" alt="United Kingdom" title="United Kingdom" /> <span>United Kingdom</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="au" id="au"/>
-        <label for="au"> <img src="flags/au.gif" alt="Australia" title="Australia" /> <span>Australia</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="jp" id="jp"/>
-        <label for="jp"> <img src="flags/jp.gif" alt="Japan" title="Japan" /> <span>Japan</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="cn" id="cn"/>
-        <label for="cn"> <img src="flags/cn.gif" alt="China" title="China" /> <span>China</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="nz" id="nz"/>
-        <label for="nz"> <img src="flags/nz.gif" alt="New Zealand" title="New Zealand" /> <span>New Zealand</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="de" id="de"/>
-        <label for="de"> <img src="flags/de.gif" alt="Germany" title="Germany" /> <span>Germany</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="ca" id="ca"/>
-        <label for="ca"> <img src="flags/ca.gif" alt="Canada" title="Canada" /> <span>Canada</span> </label>
-      </li>
-            <li>
-        <input type="checkbox"  name="countryfilter[]" value="fr" id="fr"/>
-        <label for="fr"> <img src="flags/fr.gif" alt="France" title="France" /> <span>France</span> </label>
-      </li>
-          </ul>
-    <div class="clear"></div>
-
-<div class="ad_small">
-<script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x15, created 6/26/09 */
-google_ad_slot = "2476437438";
-google_ad_width = 728;
-google_ad_height = 15;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-
-<div class="clear"></div>
-    <ul class="month">
-            <li class="month_prev">
-        <p><a href="?m=5&y=2009">Previous month</a></p>
-      </li>
-      <li class="month_current">
-        <h3>June 2009</h3>
-      </li>
-      <li class="month_next">
-        <p><a href="?m=7&y=2009">Next month</a></p>
-      </li>
-    </ul>
-    <div class="clear"></div>
-    <table class='calendar'>
-	<thead>
-				<th>Sunday</th>
-				<th>Monday</th>
-				<th>Tuesday</th>
-				<th>Wednesday</th>
-				<th>Thursday</th>
-				<th>Friday</th>
-				<th>Saturday</th>
-			</thead>
-	<tr><td></td><td class='dated'><span class='day'>1</span>
 		<a href="#20090601-au" class="au" title="Index Stock Imagery/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Santorini_ROW1884971014.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Index Stock Imagery/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090601-us" class="us" title="Hot air balloons over Cappadocia, Central Anatolia, Turkey, Asia -- Günter Flegar/imagebroker.net/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cappadocia_EN-US2598611891.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Hot air balloons over Cappadocia, Central Anatolia, Turkey, Asia -- Günter Flegar/imagebroker.net/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>2</span>
+--
 		<a href="#20090602-au" class="au" title="Preeti Krishna &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Patagonia_ROW1058169587.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Preeti Krishna &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090602-us" class="us" title="Liedschendam, Holland -- Gavin Hellier/age fotostock &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Liedschendam_EN-US1201241475.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Liedschendam, Holland -- Gavin Hellier/age fotostock &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>3</span>
+--
 		<a href="#20090603-au" class="au" title="Alaska Stock/age fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=View_ROW302279770.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Alaska Stock/age fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090603-us" class="us" title="Polychrome Pass overlooking the Alaska Range, Denali National Park, Alaska -- Alaska Stock/age fotostock &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Denali_EN-US794296373.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Polychrome Pass overlooking the Alaska Range, Denali National Park, Alaska -- Alaska Stock/age fotostock &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>4</span>
+--
 		<a href="#20090604-au" class="au" title="Yan Ke &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Yangshuo_ROW187269489.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Yan Ke &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090604-us" class="us" title="Manarola, Cinque Terre, Liguria, Italy --Walter Zerla/age fotostock &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CinqueTerre_EN-US2206014527.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Manarola, Cinque Terre, Liguria, Italy --Walter Zerla/age fotostock &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>5</span>
+--
 		<a href="#20090605-au" class="au" title="Gerhard Schulz/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Lighthouse_ROW578993043.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gerhard Schulz/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090605-us" class="us" title="Damnoen Saduak floating market, Thailand -- Jay Sturdevant/www.danitadelimont.com &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FloatingMarket_EN-US520414795.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Damnoen Saduak floating market, Thailand -- Jay Sturdevant/www.danitadelimont.com &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>6</span>
+--
 		<a href="#20090606-au" class="au" title="Perrine Doug/Pacific Stock/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Whales_ROW831086092.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Perrine Doug/Pacific Stock/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090606-us" class="us" title="France, Calvados, Omaha beach, one of the beaches of the Normandy landings during the Second World War -- Bertrand Rieger/hemis.fr/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=D-Day_EN-US2936352986.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="France, Calvados, Omaha beach, one of the beaches of the Normandy landings during the Second World War -- Bertrand Rieger/hemis.fr/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>7</span>
+--
 		<a href="#20090607-au" class="au" title="Shari L. Morris/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WaterDrops_ROW2687378166.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Shari L. Morris/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090607-us" class="us" title="Old Town Square, Prague, Czech Republic -- Jon Arnold Images/www.danitadelimont.com &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OldTown_EN-US2987493159.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Old Town Square, Prague, Czech Republic -- Jon Arnold Images/www.danitadelimont.com &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>8</span>
+--
 		<a href="#20090608-au" class="au" title="Thompson Paul/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Brittany_ROW115281643.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Thompson Paul/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090608-us" class="us" title="Presa Street Bridge, San Antonio River Walk -- Richard Cummins/Encyclopedia Standard RM/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RiverWalk_EN-US1417142760.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Presa Street Bridge, San Antonio River Walk -- Richard Cummins/Encyclopedia Standard RM/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>9</span>
+--
 		<a href="#20090609-au" class="au" title="Per-Andre Hoffman/Picture Press/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=ChocolateHills_ROW2804917182.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Per-Andre Hoffman/Picture Press/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090609-us" class="us" title="Ponte Vecchio Duomo cathedral on Arno River in Florence, Italy -- Chad Ehlers/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Florence_EN-US532715301.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Ponte Vecchio Duomo cathedral on Arno River in Florence, Italy -- Chad Ehlers/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>10</span>
+--
 		<a href="#20090610-au" class="au" title="Doug Pearson/Jon Arnold Travel/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Preikestolen_ROW128591211.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Doug Pearson/Jon Arnold Travel/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090610-us" class="us" title="River Douro, Portugal -- Michele Falzone/Photographer's Choice/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RiverDouro_EN-US3038161065.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="River Douro, Portugal -- Michele Falzone/Photographer's Choice/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>11</span>
+--
 		<a href="#20090611-au" class="au" title="Corbis/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Uluru_ROW1515037638.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Corbis/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090611-us" class="us" title="Great Barrier Reef, between Cairns and Townsville Australia -- Yann Arthus-Bertrand/Terra Standard RM/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GreatBarrierReef_EN-US1690380444.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Great Barrier Reef, between Cairns and Townsville Australia -- Yann Arthus-Bertrand/Terra Standard RM/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>12</span>
+--
 		<a href="#20090612-au" class="au" title="Jack Dykinga/Riser/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Badlands_ROW2191840911.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Jack Dykinga/Riser/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090612-us" class="us" title="Las Vegas, Nevada -- Reiner Riedler/Anzenberger Agency/Jupiter Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=TheStrip_EN-US2498420012.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Las Vegas, Nevada -- Reiner Riedler/Anzenberger Agency/Jupiter Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>13</span>
+--
 		<a href="#20090613-au" class="au" title="Phil Schermeister/National Geographic Culture/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Egret_ROW655357013.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Phil Schermeister/National Geographic Culture/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090613-us" class="us" title="Miami Beach, Florida -- Ethel Davies/Imagestate RM/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Miami_EN-US833113996.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Miami Beach, Florida -- Ethel Davies/Imagestate RM/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>14</span>
+--
 		<a href="#20090614-au" class="au" title="Sergio Pitamitz/Robert Harding World Imagery/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BoraBora_ROW1156016689.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sergio Pitamitz/Robert Harding World Imagery/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090614-us" class="us" title="Cincinnati Museum Center -- William Manning/Corbis &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FlagDay_EN-US2358731568.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Cincinnati Museum Center -- William Manning/Corbis &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>15</span>
+--
 		<a href="#20090615-au" class="au" title="Darwin Wiggett/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Yoho_ROW1677688557.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Darwin Wiggett/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090615-us" class="us" title="Berner Alps, Germany -- Jose Fuste Raga/Mauritius/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BernerAlps_EN-US3580231131.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Berner Alps, Germany -- Jose Fuste Raga/Mauritius/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>16</span>
+--
 		<a href="#20090616-au" class="au" title="175-/Panorama Stock RF/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Cranes_ROW2008022745.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="175-/Panorama Stock RF/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090616-us" class="us" title="Gamla Stan (Old Town), Stockholm, Sweden -- Jaynes Gallery/www.danitadelimont.com &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=StockholmStreet_EN-US2730708395.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gamla Stan (Old Town), Stockholm, Sweden -- Jaynes Gallery/www.danitadelimont.com &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>17</span>
+--
 		<a href="#20090617-au" class="au" title="Gavin Hellier/Photographer's Choice/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Bavaria_ROW338524611.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Gavin Hellier/Photographer's Choice/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090617-us" class="us" title="13th Century Grass Covered Sheds at Nupsstadur Farm, Southern Iceland -- Bill Bachmann/www.DanitaDelimont.com &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NupsstadurFarm_EN-US182736156.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="13th Century Grass Covered Sheds at Nupsstadur Farm, Southern Iceland -- Bill Bachmann/www.DanitaDelimont.com &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>18</span>
+--
 		<a href="#20090618-au" class="au" title="M. Cohen/Superstock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CostaRica_ROW1929301562.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="M. Cohen/Superstock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090618-us" class="us" title="Boston, Massachusetts skyline -- Walter Bibikow/age fotostock/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=BostonSkyline_EN-US892475580.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Boston, Massachusetts skyline -- Walter Bibikow/age fotostock/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>19</span>
+--
 		<a href="#20090619-au" class="au" title="Thorsten Milse/age fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Echidna_ROW490989587.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Thorsten Milse/age fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090619-us" class="us" title="Steptoe Butte State Park, Palouse, Washington -- Michael Sedam/Stellar Stock/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Palouse_EN-US2070877667.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Steptoe Butte State Park, Palouse, Washington -- Michael Sedam/Stellar Stock/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>20</span>
+--
 		<a href="#20090620-au" class="au" title="Mansoor Malik &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FerrisWheel_ROW52276381.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Mansoor Malik &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090620-us" class="us" title="Morocco spice market -- Walter Bibikow/www.DanitaDelimont.com &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=SpiceMarket_EN-US386014261.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Morocco spice market -- Walter Bibikow/www.DanitaDelimont.com &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>21</span>
+--
 		<a href="#20090621-au" class="au" title="Senichi Tawara/Sebun/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=IshikawaSwans_ROW656540896.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Senichi Tawara/Sebun/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090621-us" class="us" title="Adult male lion and cub, Bostwana, Africa -- Westend61 /Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=FathersDay_EN-US369490406.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Adult male lion and cub, Bostwana, Africa -- Westend61 /Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>22</span>
+--
 		<a href="#20090622-au" class="au" title="Panorama Stock RF/AGE Fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MtWuyi_ROW1309836186.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Panorama Stock RF/AGE Fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090622-us" class="us" title="Sydney Opera House, Australia -- Walter Bibikow/The Image Bank/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=OperaHouse_EN-US3920829536.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Sydney Opera House, Australia -- Walter Bibikow/The Image Bank/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>23</span>
+--
 		<a href="#20090623-au" class="au" title="John Warden/Index Stock Imagery/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Otters_ROW966687006.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="John Warden/Index Stock Imagery/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090623-us" class="us" title="Lion Peak above Milford Sound, Fjordland National Park, New Zealand -- Chad Ehlers/Nordic Photos/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MilfordSound_EN-US1003822754.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Lion Peak above Milford Sound, Fjordland National Park, New Zealand -- Chad Ehlers/Nordic Photos/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>24</span>
+--
 		<a href="#20090624-au" class="au" title="Victoria Falls, Livingstone, Zambia &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=VictoriaFalls_ROW2363910524.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Victoria Falls, Livingstone, Zambia &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090624-us" class="us" title="Navajo Bridge over Colorado River -- R. Ian Lloyd/Masterfile &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NavajoBridge_EN-US2344157524.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Navajo Bridge over Colorado River -- R. Ian Lloyd/Masterfile &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>25</span>
+--
 		<a href="#20090625-au" class="au" title="Don Johnston/All Canada Photos/Getty Images &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PerceRock_ROW684636910.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Don Johnston/All Canada Photos/Getty Images &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090625-us" class="us" title="Alkmaar Cheese Market, Alkmaar, Netherlands -- Glow Images/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=CheeseMarket_EN-US1793811388.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Alkmaar Cheese Market, Alkmaar, Netherlands -- Glow Images/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>26</span>
+--
 		<a href="#20090626-au" class="au" title="Alaska Stock Images/age fotostock &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=PrinceWilliamSound_ROW637625974.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Alaska Stock Images/age fotostock &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090626-us" class="us" title="Niagara Falls, Ontario, Canada -- Dennis  Macdonald/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=NiagaraFalls_EN-US1204394802.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Niagara Falls, Ontario, Canada -- Dennis  Macdonald/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>27</span>
+--
 		<a href="#20090627-au" class="au" title="Corbis/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=DragonBoats_ROW3326629705.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Corbis/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090627-us" class="us" title="Surfers riding large wave, Hawaii -- Warren Bolster/Stone/Getty Images &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=GroupSurfing_EN-US1526099514.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Surfers riding large wave, Hawaii -- Warren Bolster/Stone/Getty Images &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td></tr>
-	<tr><td class='dated'><span class='day'>28</span>
+--
 		<a href="#20090628-au" class="au" title="S. Tauqueur/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=WhiteDesert_ROW976164225.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="S. Tauqueur/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090628-us" class="us" title="Colored scanning electron micrograph (SEM) of a pollen grain from a Chinese hibiscus --Science Photo Library Rf/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Pollen_EN-US1698974598.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Colored scanning electron micrograph (SEM) of a pollen grain from a Chinese hibiscus --Science Photo Library Rf/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>29</span>
+--
 		<a href="#20090629-au" class="au" title="Herbert Kehrer/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=Hohenzollern_ROW576262286.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Herbert Kehrer/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090629-us" class="us" title="Funfair rollercoaster, Minato Mirai, Yokohama, Japan -- Christian Kober/Robert Harding Travel/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=RollerCoaster_EN-US3152143793.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Funfair rollercoaster, Minato Mirai, Yokohama, Japan -- Christian Kober/Robert Harding Travel/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td class='dated'><span class='day'>30</span>
+--
 		<a href="#20090630-au" class="au" title="David Clapp/Oxford Scientific (OSF)/Photolibrary &copy; (Bing Australia)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=JurassicCoast_ROW163366762.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="David Clapp/Oxford Scientific (OSF)/Photolibrary &copy; (Bing Australia)" />
-			<img src="flags/au.gif" alt="Australia" title="Australia" class="flag-overlay" />
-		</a>
+--
 		<a href="#20090630-us" class="us" title="Manta ray and scuba diver near the Socorro Islands, Mexico -- Franco Banfi/WaterFrame - Underwater Images/Photolibrary &copy; (Bing United States)" style="display:none;" >
 			<img class="lazy" data-original="resize.php?i=MantaRay_EN-US2239617195.jpg&w=100" src="style/images/grey.gif" width="100" height="53" alt="Manta ray and scuba diver near the Socorro Islands, Mexico -- Franco Banfi/WaterFrame - Underwater Images/Photolibrary &copy; (Bing United States)" />
-			<img src="flags/us.gif" alt="United States" title="United States" class="flag-overlay" />
-		</a></td><td></td><td></td><td></td><td></td></tr>
-</table>
-    <div class="ad">
-      <script type="text/javascript"><!--
-google_ad_client = "pub-2619236561011065";
-/* 728x90, created 8/4/09 */
-google_ad_slot = "6880081602";
-google_ad_width = 728;
-google_ad_height = 90;
-//-->
-</script>
-      <script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
-<div class="clear"></div>
-<div class="footer">
-  <div class="wrapper">
-    <p>Brought to you by Long Zheng at <a href="http://www.istartedsomething.com">www.istartedsomething.com</a></p>
-    <p>Images are copyright to their respective owners. <a href="http://www.bing.com">Bing</a> is a (funny) trademark of Microsoft Corporation. Some icons are by The Noun Project (Creative Commons).</p>
-  </div>
-</div>
-<div id="imageview">
-  <div class="loading"><img src="style/images/ajax-loader.gif" /> </div>
-  <div class="viewer">
-    <p class="image"><img src="" /></p>
-    <div class="video">
-    </div>
-    <p class="desc"></p>
-    <div class="facts">
-      <ul>
-      </ul>
-      <div class="clear"></div>
-    </div>
-    <div class="buttons">
-        <div class="viewerad">
-			<script type="text/javascript"><!--
-			google_ad_client = "ca-pub-2619236561011065";
-			/* Viewer ad */
-			google_ad_slot = "3707022863";
-			google_ad_width = 728;
-			google_ad_height = 15;
-			//-->
-			</script>
-			<script type="text/javascript"
-			src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-			</script>
-        </div>
-        <div class="videobuttons">
-            <a href="#" class="showvideo">Switch to video version</a>
-            <a href="#" class="hidevideo">Switch to image version</a>
-        </div>
-        <a href="#" class="close">Close</a>
-    </div>
-  </div>
-</div>
-<!-- Start of StatCounter Code -->
-<script type="text/javascript">
-var sc_project=4814143; 
-var sc_invisible=1; 
-var sc_partition=54; 
-var sc_click_stat=1; 
-var sc_security="9418942d"; 
-</script>
-<script type="text/javascript"
-src="http://www.statcounter.com/counter/counter.js"></script>
-<noscript>
-<div class="statcounter"><a title="free hit counters" href="http://www.statcounter.com/" target="_blank">
-<img class="statcounter" src="http://c.statcounter.com/4814143/0/9418942d/1/" alt="free hit counters" ></a></div>
-</noscript>
-<!-- End of StatCounter Code -->
-</body>
-</html>
