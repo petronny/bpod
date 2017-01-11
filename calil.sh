@@ -2,7 +2,7 @@
 cd `dirname $0`
 git reset --hard
 git pull
-for i in `seq 0 19`
+for i in `seq 0 9`
 do
 	date=`sh get-json.sh $i`
 	sh get-image.sh json/$date.json
