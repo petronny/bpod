@@ -17,3 +17,9 @@ else
 		download $i
 	done
 fi
+
+for i in $(find  image -not -name '*.jpg' -type f)
+do
+	mv $i $(dirname $i)/$(basename $i | sed -e 's/^th?id=OHR\.//' -e 's/&rf=.*$//')
+done
+
